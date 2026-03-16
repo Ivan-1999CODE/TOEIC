@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "day": 5,
+    "word": "sophisticated",
+    "id": "day5_sophisticated",
+    "chinese": "adj. (機器) 精密的、複雜的；高雅的",
+    "fixed_collocation": "",
+    "common_usage": "sophisticated surveillance system (精密的監視系統)、sophisticated taste (高雅的品味)"
+  },
+  {
+    "order": 2,
+    "day": 5,
+    "word": "timely",
+    "id": "day5_timely",
+    "chinese": "adj. 及時的、適時的",
+    "fixed_collocation": "in a timely manner (及時地)",
+    "common_usage": ""
+  },
+  {
+    "order": 3,
+    "day": 5,
+    "word": "realistically",
+    "id": "day5_realistically",
+    "chinese": "adv. 實際上、在現實情況下",
+    "fixed_collocation": "cannot realistically expect + to / that 子句 (現實上不能期望...)",
+    "common_usage": "realistic + expectation/goal/alternative/chance (符合現實的期望/目標/替代方案/機會)"
+  },
+  {
+    "order": 4,
+    "day": 5,
+    "word": "promptly",
+    "id": "day5_promptly",
+    "chinese": "adv. 迅速地；準時地",
+    "fixed_collocation": "",
+    "common_usage": "respond promptly to (迅速回應...)、leave promptly at 4 p.m. (在 4 點整準時出發)"
+  },
+  {
+    "order": 5,
+    "day": 5,
+    "word": "accessible",
+    "id": "day5_accessible",
+    "chinese": "adj. 可進入的、可利用的",
+    "fixed_collocation": "make A accessible to B (讓 A 對 B 而言可以使用/容易理解)",
+    "common_usage": "accessible by bus/subway/train (可以搭乘公車/地下鐵/火車前往)"
+  },
+  {
+    "order": 6,
+    "day": 5,
+    "word": "implement",
+    "id": "day5_implement",
+    "chinese": "v. 實施、執行",
+    "fixed_collocation": "",
+    "common_usage": "implement a plan (實施計畫)、implement measures (實施措施)"
+  },
+  {
+    "order": 7,
+    "day": 5,
+    "word": "feedback",
+    "id": "day5_feedback",
+    "chinese": "n. 回饋意見、反應",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 8,
+    "day": 5,
+    "word": "outstanding",
+    "id": "day5_outstanding",
+    "chinese": "adj. 傑出的；(負債等) 未償付的",
+    "fixed_collocation": "",
+    "common_usage": "outstanding business plan (優秀的事業計畫)、outstanding debt (未償付的債務)"
+  },
+  {
+    "order": 9,
+    "day": 5,
+    "word": "inform",
+    "id": "day5_inform",
+    "chinese": "v. 通知 (某人)",
+    "fixed_collocation": "inform 人 + of 內容 / that 子句 (通知某人某件事)",
+    "common_usage": ""
+  },
+  {
+    "order": 10,
+    "day": 5,
+    "word": "replacement",
+    "id": "day5_replacement",
+    "chinese": "n. 代替；代替物、代替者",
+    "fixed_collocation": "",
+    "common_usage": "replacement for [something/someone] (某物/某人的替代者)"
+  },
+  {
+    "order": 11,
+    "day": 5,
+    "word": "announcement",
+    "id": "day5_announcement",
+    "chinese": "n. 公告、宣布",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 12,
+    "day": 5,
+    "word": "department",
+    "id": "day5_department",
+    "chinese": "n. (組織、機構的) 部門",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 13,
+    "day": 5,
+    "word": "permanently",
+    "id": "day5_permanently",
+    "chinese": "adv. 永久地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 14,
+    "day": 5,
+    "word": "fulfill",
+    "id": "day5_fulfill",
+    "chinese": "v. 滿足 (條件等)、履行 (諾言、義務等)",
+    "fixed_collocation": "",
+    "common_usage": "fulfill the terms of the contract (滿足合約中的條件)"
+  },
+  {
+    "order": 15,
+    "day": 5,
+    "word": "outline",
+    "id": "day5_outline",
+    "chinese": "n. 概要、大綱；v. 概述、略述",
+    "fixed_collocation": "",
+    "common_usage": "main ideas in an outline (大綱中的主要概念)"
+  },
+  {
+    "order": 16,
+    "day": 5,
+    "word": "explain",
+    "id": "day5_explain",
+    "chinese": "v. 說明",
+    "fixed_collocation": "explain (to 人) that 子句 (向某人說明某件事)",
+    "common_usage": ""
+  },
+  {
+    "order": 17,
+    "day": 5,
+    "word": "contain",
+    "id": "day5_contain",
+    "chinese": "v. 包含、容納",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 18,
+    "day": 5,
+    "word": "compile",
+    "id": "day5_compile",
+    "chinese": "v. 匯編 (資料等)；收集",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 19,
+    "day": 5,
+    "word": "subsequent",
+    "id": "day5_subsequent",
+    "chinese": "adj. 後來的、隨後的",
+    "fixed_collocation": "subsequent to (在...之後)",
+    "common_usage": ""
+  },
+  {
+    "order": 20,
+    "day": 5,
+    "word": "overview",
+    "id": "day5_overview",
+    "chinese": "n. 概要、概觀",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 21,
+    "day": 5,
+    "word": "provider",
+    "id": "day5_provider",
+    "chinese": "n. 供應者、提供者",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 22,
+    "day": 5,
+    "word": "matter",
+    "id": "day5_matter",
+    "chinese": "n. 問題、事情",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 23,
+    "day": 5,
+    "word": "expertise",
+    "id": "day5_expertise",
+    "chinese": "n. 專門知識、專門技術",
+    "fixed_collocation": "have expertise in A (有 A 方面的專業知識)",
+    "common_usage": "area of expertise (專業領域)"
+  },
+  {
+    "order": 24,
+    "day": 5,
+    "word": "demonstrate",
+    "id": "day5_demonstrate",
+    "chinese": "v. 證明；(用模型、實驗等) 說明；示範操作",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 25,
+    "day": 5,
+    "word": "remainder",
+    "id": "day5_remainder",
+    "chinese": "n. 剩餘 (的東西)",
+    "fixed_collocation": "throughout the remainder of + 期間 (在某期間剩餘的整個時間)",
+    "common_usage": ""
+  },
+  {
+    "order": 26,
+    "day": 5,
+    "word": "essential",
+    "id": "day5_essential",
+    "chinese": "adj. 必要的，不可或缺的，本質上的",
+    "fixed_collocation": "be essential to/for (對於...是必要的)",
+    "common_usage": ""
+  },
+  {
+    "order": 27,
+    "day": 5,
+    "word": "divide",
+    "id": "day5_divide",
+    "chinese": "v. 劃分，分開",
+    "fixed_collocation": "divide A into B (把 A 分成 B)\nbe divided into (被分成...)",
+    "common_usage": ""
+  },
+  {
+    "order": 28,
+    "day": 5,
+    "word": "major",
+    "id": "day5_major",
+    "chinese": "adj. 主要的，重大的",
+    "fixed_collocation": "",
+    "common_usage": "major figure (重要人物)、major impact on (對...有重大影響)"
+  },
+  {
+    "order": 29,
+    "day": 5,
+    "word": "compliance",
+    "id": "day5_compliance",
+    "chinese": "n. (對於命令、法規的) 遵守",
+    "fixed_collocation": "in compliance with (遵守...)\nout of compliance with (不遵守...)",
+    "common_usage": ""
+  },
+  {
+    "order": 30,
+    "day": 5,
+    "word": "clarify",
+    "id": "day5_clarify",
+    "chinese": "v. 闡明",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 31,
+    "day": 5,
+    "word": "face",
+    "id": "day5_face",
+    "chinese": "v. 面對 (問題等)；面向",
+    "fixed_collocation": "be faced with (面臨挑戰/競爭等)",
+    "common_usage": ""
+  },
+  {
+    "order": 32,
+    "day": 5,
+    "word": "follow",
+    "id": "day5_follow",
+    "chinese": "v. 跟隨；密切注意；聽懂，了解",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 33,
+    "day": 5,
+    "word": "aspect",
+    "id": "day5_aspect",
+    "chinese": "n. 觀點，方面",
+    "fixed_collocation": "",
+    "common_usage": "every aspect of the problem (問題的每個方面)"
+  },
+  {
+    "order": 34,
+    "day": 5,
+    "word": "apparently",
+    "id": "day5_apparently",
+    "chinese": "adv. 看起來...，似乎",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 35,
+    "day": 5,
+    "word": "aware",
+    "id": "day5_aware",
+    "chinese": "adj. 知道的，意識到的",
+    "fixed_collocation": "be aware + of / that 子句 (知道...)",
+    "common_usage": ""
+  },
+  {
+    "order": 36,
+    "day": 5,
+    "word": "extended",
+    "id": "day5_extended",
+    "chinese": "adj. (期間等) 延長的，延伸的",
+    "fixed_collocation": "",
+    "common_usage": "work extended hours (加班)\nextended lunch break (加長的午休時間)"
+  },
+  {
+    "order": 37,
+    "day": 5,
+    "word": "accidentally",
+    "id": "day5_accidentally",
+    "chinese": "adv. 意外地，偶然地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 38,
+    "day": 5,
+    "word": "advisable",
+    "id": "day5_advisable",
+    "chinese": "adj. 可取的，明智的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 39,
+    "day": 5,
+    "word": "concerned",
+    "id": "day5_concerned",
+    "chinese": "adj. 擔心的；有關的",
+    "fixed_collocation": "be concerned about (擔心...)\nbe concerned with (和...有關)",
+    "common_usage": ""
+  },
+  {
+    "order": 40,
+    "day": 5,
+    "word": "speak",
+    "id": "day5_speak",
+    "chinese": "v. 講話",
+    "fixed_collocation": "speak to 人 about 內容 (對某人談論某事)\ntell 人 that 子句 (告訴某人某件事)\nsay (to 人) that 子句 (對某人說某件事)",
+    "common_usage": ""
+  }
+]

@@ -1,0 +1,40 @@
+編號,單字 (詞性),中文解釋,固定搭配 / 常見搭配
+1,survey (n./v.),調查，意見調查,
+2,analysis (n.),分析,● 常見搭配：reliable analysis (可靠的分析)● 常見搭配：market analysis (市場分析)
+3,respondent (n.),回答者，受訪者,
+4,monopoly (n.),(商品的) 獨佔，壟斷,● 固定搭配：have a monopoly on (擁有對...的獨佔地位)
+5,competition (n.),競爭,● 固定搭配：compete for (為了...而競爭)
+6,consistently (adv.),一貫地，始終如一地,● 常見搭配：consistently + produce/provide (持續生產/提供)
+7,demand (n./v.),需求 / 要求,● 固定搭配：demand for (對...的需求、要求)● 固定搭配：demand that + 主詞 (+ should) + 動詞原形 (要求...)
+8,do one's utmost (phr.),盡全力,
+9,expand (v.),擴張，擴大,● 常見搭配：expand + the market/the division (擴大市場/部門)
+10,advanced (adj.),高階的；先進的,
+11,postpone (v.),使延期，延後,
+12,additional (adj.),額外的，附加的,● 常見搭配：additional + information/detail (進一步資訊/細節)
+13,appreciate (v.),感謝；賞識；欣賞,
+14,demonstration (n.),證明；說明，示範操作,
+15,buy (v.),買，購買,
+16,examine (v.),檢查，審查,
+17,effective (adj.),有效的；(法律等)生效的,● 常見搭配：run effectively (有效地運作)
+18,like (v.),喜歡,
+19,especially (adv.),尤其，特別,
+20,closely (adv.),仔細地，嚴密地,● 常見搭配：closely + watch/examine (仔細觀察/檢視)
+21,reserve (v.),預約，保留；保存,
+22,cooperate (v.),協力，合作,● 固定搭配：cooperate with + 人 (和...合作)● 固定搭配：cooperate on + 事 (合作進行...)
+23,very (adv.),非常，很,
+24,consecutive (adj.),連續的,● 常見搭配：for the third consecutive year (連續第三年)● 常見搭配：for three consecutive years (連續三年)
+25,expectation (n.),預期，期待,● 常見搭配：meet/surpass + expectations (符合/超出預期)● 常見搭配：above/beyond + one's expectations (超乎預期)
+26,publicize (v.),公布；宣傳,
+27,raise (v.),提高，增加；提出（疑問）,
+28,extremely (adv.),極度地，非常,
+29,affect (v.),影響，對...產生不好的作用,
+30,target (n./v.),目標 / 以...為目標,
+31,campaign (n.),活動，競選活動,
+32,probable (adj.),有可能的,
+33,focus (v.),聚焦，集中,● 固定搭配：focus A on B (把 A 集中於 B)● 固定搭配：be focused on (被集中於...)
+34,seasonal (adj.),季節的，季節性的,● 常見搭配：seasonal + variations/demands/changes (季節性的變動/需求/改變)● 常見搭配：seasoned traveler (經驗豐富的旅行者)
+35,impact (n.),影響，衝擊,● 固定搭配：have an impact on (對...造成影響/衝擊)
+36,comparison (n.),比較,● 固定搭配：in comparison with (和...比起來)
+37,gap (n.),差距,● 固定搭配：gap between A and B (A 與 B 的差距)● 常見搭配：generation gap (世代間的代溝)
+38,mounting (adj.),增加中的，上升中的,● 常見搭配：mounting pressure (增加中的壓力)● 常見搭配：mounting tension (逐漸升高的緊張情勢)
+39,reflective (adj.),反映的,● 固定搭配：be reflective of (反映出...)

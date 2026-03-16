@@ -1,0 +1,380 @@
+[
+  {
+    "id": "day21_announce",
+    "day": 21,
+    "order": 1,
+    "word": "announce",
+    "chinese": "(v.) 宣布，公告",
+    "fixed_collocation": "announce + 內容 (受詞為宣布的內容)",
+    "common_usage": ""
+  },
+  {
+    "id": "day21_interested",
+    "day": 21,
+    "order": 2,
+    "word": "interested",
+    "chinese": "(adj.) 有利害關係的，感興趣的",
+    "fixed_collocation": "be interested in (對...感興趣)",
+    "common_usage": ""
+  },
+  {
+    "id": "day21_active",
+    "day": 21,
+    "order": 3,
+    "word": "active",
+    "chinese": "(adj.) 積極的，活躍的",
+    "fixed_collocation": "",
+    "common_usage": "take a more active role (扮演更積極的角色)"
+  },
+  {
+    "id": "day21_accept",
+    "day": 21,
+    "order": 4,
+    "word": "accept",
+    "chinese": "(v.) 接受，採用",
+    "fixed_collocation": "",
+    "common_usage": "accept responsibility for (承擔...的責任)"
+  },
+  {
+    "id": "day21_foresee",
+    "day": 21,
+    "order": 5,
+    "word": "foresee",
+    "chinese": "(v.) 預見，預知",
+    "fixed_collocation": "",
+    "common_usage": "foresee future trends (預見未來趨勢)"
+  },
+  {
+    "id": "day21_expansion",
+    "day": 21,
+    "order": 6,
+    "word": "expansion",
+    "chinese": "(n.) 擴張，擴大",
+    "fixed_collocation": "",
+    "common_usage": "expansion project (擴張計畫)、building expansion (建築物擴建)"
+  },
+  {
+    "id": "day21_relocate",
+    "day": 21,
+    "order": 7,
+    "word": "relocate",
+    "chinese": "(v.) 搬遷 (工廠等)",
+    "fixed_collocation": "",
+    "common_usage": "relocate the plant's main base (搬遷工廠的主要營運基地)"
+  },
+  {
+    "id": "day21_competitor",
+    "day": 21,
+    "order": 8,
+    "word": "competitor",
+    "chinese": "(n.) 競爭者，競爭業者",
+    "fixed_collocation": "",
+    "common_usage": "closest competitor (最接近的競爭對手)"
+  },
+  {
+    "id": "day21_asset",
+    "day": 21,
+    "order": 9,
+    "word": "asset",
+    "chinese": "(n.) 資產",
+    "fixed_collocation": "",
+    "common_usage": "most valuable assets (最有價值的資產)"
+  },
+  {
+    "id": "day21_contribute",
+    "day": 21,
+    "order": 10,
+    "word": "contribute",
+    "chinese": "(v.) 捐獻，貢獻",
+    "fixed_collocation": "",
+    "common_usage": "contribute to the company's success (促成公司的成功)"
+  },
+  {
+    "id": "day21_dedicated",
+    "day": 21,
+    "order": 11,
+    "word": "dedicated",
+    "chinese": "(adj.) 專注的，奉獻的",
+    "fixed_collocation": "be dedicated to (致力於...)",
+    "common_usage": "a dedicated and talented team (專注且具才能的團隊)"
+  },
+  {
+    "id": "day21_misplace",
+    "day": 21,
+    "order": 12,
+    "word": "misplace",
+    "chinese": "(v.) 放錯地方，放在想不起來的地方",
+    "fixed_collocation": "",
+    "common_usage": "misplace several sensitive documents (搞丟幾件機密文件)"
+  },
+  {
+    "id": "day21_considerable",
+    "day": 21,
+    "order": 13,
+    "word": "considerable",
+    "chinese": "(adj.) 相當大的，相當多的",
+    "fixed_collocation": "",
+    "common_usage": "considerable effort (相當大的努力)"
+  },
+  {
+    "id": "day21_last",
+    "day": 21,
+    "order": 14,
+    "word": "last",
+    "chinese": "(v.) 持續",
+    "fixed_collocation": "",
+    "common_usage": "lasted longer than expected (持續得比預期還久)"
+  },
+  {
+    "id": "day21_emerge",
+    "day": 21,
+    "order": 15,
+    "word": "emerge",
+    "chinese": "(v.) 出現，浮現",
+    "fixed_collocation": "emerge as (以...的身分/地位出現)",
+    "common_usage": ""
+  },
+  {
+    "id": "day21_grow",
+    "day": 21,
+    "order": 16,
+    "word": "grow",
+    "chinese": "(v.) 成長，使生長",
+    "fixed_collocation": "",
+    "common_usage": "growing slowly but steadily (緩慢但穩定地成長中)"
+  },
+  {
+    "id": "day21_select",
+    "day": 21,
+    "order": 17,
+    "word": "select",
+    "chinese": "(v.) 選擇，挑選",
+    "fixed_collocation": "",
+    "common_usage": "selected a new chairperson (選出了新的董事長)"
+  },
+  {
+    "id": "day21_merge",
+    "day": 21,
+    "order": 18,
+    "word": "merge",
+    "chinese": "(v.) 合併，融合",
+    "fixed_collocation": "",
+    "common_usage": "mergers and acquisitions (M&A) (合併與收購)"
+  },
+  {
+    "id": "day21_imply",
+    "day": 21,
+    "order": 19,
+    "word": "imply",
+    "chinese": "(v.) 暗示，意味著",
+    "fixed_collocation": "",
+    "common_usage": "implies investor confidence (意味投資人對...有信心)"
+  },
+  {
+    "id": "day21_vital",
+    "day": 21,
+    "order": 20,
+    "word": "vital",
+    "chinese": "(adj.) 必要的",
+    "fixed_collocation": "",
+    "common_usage": "be vital to (對於...而言是必要的)"
+  },
+  {
+    "id": "day21_persist",
+    "day": 21,
+    "order": 21,
+    "word": "persist",
+    "chinese": "(v.) 堅持，堅持不懈，持續",
+    "fixed_collocation": "persist in (堅持起訴.../堅持某努力)",
+    "common_usage": ""
+  },
+  {
+    "id": "day21_independent",
+    "day": 21,
+    "order": 22,
+    "word": "independent",
+    "chinese": "(adj.) 獨立的，自立的",
+    "fixed_collocation": "",
+    "common_usage": "independent agency (獨立機構)、independent review board (獨立審查委員會)"
+  },
+  {
+    "id": "day21_force",
+    "day": 21,
+    "order": 23,
+    "word": "force",
+    "chinese": "(n.) 勢力",
+    "fixed_collocation": "",
+    "common_usage": "a major force in (在...方面的主要勢力)"
+  },
+  {
+    "id": "day21_establish",
+    "day": 21,
+    "order": 24,
+    "word": "establish",
+    "chinese": "(v.) 創立，建立",
+    "fixed_collocation": "",
+    "common_usage": "establish an offshore company (創立一家境外公司)"
+  },
+  {
+    "id": "day21_initiate",
+    "day": 21,
+    "order": 25,
+    "word": "initiate",
+    "chinese": "(v.) 開始 (事業等)",
+    "fixed_collocation": "",
+    "common_usage": "initiated plans (開始進行計畫)"
+  },
+  {
+    "id": "day21_enhance",
+    "day": 21,
+    "order": 26,
+    "word": "enhance",
+    "chinese": "(v.) 提升，提高，改善 (品質等)",
+    "fixed_collocation": "",
+    "common_usage": "enhance a company's image (提升公司形象)"
+  },
+  {
+    "id": "day21_renowned",
+    "day": 21,
+    "order": 27,
+    "word": "renowned",
+    "chinese": "(adj.) 著名的，有名的，有聲譽的",
+    "fixed_collocation": "",
+    "common_usage": "renowned economists (著名的經濟學家)"
+  },
+  {
+    "id": "day21_informed",
+    "day": 21,
+    "order": 28,
+    "word": "informed",
+    "chinese": "(adj.) 根據情報的",
+    "fixed_collocation": "",
+    "common_usage": "informed decision / choice (明智的決定 / 選擇)"
+  },
+  {
+    "id": "day21_minutes",
+    "day": 21,
+    "order": 29,
+    "word": "minutes",
+    "chinese": "(n.) 會議紀錄",
+    "fixed_collocation": "",
+    "common_usage": "take minutes (做會議紀錄)"
+  },
+  {
+    "id": "day21_waive",
+    "day": 21,
+    "order": 30,
+    "word": "waive",
+    "chinese": "(v.) 放棄 (權利、要求)，免除 (規定)",
+    "fixed_collocation": "",
+    "common_usage": "waive tax requirements (免除納稅要求)"
+  },
+  {
+    "id": "day21_reach",
+    "day": 21,
+    "order": 31,
+    "word": "reach",
+    "chinese": "(v.) 達到 (尺寸、數量)；抵達",
+    "fixed_collocation": "",
+    "common_usage": "reach a goal/target (達到目標)"
+  },
+  {
+    "id": "day21_authority",
+    "day": 21,
+    "order": 32,
+    "word": "authority",
+    "chinese": "(n.) 權力；當局",
+    "fixed_collocation": "",
+    "common_usage": "has the authority to (有權力...)、the authorities (當局)"
+  },
+  {
+    "id": "day21_acquire",
+    "day": 21,
+    "order": 33,
+    "word": "acquire",
+    "chinese": "(v.) 取得，收購",
+    "fixed_collocation": "",
+    "common_usage": "acquire property (收購房地產)"
+  },
+  {
+    "id": "day21_surpass",
+    "day": 21,
+    "order": 34,
+    "word": "surpass",
+    "chinese": "(v.) 超越，勝過",
+    "fixed_collocation": "",
+    "common_usage": "surpassed $300 million (超過 3 億美元)"
+  },
+  {
+    "id": "day21_run",
+    "day": 21,
+    "order": 35,
+    "word": "run",
+    "chinese": "(v.) 經營，營運",
+    "fixed_collocation": "",
+    "common_usage": "is run by (由...經營)"
+  },
+  {
+    "id": "day21_improbable",
+    "day": 21,
+    "order": 36,
+    "word": "improbable",
+    "chinese": "(adj.) 不太可能的",
+    "fixed_collocation": "",
+    "common_usage": "improbable candidate (不太可能的人選)"
+  },
+  {
+    "id": "day21_edge",
+    "day": 21,
+    "order": 37,
+    "word": "edge",
+    "chinese": "(n.) 優勢；邊緣",
+    "fixed_collocation": "",
+    "common_usage": "give someone an edge on (帶給某人優勢)"
+  },
+  {
+    "id": "day21_simultaneously",
+    "day": 21,
+    "order": 38,
+    "word": "simultaneously",
+    "chinese": "(adv.) 同時地",
+    "fixed_collocation": "",
+    "common_usage": "attempting to enter both... simultaneously (試圖同時進軍...)"
+  },
+  {
+    "id": "day21_reveal",
+    "day": 21,
+    "order": 39,
+    "word": "reveal",
+    "chinese": "(v.) 揭露，透露",
+    "fixed_collocation": "",
+    "common_usage": "revealed their plan (透露了他們的計畫)"
+  },
+  {
+    "id": "day21_productivity",
+    "day": 21,
+    "order": 40,
+    "word": "productivity",
+    "chinese": "(n.) 生產力",
+    "fixed_collocation": "",
+    "common_usage": "staff / employee productivity (員工生產力)"
+  },
+  {
+    "id": "day21_uncertain",
+    "day": 21,
+    "order": 41,
+    "word": "uncertain",
+    "chinese": "(adj.) 不確定的，不明確的",
+    "fixed_collocation": "be uncertain about (對...不確定)",
+    "common_usage": ""
+  },
+  {
+    "id": "day21_premier",
+    "day": 21,
+    "order": 42,
+    "word": "premier",
+    "chinese": "(adj.) 第一的，首要的",
+    "fixed_collocation": "",
+    "common_usage": "premier game manufacturer (首要的遊戲製造商)"
+  }
+]

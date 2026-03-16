@@ -1,0 +1,398 @@
+[
+  {
+    "id": "day11_research",
+    "day": 11,
+    "order": 1,
+    "word": "research",
+    "chinese": "n. 研究，調查",
+    "fixed_collocation": "",
+    "common_usage": "research on (關於...的研究)"
+  },
+  {
+    "id": "day11_devise",
+    "day": 11,
+    "order": 2,
+    "word": "devise",
+    "chinese": "v. 設計出來，發明",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_revolutionary",
+    "day": 11,
+    "order": 3,
+    "word": "revolutionary",
+    "chinese": "adj. 革命性的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_innovative",
+    "day": 11,
+    "order": 4,
+    "word": "innovative",
+    "chinese": "adj. 創新的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_feature",
+    "day": 11,
+    "order": 5,
+    "word": "feature",
+    "chinese": "n. 特徵；v. 以...為特色",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_inspiration",
+    "day": 11,
+    "order": 6,
+    "word": "inspiration",
+    "chinese": "n. 靈感",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_sufficiently",
+    "day": 11,
+    "order": 7,
+    "word": "sufficiently",
+    "chinese": "adv. 充足地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_patent",
+    "day": 11,
+    "order": 8,
+    "word": "patent",
+    "chinese": "n. 專利",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_envision",
+    "day": 11,
+    "order": 9,
+    "word": "envision",
+    "chinese": "v. 想像",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_extend",
+    "day": 11,
+    "order": 10,
+    "word": "extend",
+    "chinese": "v. 延長，給予",
+    "fixed_collocation": "",
+    "common_usage": "extend thanks to (表達感謝)、extend a deadline (延長截止日期)"
+  },
+  {
+    "id": "day11_following",
+    "day": 11,
+    "order": 11,
+    "word": "following",
+    "chinese": "prep. 在...之後",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_intend",
+    "day": 11,
+    "order": 12,
+    "word": "intend",
+    "chinese": "v. 打算",
+    "fixed_collocation": "",
+    "common_usage": "intend to do (打算做某事)"
+  },
+  {
+    "id": "day11_grant",
+    "day": 11,
+    "order": 13,
+    "word": "grant",
+    "chinese": "v. 授予；n. 補助金",
+    "fixed_collocation": "take ... for granted (把...視為理所當然)",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_allow",
+    "day": 11,
+    "order": 14,
+    "word": "allow",
+    "chinese": "v. 允許",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_inspect",
+    "day": 11,
+    "order": 15,
+    "word": "inspect",
+    "chinese": "v. 檢查",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_improve",
+    "day": 11,
+    "order": 16,
+    "word": "improve",
+    "chinese": "v. 改善",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_increasingly",
+    "day": 11,
+    "order": 17,
+    "word": "increasingly",
+    "chinese": "adv. 越發地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_invest",
+    "day": 11,
+    "order": 18,
+    "word": "invest",
+    "chinese": "v. 投資",
+    "fixed_collocation": "",
+    "common_usage": "invest in (投資於...)"
+  },
+  {
+    "id": "day11_various",
+    "day": 11,
+    "order": 19,
+    "word": "various",
+    "chinese": "adj. 各種的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_upgrade",
+    "day": 11,
+    "order": 20,
+    "word": "upgrade",
+    "chinese": "n./v. 升級",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_manual",
+    "day": 11,
+    "order": 21,
+    "word": "manual",
+    "chinese": "n. 說明書",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_explore",
+    "day": 11,
+    "order": 22,
+    "word": "explore",
+    "chinese": "v. 探索",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_response",
+    "day": 11,
+    "order": 23,
+    "word": "response",
+    "chinese": "n. 答覆，反應",
+    "fixed_collocation": "in response to (回應...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_appearance",
+    "day": 11,
+    "order": 24,
+    "word": "appearance",
+    "chinese": "n. 外觀",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_successful",
+    "day": 11,
+    "order": 25,
+    "word": "successful",
+    "chinese": "adj. 成功的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_hold",
+    "day": 11,
+    "order": 26,
+    "word": "hold",
+    "chinese": "v. 容納，舉行",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_advance",
+    "day": 11,
+    "order": 27,
+    "word": "advance",
+    "chinese": "n. 進步",
+    "fixed_collocation": "",
+    "common_usage": "in advance (事先)、in advance of (在...之前)、advance in (...方面的進展)"
+  },
+  {
+    "id": "day11_reliable",
+    "day": 11,
+    "order": 28,
+    "word": "reliable",
+    "chinese": "adj. 可靠的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_quality",
+    "day": 11,
+    "order": 29,
+    "word": "quality",
+    "chinese": "n. 品質",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_domestic",
+    "day": 11,
+    "order": 30,
+    "word": "domestic",
+    "chinese": "adj. 國內的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_development",
+    "day": 11,
+    "order": 31,
+    "word": "development",
+    "chinese": "n. 開發",
+    "fixed_collocation": "",
+    "common_usage": "be under development (開發中)、development in (...方面的發展)"
+  },
+  {
+    "id": "day11_availability",
+    "day": 11,
+    "order": 32,
+    "word": "availability",
+    "chinese": "n. 可得性",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_update",
+    "day": 11,
+    "order": 33,
+    "word": "update",
+    "chinese": "n./v. 更新",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_accurate",
+    "day": 11,
+    "order": 34,
+    "word": "accurate",
+    "chinese": "adj. 精確的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_complicated",
+    "day": 11,
+    "order": 35,
+    "word": "complicated",
+    "chinese": "adj. 複雜的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_accomplished",
+    "day": 11,
+    "order": 36,
+    "word": "accomplished",
+    "chinese": "adj. 熟練的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_inquiry",
+    "day": 11,
+    "order": 37,
+    "word": "inquiry",
+    "chinese": "n. 詢問",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_indication",
+    "day": 11,
+    "order": 38,
+    "word": "indication",
+    "chinese": "n. 徵兆",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_manufacturer",
+    "day": 11,
+    "order": 39,
+    "word": "manufacturer",
+    "chinese": "n. 製造商",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_compatible",
+    "day": 11,
+    "order": 40,
+    "word": "compatible",
+    "chinese": "adj. 相容的",
+    "fixed_collocation": "",
+    "common_usage": "be compatible with (與...相容)"
+  },
+  {
+    "id": "day11_superior",
+    "day": 11,
+    "order": 41,
+    "word": "superior",
+    "chinese": "adj. 優越的",
+    "fixed_collocation": "be superior to (比...優越)",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_absolute",
+    "day": 11,
+    "order": 42,
+    "word": "absolute",
+    "chinese": "adj. 絕對的",
+    "fixed_collocation": "",
+    "common_usage": "to an absolute minimum (到絕對最小的程度)"
+  },
+  {
+    "id": "day11_broaden",
+    "day": 11,
+    "order": 43,
+    "word": "broaden",
+    "chinese": "v. 拓寬",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day11_corrosion",
+    "day": 11,
+    "order": 44,
+    "word": "corrosion",
+    "chinese": "n. 腐蝕",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

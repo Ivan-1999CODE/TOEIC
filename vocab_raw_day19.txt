@@ -1,0 +1,407 @@
+編號	單字 (English / Chinese)	固定搭配 / 常見搭配 (Usage & Collocations)
+1	
+decline
+
+
+n. 減少，下降
+
+
+v. 減少；拒絕
+
+固定搭配：
+
+
+* decline in... (在...方面的減少，搭配介係詞 in)
+
+
+常見搭配：
+
+
+* the rate of decline (減少率)
+
+2	
+markedly
+
+
+adv. 顯著地，明顯地
+
+(無特定標註用法)
+3	
+increase
+
+
+n./v. 增加
+
+常見搭配：
+
+
+* pay increase (加薪)
+
+
+* increase significantly (顯著增加)
+
+4	
+revenue
+
+
+n. 收入
+
+(無特定標註用法)
+5	
+projection
+
+
+n. 預測（值）
+
+常見搭配：
+
+
+* spending and income projections (支出與收入預估)
+
+6	
+substantial
+
+
+adj. 相當大的，相當多的
+
+常見搭配：
+
+
+* substantial + amount/increase/reduction (相當多的量/增加/減少)
+
+7	
+anticipate
+
+
+v. 預期，期望
+
+固定搭配：
+
+
+* anticipate + [受詞] (預期...，不加介係詞直接接受詞)
+
+8	
+significantly
+
+
+adv. 顯著地
+
+常見搭配：
+
+
+* reduce... significantly (明顯減少...)
+
+9	
+estimate
+
+
+v./n. 估計，估價
+
+常見搭配：
+
+
+* meet estimates (達到預估值)
+
+10	
+shift
+
+
+v. 轉移，挪動
+
+
+n. 轉變；輪班
+
+常見搭配：
+
+
+* shift in... (在...方面的轉變)
+
+
+* night shift (夜班)
+
+11	
+fee
+
+
+n. 費用，服務費用
+
+常見搭配：
+
+
+* charge a fee (收費)
+
+12	
+production
+
+
+n. 生產，產量
+
+(無特定標註用法)
+13	
+sale
+
+
+n. 銷售額 (-s)；特賣
+
+常見搭配：
+
+
+* retail sales figures (零售額)
+
+14	
+impressive
+
+
+adj. 令人印象深刻的
+
+常見搭配：
+
+
+* impressive gains (可觀的獲利)
+
+15	
+representative
+
+
+n. 代表，專員
+
+常見搭配：
+
+
+* sales representative (推銷員/業務代表)
+
+16	
+recent
+
+
+adj. 最近的
+
+(無特定標註用法)
+17	
+exceed
+
+
+v. 超過...
+
+常見搭配：
+
+
+* exceed initial projections (超過最初的預估)
+
+18	
+improvement
+
+
+n. 改善
+
+常見搭配：
+
+
+* improvements to... (對...的改良)
+
+19	
+employer
+
+
+n. 雇主
+
+(無特定標註用法)
+20	
+regular
+
+
+adj. 定期的；慣常的
+
+常見搭配：
+
+
+* regular + meeting/schedule/assessment (定期會議/固定時間表/定期評估)
+
+21	
+summarize
+
+
+v. 總結，概述
+
+(無特定標註用法)
+22	
+typically
+
+
+adv. 典型地，通常
+
+(無特定標註用法)
+23	
+whole
+
+
+adj. 全部的，整個的
+
+(無特定標註用法)
+24	
+growth
+
+
+n. 成長，發展
+
+常見搭配：
+
+
+* rate of growth (成長率)
+
+25	
+figure
+
+
+n. 數字
+
+(無特定標註用法)
+26	
+steady
+
+
+adj. 穩定的；堅定的
+
+常見搭配：
+
+
+* steady rise (穩定上升)
+
+27	
+frequent
+
+
+adj. 頻繁的
+
+(無特定標註用法)
+28	
+achieve
+
+
+v. 達成，成就
+
+常見搭配：
+
+
+* achieve sales goals (達成銷售目標)
+
+29	
+assumption
+
+
+n. 假定，假設
+
+(無特定標註用法)
+30	
+share
+
+
+v. 分享；共用
+
+
+n. 股份；一份
+
+常見搭配：
+
+
+* an equal share of profits (等分利潤)
+
+31	
+encouraging
+
+
+adj. 鼓勵的，振奮的
+
+(無特定標註用法)
+32	
+incur
+
+
+v. 遭受 (損失)，招致 (債務)
+
+常見搭配：
+
+
+* incur significant operating losses (遭受嚴重營業損失)
+
+33	
+slightly
+
+
+adv. 稍微
+
+常見搭配：
+
+
+* decrease slightly (稍微減少)
+
+34	
+profit
+
+
+n. 收益，利潤
+
+(無特定標註用法)
+35	
+reliant
+
+
+adj. 依賴的，依靠的
+
+常見搭配：
+
+
+* reliant on... (依賴...)
+
+36	
+illustrate
+
+
+v. 說明，圖解
+
+(無特定標註用法)
+37	
+inaccurate
+
+
+adj. 不正確的
+
+常見搭配：
+
+
+* inaccurate information (不正確的資訊)
+
+38	
+percentage
+
+
+n. 百分比，比例
+
+(注意：不可直接與數字連用，如 10 percentage 是錯誤的)
+39	
+reduce
+
+
+v. 減少，縮減
+
+固定搭配：
+
+
+* dispose of (處理掉；dispose 必須與 of 連用)
+
+
+常見搭配：
+
+
+* reduce + costs/budget (減少成本/預算)
+
+40	
+tend
+
+
+v. 傾向於...，容易...
+
+常見搭配：
+
+
+* tend to do (傾向於做...)

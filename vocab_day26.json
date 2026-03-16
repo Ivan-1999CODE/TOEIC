@@ -1,0 +1,389 @@
+[
+  {
+    "id": "day26_delinquent",
+    "day": 26,
+    "order": 1,
+    "word": "delinquent",
+    "chinese": "(adj.) 拖欠的",
+    "fixed_collocation": "",
+    "common_usage": "可與 overdue 換用。"
+  },
+  {
+    "id": "day26_overdue",
+    "day": 26,
+    "order": 2,
+    "word": "overdue",
+    "chinese": "(adj.) 逾期未付的",
+    "fixed_collocation": "",
+    "common_usage": "注意與 outdated (過時的) 之用法區別。"
+  },
+  {
+    "id": "day26_regrettably",
+    "day": 26,
+    "order": 3,
+    "word": "regrettably",
+    "chinese": "(adv.) 遺憾地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_balance",
+    "day": 26,
+    "order": 4,
+    "word": "balance",
+    "chinese": "(n.) 結餘，帳戶餘額",
+    "fixed_collocation": "",
+    "common_usage": "表示「餘額」時可與 remainder 換用。"
+  },
+  {
+    "id": "day26_deposit",
+    "day": 26,
+    "order": 5,
+    "word": "deposit",
+    "chinese": "(v.) 存（款）",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_investigation",
+    "day": 26,
+    "order": 6,
+    "word": "investigation",
+    "chinese": "(n.) 調查",
+    "fixed_collocation": "under investigation (受到調查中)。",
+    "common_usage": "conduct an investigation (進行調查)。"
+  },
+  {
+    "id": "day26_account",
+    "day": 26,
+    "order": 7,
+    "word": "account",
+    "chinese": "(n.) 帳戶；(v.) 解釋",
+    "fixed_collocation": "take ... into account (考慮到...)、on account of (由於...)、account for (解釋...、佔...)。",
+    "common_usage": "bank account (銀行帳戶)、checking account (支票存款帳戶)、savings account (儲蓄帳戶)。"
+  },
+  {
+    "id": "day26_statement",
+    "day": 26,
+    "order": 8,
+    "word": "statement",
+    "chinese": "(n.) 結算單",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_amount",
+    "day": 26,
+    "order": 9,
+    "word": "amount",
+    "chinese": "(n.) 總數，總額",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_withdrawal",
+    "day": 26,
+    "order": 10,
+    "word": "withdrawal",
+    "chinese": "(n.) 提領",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_previously",
+    "day": 26,
+    "order": 11,
+    "word": "previously",
+    "chinese": "(adv.) 之前",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_due",
+    "day": 26,
+    "order": 12,
+    "word": "due",
+    "chinese": "(adj.) 到期的",
+    "fixed_collocation": "due to (由於...)。",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_receive",
+    "day": 26,
+    "order": 13,
+    "word": "receive",
+    "chinese": "(v.) 收到，接收",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_expect",
+    "day": 26,
+    "order": 14,
+    "word": "expect",
+    "chinese": "(v.) 預期，期待",
+    "fixed_collocation": "expect A to do (預期A做...)、be expected to do (被預期做...)。",
+    "common_usage": "表示預期某事發生時，可與 anticipate 換用。"
+  },
+  {
+    "id": "day26_certificate",
+    "day": 26,
+    "order": 15,
+    "word": "certificate",
+    "chinese": "(n.) 證書",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_document",
+    "day": 26,
+    "order": 16,
+    "word": "document",
+    "chinese": "(n.) 文件；(v.) 記錄",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_spending",
+    "day": 26,
+    "order": 17,
+    "word": "spending",
+    "chinese": "(n.) 花費；支出",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_successfully",
+    "day": 26,
+    "order": 18,
+    "word": "successfully",
+    "chinese": "(adv.) 成功地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_bill",
+    "day": 26,
+    "order": 19,
+    "word": "bill",
+    "chinese": "(v.) 開帳單；(n.) 帳單",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_pleasure",
+    "day": 26,
+    "order": 20,
+    "word": "pleasure",
+    "chinese": "(n.) 愉快，高興",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_study",
+    "day": 26,
+    "order": 21,
+    "word": "study",
+    "chinese": "(n.) 研究",
+    "fixed_collocation": "",
+    "common_usage": "some studies + indicate/suggest + that 子句 (有些研究指出/暗示...)。"
+  },
+  {
+    "id": "day26_summary",
+    "day": 26,
+    "order": 22,
+    "word": "summary",
+    "chinese": "(n.) 概要，大綱",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_temporary",
+    "day": 26,
+    "order": 23,
+    "word": "temporary",
+    "chinese": "(adj.) 臨時的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_lower",
+    "day": 26,
+    "order": 24,
+    "word": "lower",
+    "chinese": "(v.) 降低",
+    "fixed_collocation": "",
+    "common_usage": "lower the price (降低價格)、the lower price (較低的價格)。"
+  },
+  {
+    "id": "day26_transaction",
+    "day": 26,
+    "order": 25,
+    "word": "transaction",
+    "chinese": "(n.) 交易",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_double",
+    "day": 26,
+    "order": 26,
+    "word": "double",
+    "chinese": "(v.) 變成兩倍",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_identification",
+    "day": 26,
+    "order": 27,
+    "word": "identification",
+    "chinese": "(n.) 身分證明",
+    "fixed_collocation": "",
+    "common_usage": "proof of identity (身分的證明)。"
+  },
+  {
+    "id": "day26_dissatisfaction",
+    "day": 26,
+    "order": 28,
+    "word": "dissatisfaction",
+    "chinese": "(n.) 不滿",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_in common",
+    "day": 26,
+    "order": 29,
+    "word": "in common",
+    "chinese": "(phr.) 共通地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_interest",
+    "day": 26,
+    "order": 30,
+    "word": "interest",
+    "chinese": "(n.) 興趣；利息",
+    "fixed_collocation": "interest in (對...的興趣)、in one's best interest (對...最有利地)、in the interest of (為...的緣故)。",
+    "common_usage": "a vested interest (既得利益)。"
+  },
+  {
+    "id": "day26_reject",
+    "day": 26,
+    "order": 31,
+    "word": "reject",
+    "chinese": "(v.) 拒絕",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_relation",
+    "day": 26,
+    "order": 32,
+    "word": "relation",
+    "chinese": "(n.) 關係",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_tentatively",
+    "day": 26,
+    "order": 33,
+    "word": "tentatively",
+    "chinese": "(adv.) 暫時地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_alternatively",
+    "day": 26,
+    "order": 34,
+    "word": "alternatively",
+    "chinese": "(adv.) 或者",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_attentive",
+    "day": 26,
+    "order": 35,
+    "word": "attentive",
+    "chinese": "(adj.) 注意的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_convert",
+    "day": 26,
+    "order": 36,
+    "word": "convert",
+    "chinese": "(v.) 轉換",
+    "fixed_collocation": "convert A into B (把 A 轉換成 B)。",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_heavily",
+    "day": 26,
+    "order": 37,
+    "word": "heavily",
+    "chinese": "(adv.) 非常",
+    "fixed_collocation": "",
+    "common_usage": "heavily rely on (非常依賴...)、rain heavily (雨下得很大)。"
+  },
+  {
+    "id": "day26_loan",
+    "day": 26,
+    "order": 38,
+    "word": "loan",
+    "chinese": "(n.) 貸款",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_unexpected",
+    "day": 26,
+    "order": 39,
+    "word": "unexpected",
+    "chinese": "(adj.) 意料之外的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_cash",
+    "day": 26,
+    "order": 40,
+    "word": "cash",
+    "chinese": "(v.) 兌現",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_mortgage",
+    "day": 26,
+    "order": 41,
+    "word": "mortgage",
+    "chinese": "(n.) 抵押貸款",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day26_payable",
+    "day": 26,
+    "order": 42,
+    "word": "payable",
+    "chinese": "(adj.) 應支付的",
+    "fixed_collocation": "payable to + 人/公司 (支付給...)。",
+    "common_usage": "account payable (應付帳款)。"
+  },
+  {
+    "id": "day26_personal",
+    "day": 26,
+    "order": 43,
+    "word": "personal",
+    "chinese": "(adj.) 個人的",
+    "fixed_collocation": "",
+    "common_usage": "personal check (個人支票)、personal belongings (個人攜帶物品)、personally welcome (親自歡迎)。"
+  }
+]

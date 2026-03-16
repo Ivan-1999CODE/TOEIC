@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day27_investment",
+    "day": 27,
+    "order": 1,
+    "word": "investment",
+    "chinese": "(n.) 投資",
+    "fixed_collocation": "",
+    "common_usage": "investment of + 金額"
+  },
+  {
+    "id": "day27_lucrative",
+    "day": 27,
+    "order": 2,
+    "word": "lucrative",
+    "chinese": "(adj.) 有利可圖的",
+    "fixed_collocation": "",
+    "common_usage": "lucrative investment opportunities"
+  },
+  {
+    "id": "day27_inherently",
+    "day": 27,
+    "order": 3,
+    "word": "inherently",
+    "chinese": "(adv.) 本質上",
+    "fixed_collocation": "",
+    "common_usage": "inherently risky"
+  },
+  {
+    "id": "day27_secure",
+    "day": 27,
+    "order": 4,
+    "word": "secure",
+    "chinese": "(v.) 確保；獲得",
+    "fixed_collocation": "",
+    "common_usage": "securing favorable terms"
+  },
+  {
+    "id": "day27_foreseeable",
+    "day": 27,
+    "order": 5,
+    "word": "foreseeable",
+    "chinese": "(adj.) 可預見的",
+    "fixed_collocation": "in the foreseeable future",
+    "common_usage": ""
+  },
+  {
+    "id": "day27_innate",
+    "day": 27,
+    "order": 6,
+    "word": "innate",
+    "chinese": "(adj.) 天生的",
+    "fixed_collocation": "",
+    "common_usage": "innate ability"
+  },
+  {
+    "id": "day27_property",
+    "day": 27,
+    "order": 7,
+    "word": "property",
+    "chinese": "(n.) 財產；房地產",
+    "fixed_collocation": "",
+    "common_usage": "property tax"
+  },
+  {
+    "id": "day27_on behalf of",
+    "day": 27,
+    "order": 8,
+    "word": "on behalf of",
+    "chinese": "(phr.) 代表...",
+    "fixed_collocation": "on behalf of + 對象",
+    "common_usage": ""
+  },
+  {
+    "id": "day27_lease",
+    "day": 27,
+    "order": 9,
+    "word": "lease",
+    "chinese": "(n.) 租約",
+    "fixed_collocation": "",
+    "common_usage": "25-year lease"
+  },
+  {
+    "id": "day27_sponsor",
+    "day": 27,
+    "order": 10,
+    "word": "sponsor",
+    "chinese": "(v.) 贊助",
+    "fixed_collocation": "",
+    "common_usage": "sponsor a series of financial seminars"
+  },
+  {
+    "id": "day27_propose",
+    "day": 27,
+    "order": 11,
+    "word": "propose",
+    "chinese": "(v.) 提議",
+    "fixed_collocation": "",
+    "common_usage": "proposed to fund"
+  },
+  {
+    "id": "day27_support",
+    "day": 27,
+    "order": 12,
+    "word": "support",
+    "chinese": "(n./v.) 支持",
+    "fixed_collocation": "",
+    "common_usage": "for one's continued support"
+  },
+  {
+    "id": "day27_distribution",
+    "day": 27,
+    "order": 13,
+    "word": "distribution",
+    "chinese": "(n.) 分配",
+    "fixed_collocation": "",
+    "common_usage": "distribution of profits"
+  },
+  {
+    "id": "day27_consider",
+    "day": 27,
+    "order": 14,
+    "word": "consider",
+    "chinese": "(v.) 考慮",
+    "fixed_collocation": "",
+    "common_usage": "consider the hidden expenses"
+  },
+  {
+    "id": "day27_nearly",
+    "day": 27,
+    "order": 15,
+    "word": "nearly",
+    "chinese": "(adv.) 幾乎；將近",
+    "fixed_collocation": "nearly + 數值",
+    "common_usage": ""
+  },
+  {
+    "id": "day27_consent",
+    "day": 27,
+    "order": 16,
+    "word": "consent",
+    "chinese": "(n.) 同意",
+    "fixed_collocation": "consent of...",
+    "common_usage": ""
+  },
+  {
+    "id": "day27_gratitude",
+    "day": 27,
+    "order": 17,
+    "word": "gratitude",
+    "chinese": "(n.) 感謝",
+    "fixed_collocation": "",
+    "common_usage": "showed his gratitude to"
+  },
+  {
+    "id": "day27_consult",
+    "day": 27,
+    "order": 18,
+    "word": "consult",
+    "chinese": "(v.) 商量；查閱",
+    "fixed_collocation": "",
+    "common_usage": "consult the manual"
+  },
+  {
+    "id": "day27_advice",
+    "day": 27,
+    "order": 19,
+    "word": "advice",
+    "chinese": "(n.) 建議",
+    "fixed_collocation": "",
+    "common_usage": "advice on how to save more money"
+  },
+  {
+    "id": "day27_partially",
+    "day": 27,
+    "order": 20,
+    "word": "partially",
+    "chinese": "(adv.) 部分地",
+    "fixed_collocation": "",
+    "common_usage": "partially funded"
+  },
+  {
+    "id": "day27_evident",
+    "day": 27,
+    "order": 21,
+    "word": "evident",
+    "chinese": "(adj.) 明顯的",
+    "fixed_collocation": "",
+    "common_usage": "evident interest"
+  },
+  {
+    "id": "day27_reliability",
+    "day": 27,
+    "order": 22,
+    "word": "reliability",
+    "chinese": "(n.) 可靠性",
+    "fixed_collocation": "",
+    "common_usage": "reliability of its financial research analysis"
+  },
+  {
+    "id": "day27_cautious",
+    "day": 27,
+    "order": 23,
+    "word": "cautious",
+    "chinese": "(adj.) 謹慎的",
+    "fixed_collocation": "",
+    "common_usage": "cautiously optimistic\nreenter the market cautiously"
+  },
+  {
+    "id": "day27_insight",
+    "day": 27,
+    "order": 24,
+    "word": "insight",
+    "chinese": "(n.) 洞察力",
+    "fixed_collocation": "",
+    "common_usage": "insight into..."
+  },
+  {
+    "id": "day27_portfolio",
+    "day": 27,
+    "order": 25,
+    "word": "portfolio",
+    "chinese": "(n.) 投資組合",
+    "fixed_collocation": "",
+    "common_usage": "diversify her portfolio"
+  },
+  {
+    "id": "day27_possible",
+    "day": 27,
+    "order": 26,
+    "word": "possible",
+    "chinese": "(adj.) 可能的",
+    "fixed_collocation": "in any way possible",
+    "common_usage": ""
+  },
+  {
+    "id": "day27_speculation",
+    "day": 27,
+    "order": 27,
+    "word": "speculation",
+    "chinese": "(n.) 推測",
+    "fixed_collocation": "",
+    "common_usage": "widespread/growing speculation"
+  },
+  {
+    "id": "day27_solely",
+    "day": 27,
+    "order": 28,
+    "word": "solely",
+    "chinese": "(adv.) 僅僅",
+    "fixed_collocation": "",
+    "common_usage": "solely in foreign investment"
+  },
+  {
+    "id": "day27_entrepreneur",
+    "day": 27,
+    "order": 29,
+    "word": "entrepreneur",
+    "chinese": "(n.) 企業家",
+    "fixed_collocation": "",
+    "common_usage": "young entrepreneurs"
+  },
+  {
+    "id": "day27_eventually",
+    "day": 27,
+    "order": 30,
+    "word": "eventually",
+    "chinese": "(adv.) 最終",
+    "fixed_collocation": "",
+    "common_usage": "stabilize eventually"
+  },
+  {
+    "id": "day27_shareholder",
+    "day": 27,
+    "order": 31,
+    "word": "shareholder",
+    "chinese": "(n.) 股東",
+    "fixed_collocation": "",
+    "common_usage": "gain access to..."
+  },
+  {
+    "id": "day27_outlook",
+    "day": 27,
+    "order": 32,
+    "word": "outlook",
+    "chinese": "(n.) 前景",
+    "fixed_collocation": "",
+    "common_usage": "outlook for..."
+  },
+  {
+    "id": "day27_stability",
+    "day": 27,
+    "order": 33,
+    "word": "stability",
+    "chinese": "(n.) 穩定",
+    "fixed_collocation": "",
+    "common_usage": "long-term stability"
+  },
+  {
+    "id": "day27_bond",
+    "day": 27,
+    "order": 34,
+    "word": "bond",
+    "chinese": "(n.) 債券",
+    "fixed_collocation": "",
+    "common_usage": "public bonds\nissue bonds"
+  },
+  {
+    "id": "day27_depreciation",
+    "day": 27,
+    "order": 35,
+    "word": "depreciation",
+    "chinese": "(n.) 貶值",
+    "fixed_collocation": "",
+    "common_usage": "currency depreciation"
+  },
+  {
+    "id": "day27_increasing",
+    "day": 27,
+    "order": 36,
+    "word": "increasing",
+    "chinese": "(adj.) 增加中的",
+    "fixed_collocation": "",
+    "common_usage": "increasing amount of information\nincreasing market pressure"
+  },
+  {
+    "id": "day27_prevalent",
+    "day": 27,
+    "order": 37,
+    "word": "prevalent",
+    "chinese": "(adj.) 普遍的",
+    "fixed_collocation": "",
+    "common_usage": "prevalent trends"
+  },
+  {
+    "id": "day27_rapid",
+    "day": 27,
+    "order": 38,
+    "word": "rapid",
+    "chinese": "(adj.) 迅速的",
+    "fixed_collocation": "",
+    "common_usage": "rapid + rate/increase/decline/growth/change"
+  },
+  {
+    "id": "day27_unprecedented",
+    "day": 27,
+    "order": 39,
+    "word": "unprecedented",
+    "chinese": "(adj.) 前所未有的",
+    "fixed_collocation": "",
+    "common_usage": "an unprecedented 50 percent"
+  },
+  {
+    "id": "day27_yield",
+    "day": 27,
+    "order": 40,
+    "word": "yield",
+    "chinese": "(v.) 產生(利潤)",
+    "fixed_collocation": "",
+    "common_usage": "yielded returns"
+  }
+]

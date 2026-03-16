@@ -1,0 +1,389 @@
+[
+  {
+    "id": "day29_conserve",
+    "day": 29,
+    "order": 1,
+    "word": "conserve",
+    "chinese": "(v. 保存，保護)",
+    "fixed_collocation": "",
+    "common_usage": "conserve / preserve / maintain (避免浪費或損損時可互換)"
+  },
+  {
+    "id": "day29_chance",
+    "day": 29,
+    "order": 2,
+    "word": "chance",
+    "chinese": "(n. 可能性，機會)",
+    "fixed_collocation": "",
+    "common_usage": "chance of rain (降雨機率)\nopportunity (因環境或條件允許而有的機會)"
+  },
+  {
+    "id": "day29_forecast",
+    "day": 29,
+    "order": 3,
+    "word": "forecast",
+    "chinese": "(n. (天氣)預報)",
+    "fixed_collocation": "",
+    "common_usage": "weather forecast (天氣預報)、market forecast (市場預測)\nprediction (預測)"
+  },
+  {
+    "id": "day29_waste",
+    "day": 29,
+    "order": 4,
+    "word": "waste",
+    "chinese": "(n. 廢棄物，垃圾)",
+    "fixed_collocation": "",
+    "common_usage": "recyclable waste (可回收垃圾)\ngarbage, trash, rubbish (垃圾同義詞)"
+  },
+  {
+    "id": "day29_dispose",
+    "day": 29,
+    "order": 5,
+    "word": "dispose",
+    "chinese": "(v. 處理，處置)",
+    "fixed_collocation": "dispose of (把...處理掉 / 丟掉)",
+    "common_usage": "disposable income (可支配收入)、disposable towel (拋棄式毛巾)"
+  },
+  {
+    "id": "day29_recycling",
+    "day": 29,
+    "order": 6,
+    "word": "recycling",
+    "chinese": "(n. 回收再利用)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_clear",
+    "day": 29,
+    "order": 7,
+    "word": "clear",
+    "chinese": "(adj. 晴朗的)",
+    "fixed_collocation": "",
+    "common_usage": "clear day (晴朗的日子)\nobvious (明顯的)"
+  },
+  {
+    "id": "day29_damage",
+    "day": 29,
+    "order": 8,
+    "word": "damage",
+    "chinese": "(n. 損害 / v. 損害)",
+    "fixed_collocation": "cause damage to the machine (對機器造成損壞)",
+    "common_usage": "damage the machine (直接接受詞，不加介系詞)\nharm (同義詞)"
+  },
+  {
+    "id": "day29_significant",
+    "day": 29,
+    "order": 9,
+    "word": "significant",
+    "chinese": "(adj. 相當大的；重要的)",
+    "fixed_collocation": "",
+    "common_usage": "significant impact (重大影響)、important (同義詞)"
+  },
+  {
+    "id": "day29_solution",
+    "day": 29,
+    "order": 10,
+    "word": "solution",
+    "chinese": "(n. 解決方法)",
+    "fixed_collocation": "solution to... (...的解決方法)",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_occur",
+    "day": 29,
+    "order": 11,
+    "word": "occur",
+    "chinese": "(v. 發生，出現)",
+    "fixed_collocation": "",
+    "common_usage": "occur frequently (經常發生)、happen (同義詞)"
+  },
+  {
+    "id": "day29_ideal",
+    "day": 29,
+    "order": 12,
+    "word": "ideal",
+    "chinese": "(adj. 理想的)",
+    "fixed_collocation": "be ideal for... (很適合...)",
+    "common_usage": "ideal + venue / place (理想的場地/地點)、perfect (同義詞)"
+  },
+  {
+    "id": "day29_preserve",
+    "day": 29,
+    "order": 13,
+    "word": "preserve",
+    "chinese": "(v. 保存，保護)",
+    "fixed_collocation": "",
+    "common_usage": "preserve natural habitats (保存自然棲息地)"
+  },
+  {
+    "id": "day29_aid",
+    "day": 29,
+    "order": 14,
+    "word": "aid",
+    "chinese": "(n. 援助)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_excessive",
+    "day": 29,
+    "order": 15,
+    "word": "excessive",
+    "chinese": "(adj. 過度的)",
+    "fixed_collocation": "",
+    "common_usage": "excessive garbage (過多的垃圾)"
+  },
+  {
+    "id": "day29_intensively",
+    "day": 29,
+    "order": 16,
+    "word": "intensively",
+    "chinese": "(adv. 集中地)",
+    "fixed_collocation": "",
+    "common_usage": "blew intensively (風密集地吹)"
+  },
+  {
+    "id": "day29_vary",
+    "day": 29,
+    "order": 17,
+    "word": "vary",
+    "chinese": "(v. 不同，變化)",
+    "fixed_collocation": "",
+    "common_usage": "vary greatly (變化很大)"
+  },
+  {
+    "id": "day29_pleasing",
+    "day": 29,
+    "order": 18,
+    "word": "pleasing",
+    "chinese": "(adj. 令人愉快的)",
+    "fixed_collocation": "be pleased with... (對...感到滿意)",
+    "common_usage": "pleasing (形容事物)、pleased (形容人的感受)"
+  },
+  {
+    "id": "day29_mark",
+    "day": 29,
+    "order": 19,
+    "word": "mark",
+    "chinese": "(n. 得分 / v. 慶祝)",
+    "fixed_collocation": "",
+    "common_usage": "mark = rating (評分)、mark = celebrate (慶祝)"
+  },
+  {
+    "id": "day29_inaccessible",
+    "day": 29,
+    "order": 20,
+    "word": "inaccessible",
+    "chinese": "(adj. 不能進入的)",
+    "fixed_collocation": "",
+    "common_usage": "currently inaccessible (目前不能進入)"
+  },
+  {
+    "id": "day29_disturb",
+    "day": 29,
+    "order": 21,
+    "word": "disturb",
+    "chinese": "(v. 打擾)",
+    "fixed_collocation": "",
+    "common_usage": "disturbed by noise (受噪音打擾)"
+  },
+  {
+    "id": "day29_pollutant",
+    "day": 29,
+    "order": 22,
+    "word": "pollutant",
+    "chinese": "(n. 污染物質)",
+    "fixed_collocation": "",
+    "common_usage": "harmful pollutants (有害污染物)"
+  },
+  {
+    "id": "day29_emission",
+    "day": 29,
+    "order": 23,
+    "word": "emission",
+    "chinese": "(n. 排放，排放物)",
+    "fixed_collocation": "",
+    "common_usage": "limit emissions (限制排放量)"
+  },
+  {
+    "id": "day29_dense",
+    "day": 29,
+    "order": 24,
+    "word": "dense",
+    "chinese": "(adj. 密集的，濃密的)",
+    "fixed_collocation": "",
+    "common_usage": "dense forest (茂密的森林)"
+  },
+  {
+    "id": "day29_environmental",
+    "day": 29,
+    "order": 25,
+    "word": "environmental",
+    "chinese": "(adj. 環境的)",
+    "fixed_collocation": "",
+    "common_usage": "environmental issue (環境問題)"
+  },
+  {
+    "id": "day29_consistent",
+    "day": 29,
+    "order": 26,
+    "word": "consistent",
+    "chinese": "(adj. 一致的，持續的)",
+    "fixed_collocation": "consistent with (與...一致 / 符合...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_leak",
+    "day": 29,
+    "order": 27,
+    "word": "leak",
+    "chinese": "(n./v. 洩漏)",
+    "fixed_collocation": "",
+    "common_usage": "leak in an oil pipeline (油管洩漏)"
+  },
+  {
+    "id": "day29_organization",
+    "day": 29,
+    "order": 28,
+    "word": "organization",
+    "chinese": "(n. 組織，機構)",
+    "fixed_collocation": "",
+    "common_usage": "association (協會/組織同義詞)"
+  },
+  {
+    "id": "day29_continually",
+    "day": 29,
+    "order": 29,
+    "word": "continually",
+    "chinese": "(adv. 頻繁地)",
+    "fixed_collocation": "",
+    "common_usage": "continually (斷續地一直發生) vs lastingly (持續存在)"
+  },
+  {
+    "id": "day29_contaminate",
+    "day": 29,
+    "order": 30,
+    "word": "contaminate",
+    "chinese": "(v. 污染)",
+    "fixed_collocation": "",
+    "common_usage": "pollute (同義詞)"
+  },
+  {
+    "id": "day29_disaster",
+    "day": 29,
+    "order": 31,
+    "word": "disaster",
+    "chinese": "(n. 災難)",
+    "fixed_collocation": "",
+    "common_usage": "natural disaster (天然災害)"
+  },
+  {
+    "id": "day29_discharge",
+    "day": 29,
+    "order": 32,
+    "word": "discharge",
+    "chinese": "(v. 排放)",
+    "fixed_collocation": "",
+    "common_usage": "discharge industrial chemicals (排放工業化學物)"
+  },
+  {
+    "id": "day29_resource",
+    "day": 29,
+    "order": 33,
+    "word": "resource",
+    "chinese": "(n. 資源)",
+    "fixed_collocation": "",
+    "common_usage": "natural resources (天然資源)、human resources (人力資源/人事部)"
+  },
+  {
+    "id": "day29_prominent",
+    "day": 29,
+    "order": 34,
+    "word": "prominent",
+    "chinese": "(adj. 著名的)",
+    "fixed_collocation": "",
+    "common_usage": "renowned (人或團體知名時的同義詞)"
+  },
+  {
+    "id": "day29_deplete",
+    "day": 29,
+    "order": 35,
+    "word": "deplete",
+    "chinese": "(v. 耗盡)",
+    "fixed_collocation": "",
+    "common_usage": "exhaust (資源/資金用盡時的同義詞)"
+  },
+  {
+    "id": "day29_purify",
+    "day": 29,
+    "order": 36,
+    "word": "purify",
+    "chinese": "(v. 淨化)",
+    "fixed_collocation": "",
+    "common_usage": "purify the water (淨化水)"
+  },
+  {
+    "id": "day29_endangered",
+    "day": 29,
+    "order": 37,
+    "word": "endangered",
+    "chinese": "(adj. 瀕臨絕種的)",
+    "fixed_collocation": "",
+    "common_usage": "endangered species (瀕臨絕種的物種)、threatened (同義詞)"
+  },
+  {
+    "id": "day29_extinction",
+    "day": 29,
+    "order": 38,
+    "word": "extinction",
+    "chinese": "(n. 絕種)",
+    "fixed_collocation": "in danger of extinction (有絕種的危險)",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_drought",
+    "day": 29,
+    "order": 39,
+    "word": "drought",
+    "chinese": "(n. 乾旱)",
+    "fixed_collocation": "",
+    "common_usage": "persistent drought (持續的乾旱)"
+  },
+  {
+    "id": "day29_inflict",
+    "day": 29,
+    "order": 40,
+    "word": "inflict",
+    "chinese": "(v. 施加，使遭受)",
+    "fixed_collocation": "inflict... on... (對...造成/施加...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day29_migration",
+    "day": 29,
+    "order": 41,
+    "word": "migration",
+    "chinese": "(n. 遷移，移動)",
+    "fixed_collocation": "",
+    "common_usage": "migration (一般遷移) vs immigration (外來移民)"
+  },
+  {
+    "id": "day29_ecology",
+    "day": 29,
+    "order": 42,
+    "word": "ecology",
+    "chinese": "(n. 生態)",
+    "fixed_collocation": "",
+    "common_usage": "ecology of our planet (地球的自然生態)"
+  },
+  {
+    "id": "day29_habitat",
+    "day": 29,
+    "order": 43,
+    "word": "habitat",
+    "chinese": "(n. 棲息地)",
+    "fixed_collocation": "",
+    "common_usage": "natural habitat (自然棲息地)"
+  }
+]

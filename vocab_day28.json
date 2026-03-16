@@ -1,0 +1,386 @@
+[
+  {
+    "id": "day28_furnished",
+    "day": 28,
+    "order": 1,
+    "word": "furnished",
+    "chinese": "配有家具的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_residence",
+    "day": 28,
+    "order": 2,
+    "word": "residence",
+    "chinese": "住處，住宅",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "an official residence (官邸)"
+    ]
+  },
+  {
+    "id": "day28_spacious",
+    "day": 28,
+    "order": 3,
+    "word": "spacious",
+    "chinese": "寬敞的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_drape",
+    "day": 28,
+    "order": 4,
+    "word": "drape",
+    "chinese": "用窗簾等裝飾",
+    "fixed_collocation_list": [
+      "drape A with B (用 B 裝飾 A)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_unoccupied",
+    "day": 28,
+    "order": 5,
+    "word": "unoccupied",
+    "chinese": "空著的，沒人住的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_renovation",
+    "day": 28,
+    "order": 6,
+    "word": "renovation",
+    "chinese": "整修，翻修",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_appropriate",
+    "day": 28,
+    "order": 7,
+    "word": "appropriate",
+    "chinese": "合適的，適當的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_delay",
+    "day": 28,
+    "order": 8,
+    "word": "delay",
+    "chinese": "延遲，拖延",
+    "fixed_collocation_list": [
+      "without delay (毫不拖延地、立刻)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_community",
+    "day": 28,
+    "order": 9,
+    "word": "community",
+    "chinese": "社區，社會",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_construction",
+    "day": 28,
+    "order": 10,
+    "word": "construction",
+    "chinese": "建設，建築物",
+    "fixed_collocation_list": [
+      "under construction (建設中、施工中)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_repair",
+    "day": 28,
+    "order": 11,
+    "word": "repair",
+    "chinese": "修理",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_currently",
+    "day": 28,
+    "order": 12,
+    "word": "currently",
+    "chinese": "現在，目前",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "currently + available/closed (目前可利用的/關閉的)"
+    ]
+  },
+  {
+    "id": "day28_regularly",
+    "day": 28,
+    "order": 13,
+    "word": "regularly",
+    "chinese": "定期地",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_arrange",
+    "day": 28,
+    "order": 14,
+    "word": "arrange",
+    "chinese": "布置，整理",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_location",
+    "day": 28,
+    "order": 15,
+    "word": "location",
+    "chinese": "地點，位置",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "strategic / perfect / convenient + location (策略性的/完美的/便利的地點)"
+    ]
+  },
+  {
+    "id": "day28_restore",
+    "day": 28,
+    "order": 16,
+    "word": "restore",
+    "chinese": "恢復，修復",
+    "fixed_collocation_list": [
+      "restore A to B (把 A 恢復成 B)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_presently",
+    "day": 28,
+    "order": 17,
+    "word": "presently",
+    "chinese": "現在",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_numerous",
+    "day": 28,
+    "order": 18,
+    "word": "numerous",
+    "chinese": "許多地",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_abandon",
+    "day": 28,
+    "order": 19,
+    "word": "abandon",
+    "chinese": "放棄，中止",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_contractor",
+    "day": 28,
+    "order": 20,
+    "word": "contractor",
+    "chinese": "承包商",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_develop",
+    "day": 28,
+    "order": 21,
+    "word": "develop",
+    "chinese": "開發",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_maintain",
+    "day": 28,
+    "order": 22,
+    "word": "maintain",
+    "chinese": "維持，保養",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_densely",
+    "day": 28,
+    "order": 23,
+    "word": "densely",
+    "chinese": "密集地",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_prepare",
+    "day": 28,
+    "order": 24,
+    "word": "prepare",
+    "chinese": "準備",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_finally",
+    "day": 28,
+    "order": 25,
+    "word": "finally",
+    "chinese": "最後，終於",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_district",
+    "day": 28,
+    "order": 26,
+    "word": "district",
+    "chinese": "地區，區域",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_renewal",
+    "day": 28,
+    "order": 27,
+    "word": "renewal",
+    "chinese": "更新",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "a renewal of urban towns (都市的更新)"
+    ]
+  },
+  {
+    "id": "day28_compulsory",
+    "day": 28,
+    "order": 28,
+    "word": "compulsory",
+    "chinese": "義務的，必須做的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_interfere",
+    "day": 28,
+    "order": 29,
+    "word": "interfere",
+    "chinese": "妨礙",
+    "fixed_collocation_list": [
+      "interfere with (妨礙)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_relocation",
+    "day": 28,
+    "order": 30,
+    "word": "relocation",
+    "chinese": "遷移",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_totally",
+    "day": 28,
+    "order": 31,
+    "word": "totally",
+    "chinese": "完全，全然",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_actually",
+    "day": 28,
+    "order": 32,
+    "word": "actually",
+    "chinese": "實際上，事實上",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_architect",
+    "day": 28,
+    "order": 33,
+    "word": "architect",
+    "chinese": "建築師",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_enlarge",
+    "day": 28,
+    "order": 34,
+    "word": "enlarge",
+    "chinese": "擴大",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_install",
+    "day": 28,
+    "order": 35,
+    "word": "install",
+    "chinese": "設置，安裝",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_permanent",
+    "day": 28,
+    "order": 36,
+    "word": "permanent",
+    "chinese": "永久的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_suppose",
+    "day": 28,
+    "order": 37,
+    "word": "suppose",
+    "chinese": "認為，猜想",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_adjacent",
+    "day": 28,
+    "order": 38,
+    "word": "adjacent",
+    "chinese": "鄰接的",
+    "fixed_collocation_list": [
+      "adjacent to (鄰接...)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_consist",
+    "day": 28,
+    "order": 39,
+    "word": "consist",
+    "chinese": "構成，組成",
+    "fixed_collocation_list": [
+      "consist of (由...構成)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day28_utility",
+    "day": 28,
+    "order": 40,
+    "word": "utility",
+    "chinese": "公共事業(費)",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "utility company (公共事業公司)、no utilities included (不含水電瓦斯費)"
+    ]
+  }
+]

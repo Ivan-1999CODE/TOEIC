@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "day": 10,
+    "word": "purchase",
+    "id": "day10_purchase",
+    "chinese": "v. 購買；n. 購買（的東西）",
+    "fixed_collocation": "",
+    "common_usage": "within ... days of purchase（在購買後...日內）"
+  },
+  {
+    "order": 2,
+    "day": 10,
+    "word": "installment",
+    "id": "day10_installment",
+    "chinese": "n. 分期付款",
+    "fixed_collocation": "",
+    "common_usage": "in monthly installments（以每月分期付款的方式）"
+  },
+  {
+    "order": 3,
+    "day": 10,
+    "word": "affordable",
+    "id": "day10_affordable",
+    "chinese": "adj. 價格負擔得起的",
+    "fixed_collocation": "",
+    "common_usage": "at an affordable + rate/price（以可負擔的費用/價格）"
+  },
+  {
+    "order": 4,
+    "day": 10,
+    "word": "exactly",
+    "id": "day10_exactly",
+    "chinese": "adv. 確切地，正好",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 5,
+    "day": 10,
+    "word": "auction",
+    "id": "day10_auction",
+    "chinese": "n. 拍賣",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 6,
+    "day": 10,
+    "word": "authentic",
+    "id": "day10_authentic",
+    "chinese": "adj. 真正的，正統的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 7,
+    "day": 10,
+    "word": "charge",
+    "id": "day10_charge",
+    "chinese": "n. 收費，責任；v. 索取費用，把...記在帳上",
+    "fixed_collocation": "free of charge（免費）\nin charge of（負責...）",
+    "common_usage": "additional charge（額外收費）\ncharge A to B（把 A 費用記在 B 的帳上）"
+  },
+  {
+    "order": 8,
+    "day": 10,
+    "word": "notice",
+    "id": "day10_notice",
+    "chinese": "n. 通知，公告；v. 注意到",
+    "fixed_collocation": "until further notice（直到有進一步通知為止）",
+    "common_usage": "give two weeks' notice（在兩週前通知）"
+  },
+  {
+    "order": 9,
+    "day": 10,
+    "word": "experienced",
+    "id": "day10_experienced",
+    "chinese": "adj. 有經驗的，熟練的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 10,
+    "day": 10,
+    "word": "instruction",
+    "id": "day10_instruction",
+    "chinese": "n. 說明，指示",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 11,
+    "day": 10,
+    "word": "expert",
+    "id": "day10_expert",
+    "chinese": "n. 專家；adj. 專門的，專業的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 12,
+    "day": 10,
+    "word": "warranty",
+    "id": "day10_warranty",
+    "chinese": "n. 品質保證，保證書",
+    "fixed_collocation": "under warranty（在保固期內）",
+    "common_usage": ""
+  },
+  {
+    "order": 13,
+    "day": 10,
+    "word": "refund",
+    "id": "day10_refund",
+    "chinese": "n. 退款",
+    "fixed_collocation": "",
+    "common_usage": "a full refund（全額退款）\nprovide a refund（提供退款）"
+  },
+  {
+    "order": 14,
+    "day": 10,
+    "word": "subscriber",
+    "id": "day10_subscriber",
+    "chinese": "n. 訂閱者，用戶",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 15,
+    "day": 10,
+    "word": "delivery",
+    "id": "day10_delivery",
+    "chinese": "n. 運送",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 16,
+    "day": 10,
+    "word": "price",
+    "id": "day10_price",
+    "chinese": "n. 價格",
+    "fixed_collocation": "",
+    "common_usage": "a reduced price（折扣價）\na retail price（零售價）"
+  },
+  {
+    "order": 17,
+    "day": 10,
+    "word": "receipt",
+    "id": "day10_receipt",
+    "chinese": "n. 收據",
+    "fixed_collocation": "",
+    "common_usage": "original/valid receipt（原始/有效的收據）\nupon receipt of（一收到...就）"
+  },
+  {
+    "order": 18,
+    "day": 10,
+    "word": "offer",
+    "id": "day10_offer",
+    "chinese": "v. 提供；n. 提供，優惠",
+    "fixed_collocation": "offer A B = offer B to A（提供 A 給 B）",
+    "common_usage": "promotional offers（促銷優惠）\njob offer（提供工作的邀請/錄取通知）"
+  },
+  {
+    "order": 19,
+    "day": 10,
+    "word": "carefully",
+    "id": "day10_carefully",
+    "chinese": "adv. 小心謹慎地，仔細地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 20,
+    "day": 10,
+    "word": "benefit",
+    "id": "day10_benefit",
+    "chinese": "n. 利益，好處；v. 受益",
+    "fixed_collocation": "",
+    "common_usage": "benefit from（從...中受惠）"
+  },
+  {
+    "order": 21,
+    "day": 10,
+    "word": "exclusively",
+    "id": "day10_exclusively",
+    "chinese": "adv. 獨佔地，排外地",
+    "fixed_collocation": "",
+    "common_usage": "available exclusively online（僅在網路上供應）\nsell exclusively（獨家販售）\nexclusively supply（獨家供應）"
+  },
+  {
+    "order": 22,
+    "day": 10,
+    "word": "description",
+    "id": "day10_description",
+    "chinese": "n. 產品說明，描述",
+    "fixed_collocation": "",
+    "common_usage": "job description（職務說明）"
+  },
+  {
+    "order": 23,
+    "day": 10,
+    "word": "relatively",
+    "id": "day10_relatively",
+    "chinese": "adv. 相對地",
+    "fixed_collocation": "",
+    "common_usage": "relatively + lenient/low（相對寬鬆的／較低的）"
+  },
+  {
+    "order": 24,
+    "day": 10,
+    "word": "spare",
+    "id": "day10_spare",
+    "chinese": "v. 節省，吝惜；adj. 備用的，剩下的",
+    "fixed_collocation": "spare no expense（不惜經費／不遺餘力）",
+    "common_usage": ""
+  },
+  {
+    "order": 25,
+    "day": 10,
+    "word": "preparation",
+    "id": "day10_preparation",
+    "chinese": "n. 準備",
+    "fixed_collocation": "",
+    "common_usage": "preparations are under way（準備工作正在進行中）"
+  },
+  {
+    "order": 26,
+    "day": 10,
+    "word": "area",
+    "id": "day10_area",
+    "chinese": "n. 地區，區域",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 27,
+    "day": 10,
+    "word": "clearance",
+    "id": "day10_clearance",
+    "chinese": "n. 清除，清倉；准許",
+    "fixed_collocation": "",
+    "common_usage": "clearance sale（清倉拍賣）"
+  },
+  {
+    "order": 28,
+    "day": 10,
+    "word": "alter",
+    "id": "day10_alter",
+    "chinese": "v. 改變，修改衣服",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 29,
+    "day": 10,
+    "word": "apply",
+    "id": "day10_apply",
+    "chinese": "v. 適用，應用；申請",
+    "fixed_collocation": "apply for（申請職位等）",
+    "common_usage": "apply the discount（套用折扣）"
+  },
+  {
+    "order": 30,
+    "day": 10,
+    "word": "mutually",
+    "id": "day10_mutually",
+    "chinese": "adv. 互相，彼此",
+    "fixed_collocation": "",
+    "common_usage": "mutually agreeable（彼此都同意的）"
+  },
+  {
+    "order": 31,
+    "day": 10,
+    "word": "method",
+    "id": "day10_method",
+    "chinese": "n. 方法，方式",
+    "fixed_collocation": "",
+    "common_usage": "a method of payment（付款方式）"
+  },
+  {
+    "order": 32,
+    "day": 10,
+    "word": "acceptable",
+    "id": "day10_acceptable",
+    "chinese": "adj. 可接受的，還可以的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 33,
+    "day": 10,
+    "word": "desire",
+    "id": "day10_desire",
+    "chinese": "n. 渴望，慾望；v. 渴望，想要",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 34,
+    "day": 10,
+    "word": "redeemable",
+    "id": "day10_redeemable",
+    "chinese": "adj. 可兌換的，可償還的",
+    "fixed_collocation": "",
+    "common_usage": "redeemable at any branch（可在任何分店兌換）"
+  },
+  {
+    "order": 35,
+    "day": 10,
+    "word": "officially",
+    "id": "day10_officially",
+    "chinese": "adv. 正式地",
+    "fixed_collocation": "",
+    "common_usage": "officially open（正式開幕）"
+  },
+  {
+    "order": 36,
+    "day": 10,
+    "word": "consumption",
+    "id": "day10_consumption",
+    "chinese": "n. 消費量，消耗",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 37,
+    "day": 10,
+    "word": "qualify",
+    "id": "day10_qualify",
+    "chinese": "v. 使...有資格",
+    "fixed_collocation": "qualify for A（具有 A 的資格）",
+    "common_usage": ""
+  },
+  {
+    "order": 38,
+    "day": 10,
+    "word": "fabric",
+    "id": "day10_fabric",
+    "chinese": "n. 布料",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 39,
+    "day": 10,
+    "word": "valid",
+    "id": "day10_valid",
+    "chinese": "adj. 有效的",
+    "fixed_collocation": "be valid for + 期間（在...期間內有效）",
+    "common_usage": "valid receipts（有效的收據）"
+  },
+  {
+    "order": 40,
+    "day": 10,
+    "word": "vendor",
+    "id": "day10_vendor",
+    "chinese": "n. 小販，販賣業者",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

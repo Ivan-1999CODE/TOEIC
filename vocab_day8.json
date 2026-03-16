@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "day": 8,
+    "word": "advertisement",
+    "id": "day8_advertisement",
+    "chinese": "[n.] 廣告",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 2,
+    "day": 8,
+    "word": "marginal",
+    "id": "day8_marginal",
+    "chinese": "[adj.] 微小的；邊緣的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 3,
+    "day": 8,
+    "word": "customer",
+    "id": "day8_customer",
+    "chinese": "[n.] 顧客",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 4,
+    "day": 8,
+    "word": "influence",
+    "id": "day8_influence",
+    "chinese": "[v./n.] 影響",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 5,
+    "day": 8,
+    "word": "instantly",
+    "id": "day8_instantly",
+    "chinese": "[adv.] 立即，馬上",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 6,
+    "day": 8,
+    "word": "creative",
+    "id": "day8_creative",
+    "chinese": "[adj.] 創造性的，有創意的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 7,
+    "day": 8,
+    "word": "aggressively",
+    "id": "day8_aggressively",
+    "chinese": "[adv.] 積極地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 8,
+    "day": 8,
+    "word": "aim",
+    "id": "day8_aim",
+    "chinese": "[v./n.] 目標",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 9,
+    "day": 8,
+    "word": "strategy",
+    "id": "day8_strategy",
+    "chinese": "[n.] 策略",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 10,
+    "day": 8,
+    "word": "indicate",
+    "id": "day8_indicate",
+    "chinese": "[v.] 指出，顯示",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 11,
+    "day": 8,
+    "word": "attract",
+    "id": "day8_attract",
+    "chinese": "[v.] 吸引",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 12,
+    "day": 8,
+    "word": "experience",
+    "id": "day8_experience",
+    "chinese": "[n./v.] 經驗；體驗",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 13,
+    "day": 8,
+    "word": "analyze",
+    "id": "day8_analyze",
+    "chinese": "[v.] 分析",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 14,
+    "day": 8,
+    "word": "introduce",
+    "id": "day8_introduce",
+    "chinese": "[v.] 介紹，發表 (商品)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 15,
+    "day": 8,
+    "word": "advise",
+    "id": "day8_advise",
+    "chinese": "[v.] 勸告，建議",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 16,
+    "day": 8,
+    "word": "subscribe",
+    "id": "day8_subscribe",
+    "chinese": "[v.] 訂閱",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 17,
+    "day": 8,
+    "word": "absence",
+    "id": "day8_absence",
+    "chinese": "[n.] 缺席，缺少",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 18,
+    "day": 8,
+    "word": "means",
+    "id": "day8_means",
+    "chinese": "[n.] 方法，手段",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 19,
+    "day": 8,
+    "word": "prefer",
+    "id": "day8_prefer",
+    "chinese": "[v.] 偏好",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 20,
+    "day": 8,
+    "word": "advantage",
+    "id": "day8_advantage",
+    "chinese": "[n.] 優點，優勢",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 21,
+    "day": 8,
+    "word": "forward",
+    "id": "day8_forward",
+    "chinese": "[adv./v.] 向前；轉寄",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 22,
+    "day": 8,
+    "word": "contemporary",
+    "id": "day8_contemporary",
+    "chinese": "[adj.] 當代的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 23,
+    "day": 8,
+    "word": "discussion",
+    "id": "day8_discussion",
+    "chinese": "[n.] 討論",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 24,
+    "day": 8,
+    "word": "initial",
+    "id": "day8_initial",
+    "chinese": "[adj.] 開始的，最初的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 25,
+    "day": 8,
+    "word": "steadily",
+    "id": "day8_steadily",
+    "chinese": "[adv.] 平穩地，穩定地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 26,
+    "day": 8,
+    "word": "necessarily",
+    "id": "day8_necessarily",
+    "chinese": "[adv.] 必然",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 27,
+    "day": 8,
+    "word": "resolve",
+    "id": "day8_resolve",
+    "chinese": "[v.] 解決 (問題等)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 28,
+    "day": 8,
+    "word": "detect",
+    "id": "day8_detect",
+    "chinese": "[v.] 察覺，發現",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 29,
+    "day": 8,
+    "word": "intensify",
+    "id": "day8_intensify",
+    "chinese": "[v.] 強化，使⋯變強烈",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 30,
+    "day": 8,
+    "word": "favorably",
+    "id": "day8_favorably",
+    "chinese": "[adv.] 順利地；好評地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 31,
+    "day": 8,
+    "word": "cover",
+    "id": "day8_cover",
+    "chinese": "[v.] 包含；支付",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 32,
+    "day": 8,
+    "word": "less",
+    "id": "day8_less",
+    "chinese": "[adj.] 較少的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 33,
+    "day": 8,
+    "word": "majority",
+    "id": "day8_majority",
+    "chinese": "[n.] 大多數",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 34,
+    "day": 8,
+    "word": "adopt",
+    "id": "day8_adopt",
+    "chinese": "[v.] 採納",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 35,
+    "day": 8,
+    "word": "largely",
+    "id": "day8_largely",
+    "chinese": "[adv.] 大部分，主要",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 36,
+    "day": 8,
+    "word": "disregard",
+    "id": "day8_disregard",
+    "chinese": "[v.] 不理會，忽視",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 37,
+    "day": 8,
+    "word": "effort",
+    "id": "day8_effort",
+    "chinese": "[n.] 努力",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 38,
+    "day": 8,
+    "word": "incentive",
+    "id": "day8_incentive",
+    "chinese": "[n.] 獎勵，誘因",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 39,
+    "day": 8,
+    "word": "need",
+    "id": "day8_need",
+    "chinese": "[n./v.] 需求；需要",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 40,
+    "day": 8,
+    "word": "mastermind",
+    "id": "day8_mastermind",
+    "chinese": "[n.] 策畫者",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

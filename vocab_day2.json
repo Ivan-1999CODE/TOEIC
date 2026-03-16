@@ -1,0 +1,322 @@
+[
+  {
+    "day": 2,
+    "order": 1,
+    "word": "attire",
+    "chinese": "(n.) 服裝，衣著",
+    "fixed_collocation": "",
+    "common_usage": "professional business attire (專業商務服裝)"
+  },
+  {
+    "day": 2,
+    "order": 2,
+    "word": "code",
+    "chinese": "(n.) 規範，慣例；密碼",
+    "fixed_collocation": "",
+    "common_usage": "dress code (服裝規範)"
+  },
+  {
+    "day": 2,
+    "order": 3,
+    "word": "concern",
+    "chinese": "(n.) 擔心 (v.) 關於...；使擔心",
+    "fixed_collocation": "concern + about/over (關於...的憂慮/擔心)",
+    "common_usage": "questions concerning (關於...的問題)"
+  },
+  {
+    "day": 2,
+    "order": 4,
+    "word": "policy",
+    "chinese": "(n.) 政策，規定；保險單",
+    "fixed_collocation": "",
+    "common_usage": "employee benefit policy (員工福利政策)、health insurance policies (健康保險單)"
+  },
+  {
+    "day": 2,
+    "order": 5,
+    "word": "comply",
+    "chinese": "(v.) 遵守，遵從",
+    "fixed_collocation": "comply with (遵守...規則/要求)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 6,
+    "word": "regulation",
+    "chinese": "(n.) 規定",
+    "fixed_collocation": "",
+    "common_usage": "safety regulations (安全規定)、customs regulations (海關規定)"
+  },
+  {
+    "day": 2,
+    "order": 7,
+    "word": "exception",
+    "chinese": "(n.) 例外",
+    "fixed_collocation": "with the exception of (除了...之外)",
+    "common_usage": "with very few exceptions (幾乎沒有例外)"
+  },
+  {
+    "day": 2,
+    "order": 8,
+    "word": "adhere",
+    "chinese": "(v.) 遵守，堅持",
+    "fixed_collocation": "adhere to + policies/rules/standards (遵守政策/規則/標準)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 9,
+    "word": "severely",
+    "chinese": "(adv.) 嚴格地，嚴重地",
+    "fixed_collocation": "",
+    "common_usage": "severely punished (受到嚴厲處罰)"
+  },
+  {
+    "day": 2,
+    "order": 10,
+    "word": "refrain",
+    "chinese": "(v.) 克制，抑制",
+    "fixed_collocation": "refrain from (抑制...，避免做...)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 11,
+    "word": "permission",
+    "chinese": "(n.) 允許，許可",
+    "fixed_collocation": "",
+    "common_usage": "give permission to (給予...許可)"
+  },
+  {
+    "day": 2,
+    "order": 12,
+    "word": "access",
+    "chinese": "(n.) 使用權 (v.) 接近",
+    "fixed_collocation": "have access to (有接近/使用的權限)",
+    "common_usage": "gain access to (獲得...的使用權)"
+  },
+  {
+    "day": 2,
+    "order": 13,
+    "word": "thoroughly",
+    "chinese": "(adv.) 徹底地；完全地",
+    "fixed_collocation": "",
+    "common_usage": "read thoroughly (仔細閱讀)"
+  },
+  {
+    "day": 2,
+    "order": 14,
+    "word": "revise",
+    "chinese": "(v.) 修訂，變更",
+    "fixed_collocation": "",
+    "common_usage": "policies have been revised (政策已修訂)"
+  },
+  {
+    "day": 2,
+    "order": 15,
+    "word": "approach",
+    "chinese": "(n.) 處理方法 (v.) 接近",
+    "fixed_collocation": "approach to (做某事的方法)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 16,
+    "word": "approval",
+    "chinese": "(n.) 批准，認可",
+    "fixed_collocation": "obtain approval (for) (獲得對於...的批准)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 17,
+    "word": "form",
+    "chinese": "(n.) 種類，形式",
+    "fixed_collocation": "a form of identification (一種身分證明)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 18,
+    "word": "immediately",
+    "chinese": "(adv.) 立即，馬上",
+    "fixed_collocation": "immediately after (在...之後馬上)、immediately upon arrival (到達後馬上)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 19,
+    "word": "inspection",
+    "chinese": "(n.) 檢查，觀察",
+    "fixed_collocation": "",
+    "common_usage": "facility inspection (設施檢查)"
+  },
+  {
+    "day": 2,
+    "order": 20,
+    "word": "arrangement",
+    "chinese": "(n.) 安排，準備",
+    "fixed_collocation": "make arrangements to do / for (為...做安排)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 21,
+    "word": "procedure",
+    "chinese": "(n.) 手續，程序",
+    "fixed_collocation": "",
+    "common_usage": "procedure for patent applications (申請專利的手續)"
+  },
+  {
+    "day": 2,
+    "order": 22,
+    "word": "negative",
+    "chinese": "(adj.) 負面的，消極的",
+    "fixed_collocation": "",
+    "common_usage": "negative feedback (負面反應)"
+  },
+  {
+    "day": 2,
+    "order": 23,
+    "word": "mandate",
+    "chinese": "(v.) 強制執行 (n.) 授權",
+    "fixed_collocation": "",
+    "common_usage": "mandated an increase (下令增加)"
+  },
+  {
+    "day": 2,
+    "order": 24,
+    "word": "effect",
+    "chinese": "(n.) 效力，影響",
+    "fixed_collocation": "in effect (有效力的)、come into effect / take effect (生效)",
+    "common_usage": "have an effect on (對...有影響)"
+  },
+  {
+    "day": 2,
+    "order": 25,
+    "word": "drastically",
+    "chinese": "(adv.) 激烈地，大幅地",
+    "fixed_collocation": "",
+    "common_usage": "drastically increase (大幅增加)"
+  },
+  {
+    "day": 2,
+    "order": 26,
+    "word": "according to",
+    "chinese": "(phr.) 根據...，依照...",
+    "fixed_collocation": "according to the guidelines (依照指導方針)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 27,
+    "word": "enable",
+    "chinese": "(v.) 使...能夠",
+    "fixed_collocation": "enable someone to do (使某人能做...)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 28,
+    "word": "standard",
+    "chinese": "(n.) 標準",
+    "fixed_collocation": "",
+    "common_usage": "safety standards (安全標準)"
+  },
+  {
+    "day": 2,
+    "order": 29,
+    "word": "constant",
+    "chinese": "(adj.) 持續的，不斷的",
+    "fixed_collocation": "",
+    "common_usage": "constant inquiries (不斷的詢問)"
+  },
+  {
+    "day": 2,
+    "order": 30,
+    "word": "act",
+    "chinese": "(n.) 法案；行為 (v.) 擔當",
+    "fixed_collocation": "",
+    "common_usage": "act on behalf of (代表某人行事)"
+  },
+  {
+    "day": 2,
+    "order": 31,
+    "word": "compensation",
+    "chinese": "(n.) 賠償（金），報酬",
+    "fixed_collocation": "compensation for (對於...的補償)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 32,
+    "word": "ban",
+    "chinese": "(n.) 禁令 (v.) 禁止",
+    "fixed_collocation": "placed a ban on (對...下禁令)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 33,
+    "word": "obligation",
+    "chinese": "(n.) 義務，責任",
+    "fixed_collocation": "have an obligation to do (有義務做...)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 34,
+    "word": "authorize",
+    "chinese": "(v.) 授權，批准",
+    "fixed_collocation": "",
+    "common_usage": "authorized service center (授權服務中心)"
+  },
+  {
+    "day": 2,
+    "order": 35,
+    "word": "prohibit",
+    "chinese": "(v.) 禁止",
+    "fixed_collocation": "prohibit A from -ing (禁止 A 做...)",
+    "common_usage": ""
+  },
+  {
+    "day": 2,
+    "order": 36,
+    "word": "abolish",
+    "chinese": "(v.) 廢除",
+    "fixed_collocation": "",
+    "common_usage": "abolish taxes (廢除課稅)"
+  },
+  {
+    "day": 2,
+    "order": 37,
+    "word": "enforce",
+    "chinese": "(v.) 執行，實施",
+    "fixed_collocation": "",
+    "common_usage": "enforce regulations (執行規定)"
+  },
+  {
+    "day": 2,
+    "order": 38,
+    "word": "habit",
+    "chinese": "(n.) 習慣",
+    "fixed_collocation": "",
+    "common_usage": "regular habit (經常的習慣)"
+  },
+  {
+    "day": 2,
+    "order": 39,
+    "word": "legislation",
+    "chinese": "(n.) 立法，法律",
+    "fixed_collocation": "",
+    "common_usage": "export legislation (出口限制法規)"
+  },
+  {
+    "day": 2,
+    "order": 40,
+    "word": "restrict",
+    "chinese": "(v.) 限制，限定",
+    "fixed_collocation": "restrict A to B (將 A 限定於 B)",
+    "common_usage": "lift/raise a restriction (解除限制)"
+  }
+]

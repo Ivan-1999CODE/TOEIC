@@ -1,0 +1,371 @@
+[
+  {
+    "id": "day14_international",
+    "day": 14,
+    "order": 1,
+    "word": "international",
+    "chinese": "(adj.) 國際的",
+    "fixed_collocation": "",
+    "common_usage": "international flights (國際航班)"
+  },
+  {
+    "id": "day14_attraction",
+    "day": 14,
+    "order": 2,
+    "word": "attraction",
+    "chinese": "(n.) 景點",
+    "fixed_collocation": "",
+    "common_usage": "tourist attractions (觀光景點)"
+  },
+  {
+    "id": "day14_itinerary",
+    "day": 14,
+    "order": 3,
+    "word": "itinerary",
+    "chinese": "(n.) 旅遊行程",
+    "fixed_collocation": "",
+    "common_usage": "travel itinerary (旅遊行程表)"
+  },
+  {
+    "id": "day14_exotic",
+    "day": 14,
+    "order": 4,
+    "word": "exotic",
+    "chinese": "(adj.) 異國情調的",
+    "fixed_collocation": "",
+    "common_usage": "exotic vacation spots (異國度假地點)"
+  },
+  {
+    "id": "day14_diverse",
+    "day": 14,
+    "order": 5,
+    "word": "diverse",
+    "chinese": "(adj.) 多樣的",
+    "fixed_collocation": "a diverse + selection/range + of + 複數名詞 (多樣化的...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_superb",
+    "day": 14,
+    "order": 6,
+    "word": "superb",
+    "chinese": "(adj.) 極好的",
+    "fixed_collocation": "",
+    "common_usage": "superb service (極好的服務)"
+  },
+  {
+    "id": "day14_baggage",
+    "day": 14,
+    "order": 7,
+    "word": "baggage",
+    "chinese": "(n.) 行李",
+    "fixed_collocation": "不可數名詞，不可加 a 或接複數形",
+    "common_usage": "baggage claim (行李提領處)"
+  },
+  {
+    "id": "day14_destination",
+    "day": 14,
+    "order": 8,
+    "word": "destination",
+    "chinese": "(n.) 目的地",
+    "fixed_collocation": "",
+    "common_usage": "travel destination (旅遊目的地)"
+  },
+  {
+    "id": "day14_missing",
+    "day": 14,
+    "order": 9,
+    "word": "missing",
+    "chinese": "(adj.) 遺失的",
+    "fixed_collocation": "",
+    "common_usage": "missing luggage (遺失的行李)"
+  },
+  {
+    "id": "day14_locate",
+    "day": 14,
+    "order": 10,
+    "word": "locate",
+    "chinese": "(v.) 找到位置；位於",
+    "fixed_collocation": "be (conveniently/perfectly) located in/at/on (位於...地點)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_approximately",
+    "day": 14,
+    "order": 11,
+    "word": "approximately",
+    "chinese": "(adv.) 大概",
+    "fixed_collocation": "",
+    "common_usage": "approximately + 數字/時間 (大約...)"
+  },
+  {
+    "id": "day14_duty",
+    "day": 14,
+    "order": 12,
+    "word": "duty",
+    "chinese": "(n.) 稅；責任",
+    "fixed_collocation": "on duty (值勤中)",
+    "common_usage": "pay duty on (對...支付關稅)"
+  },
+  {
+    "id": "day14_process",
+    "day": 14,
+    "order": 13,
+    "word": "process",
+    "chinese": "(n.) 過程 (v.) 處理",
+    "fixed_collocation": "",
+    "common_usage": "ticketing process (購票流程)；process visas (處理簽證)"
+  },
+  {
+    "id": "day14_board",
+    "day": 14,
+    "order": 14,
+    "word": "board",
+    "chinese": "(v.) 登上 (n.) 委員會",
+    "fixed_collocation": "a board of directors (董事會)",
+    "common_usage": "board the plane (登機)；a board member (董事成員)"
+  },
+  {
+    "id": "day14_comfortable",
+    "day": 14,
+    "order": 15,
+    "word": "comfortable",
+    "chinese": "(adj.) 舒適的",
+    "fixed_collocation": "",
+    "common_usage": "comfortable stay (舒適的住宿)"
+  },
+  {
+    "id": "day14_declare",
+    "day": 14,
+    "order": 16,
+    "word": "declare",
+    "chinese": "(v.) 申報",
+    "fixed_collocation": "",
+    "common_usage": "goods to declare (需申報貨物)"
+  },
+  {
+    "id": "day14_specify",
+    "day": 14,
+    "order": 17,
+    "word": "specify",
+    "chinese": "(v.) 具體說明",
+    "fixed_collocation": "",
+    "common_usage": "specify on the form (在表格上標明)"
+  },
+  {
+    "id": "day14_depart",
+    "day": 14,
+    "order": 18,
+    "word": "depart",
+    "chinese": "(v.) 出發",
+    "fixed_collocation": "表示飛機起飛時可換成 take off",
+    "common_usage": "depart from (從...出發)"
+  },
+  {
+    "id": "day14_emergency",
+    "day": 14,
+    "order": 19,
+    "word": "emergency",
+    "chinese": "(n.) 緊急情況",
+    "fixed_collocation": "in case of emergency (萬一發生緊急情況時)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_passenger",
+    "day": 14,
+    "order": 20,
+    "word": "passenger",
+    "chinese": "(n.) 乘客",
+    "fixed_collocation": "",
+    "common_usage": "passenger boarding (乘客登船/機)"
+  },
+  {
+    "id": "day14_outgoing",
+    "day": 14,
+    "order": 21,
+    "word": "outgoing",
+    "chinese": "(adj.) 出發的；即將離職的",
+    "fixed_collocation": "",
+    "common_usage": "outgoing trains (離站列車)；outgoing manager (即將離職的經理)"
+  },
+  {
+    "id": "day14_tightly",
+    "day": 14,
+    "order": 22,
+    "word": "tightly",
+    "chinese": "(adv.) 緊緊地",
+    "fixed_collocation": "",
+    "common_usage": "locked tightly (牢牢鎖上)"
+  },
+  {
+    "id": "day14_tour",
+    "day": 14,
+    "order": 23,
+    "word": "tour",
+    "chinese": "(n.) 導覽 (v.) 旅遊",
+    "fixed_collocation": "on tour (旅行中)；tour + 觀光地 (直接接地點，不接介系詞)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_carrier",
+    "day": 14,
+    "order": 24,
+    "word": "carrier",
+    "chinese": "(n.) 航空公司；運輸工具",
+    "fixed_collocation": "",
+    "common_usage": "cargo carrier (貨物運輸機)"
+  },
+  {
+    "id": "day14_customarily",
+    "day": 14,
+    "order": 25,
+    "word": "customarily",
+    "chinese": "(adv.) 習慣上",
+    "fixed_collocation": "",
+    "common_usage": "customarily greet (習慣上以...方式打招呼)"
+  },
+  {
+    "id": "day14_confuse",
+    "day": 14,
+    "order": 26,
+    "word": "confuse",
+    "chinese": "(v.) 使困惑",
+    "fixed_collocation": "",
+    "common_usage": "confuse visitors (使訪客困惑)"
+  },
+  {
+    "id": "day14_arrive",
+    "day": 14,
+    "order": 27,
+    "word": "arrive",
+    "chinese": "(v.) 到達",
+    "fixed_collocation": "",
+    "common_usage": "arrive at its destination (抵達目的地)"
+  },
+  {
+    "id": "day14_brochure",
+    "day": 14,
+    "order": 28,
+    "word": "brochure",
+    "chinese": "(n.) 摺頁",
+    "fixed_collocation": "",
+    "common_usage": "sightseeing brochure (觀光宣傳摺頁)"
+  },
+  {
+    "id": "day14_involve",
+    "day": 14,
+    "order": 29,
+    "word": "involve",
+    "chinese": "(v.) 需要；包含；使涉入",
+    "fixed_collocation": "involve oneself in (參與/投入於...)",
+    "common_usage": "involve one transfer (需要轉車一次)"
+  },
+  {
+    "id": "day14_ship",
+    "day": 14,
+    "order": 30,
+    "word": "ship",
+    "chinese": "(v.) 運送 (n.) 船",
+    "fixed_collocation": "",
+    "common_usage": "ships cargo internationally (國際貨物運送)"
+  },
+  {
+    "id": "day14_suitcase",
+    "day": 14,
+    "order": 31,
+    "word": "suitcase",
+    "chinese": "(n.) 行李箱",
+    "fixed_collocation": "",
+    "common_usage": "check in one suitcase (託運一個行李箱)"
+  },
+  {
+    "id": "day14_unavailable",
+    "day": 14,
+    "order": 32,
+    "word": "unavailable",
+    "chinese": "(adj.) 無法利用的",
+    "fixed_collocation": "",
+    "common_usage": "currently unavailable (目前無法提供)"
+  },
+  {
+    "id": "day14_fill out_in",
+    "day": 14,
+    "order": 33,
+    "word": "fill out/in",
+    "chinese": "(phr.) 填寫 (表格)",
+    "fixed_collocation": "fill out the form (填寫表格)\nfill up (加滿油箱)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_customs",
+    "day": 14,
+    "order": 34,
+    "word": "customs",
+    "chinese": "(n.) 海關",
+    "fixed_collocation": "go through customs (通過海關)",
+    "common_usage": "customs regulations (海關規定)、customs clearance (通關程序)"
+  },
+  {
+    "id": "day14_away",
+    "day": 14,
+    "order": 35,
+    "word": "away",
+    "chinese": "(adv.) 離開；遠離",
+    "fixed_collocation": "[距離單位] + away from (距離...多遠)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_dramatic",
+    "day": 14,
+    "order": 36,
+    "word": "dramatic",
+    "chinese": "(adj.) 壯麗的；急劇的",
+    "fixed_collocation": "dramatic + increase/rise/fall (急劇上升/下降)",
+    "common_usage": "dramatic scenery (壯麗景色)"
+  },
+  {
+    "id": "day14_hospitality",
+    "day": 14,
+    "order": 37,
+    "word": "hospitality",
+    "chinese": "(n.) 款待",
+    "fixed_collocation": "",
+    "common_usage": "hospitality extended to (給予某人的款待)、hospitality industry (服務業)"
+  },
+  {
+    "id": "day14_indulge",
+    "day": 14,
+    "order": 38,
+    "word": "indulge",
+    "chinese": "(v.) 沉迷",
+    "fixed_collocation": "indulge in (盡情享受...；沉迷於...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_proximity",
+    "day": 14,
+    "order": 39,
+    "word": "proximity",
+    "chinese": "(n.) 接近；鄰近",
+    "fixed_collocation": "in close proximity to (很接近...)、in the proximity of (在...附近)",
+    "common_usage": ""
+  },
+  {
+    "id": "day14_seating",
+    "day": 14,
+    "order": 40,
+    "word": "seating",
+    "chinese": "(n.) 座位安排；座位數",
+    "fixed_collocation": "",
+    "common_usage": "seating capacity (座位容納量)、seating arrangements (座位安排)"
+  },
+  {
+    "id": "day14_unlimited",
+    "day": 14,
+    "order": 41,
+    "word": "unlimited",
+    "chinese": "(adj.) 無限制的",
+    "fixed_collocation": "",
+    "common_usage": "unlimited mileage (無限里程)、unlimited access to (無限制地使用...)"
+  }
+]

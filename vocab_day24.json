@@ -1,0 +1,371 @@
+[
+  {
+    "id": "day24_appoint",
+    "day": 24,
+    "order": 1,
+    "word": "appoint",
+    "chinese": "(v.) 任命，指派",
+    "fixed_collocation": "appoint A as B (任命 A 為 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_appraisal",
+    "day": 24,
+    "order": 2,
+    "word": "appraisal",
+    "chinese": "(n.) 評價",
+    "fixed_collocation": "",
+    "common_usage": "performance appraisals (績效考核)"
+  },
+  {
+    "id": "day24_promote",
+    "day": 24,
+    "order": 3,
+    "word": "promote",
+    "chinese": "(v.) 使升職；促進",
+    "fixed_collocation": "be promoted to + 職位 (被提升到...職位)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_skilled",
+    "day": 24,
+    "order": 4,
+    "word": "skilled",
+    "chinese": "(adj.) 熟練的，有技能的",
+    "fixed_collocation": "be skilled at (擅長...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_radically",
+    "day": 24,
+    "order": 5,
+    "word": "radically",
+    "chinese": "(adv.) 根本地，徹底地",
+    "fixed_collocation": "",
+    "common_usage": "radically restructured (徹底改組)"
+  },
+  {
+    "id": "day24_exceptional",
+    "day": 24,
+    "order": 6,
+    "word": "exceptional",
+    "chinese": "(adj.) 優異的，例外的",
+    "fixed_collocation": "",
+    "common_usage": "exceptional talent (優異的才能)"
+  },
+  {
+    "id": "day24_appreciation",
+    "day": 24,
+    "order": 7,
+    "word": "appreciation",
+    "chinese": "(n.) 感謝，欣賞",
+    "fixed_collocation": "",
+    "common_usage": "express one's appreciation (表達某人的感謝)"
+  },
+  {
+    "id": "day24_evaluate",
+    "day": 24,
+    "order": 8,
+    "word": "evaluate",
+    "chinese": "(v.) 評價",
+    "fixed_collocation": "",
+    "common_usage": "evaluate annually (每年評鑑)"
+  },
+  {
+    "id": "day24_suggest",
+    "day": 24,
+    "order": 9,
+    "word": "suggest",
+    "chinese": "(v.) 建議",
+    "fixed_collocation": "suggest + V-ing (建議做某事)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_preference",
+    "day": 24,
+    "order": 10,
+    "word": "preference",
+    "chinese": "(n.) 偏好",
+    "fixed_collocation": "preference for (對...的偏好)",
+    "common_usage": "meal preference (餐點偏好)"
+  },
+  {
+    "id": "day24_management",
+    "day": 24,
+    "order": 11,
+    "word": "management",
+    "chinese": "(n.) 管理，經營團隊",
+    "fixed_collocation": "",
+    "common_usage": "Management announced (經營團隊宣布)"
+  },
+  {
+    "id": "day24_predict",
+    "day": 24,
+    "order": 12,
+    "word": "predict",
+    "chinese": "(v.) 預測",
+    "fixed_collocation": "",
+    "common_usage": "predict that + 子句 (預測...)"
+  },
+  {
+    "id": "day24_transfer",
+    "day": 24,
+    "order": 13,
+    "word": "transfer",
+    "chinese": "(v.) 轉移；使調職",
+    "fixed_collocation": "transfer A to B (把 A 調動到 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_award",
+    "day": 24,
+    "order": 14,
+    "word": "award",
+    "chinese": "(n./v.) 獎；授予",
+    "fixed_collocation": "award A (人) B (獎)",
+    "common_usage": "best-employee award (最佳員工獎)"
+  },
+  {
+    "id": "day24_mandatory",
+    "day": 24,
+    "order": 15,
+    "word": "mandatory",
+    "chinese": "(adj.) 義務性的",
+    "fixed_collocation": "",
+    "common_usage": "attendance is mandatory (出席是義務性的)"
+  },
+  {
+    "id": "day24_competent",
+    "day": 24,
+    "order": 16,
+    "word": "competent",
+    "chinese": "(adj.) 有能力的，勝任的",
+    "fixed_collocation": "competent at (勝任...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_performance",
+    "day": 24,
+    "order": 17,
+    "word": "performance",
+    "chinese": "(n.) 表現，成果",
+    "fixed_collocation": "",
+    "common_usage": "performance review / evaluation (績效評核)"
+  },
+  {
+    "id": "day24_reward",
+    "day": 24,
+    "order": 18,
+    "word": "reward",
+    "chinese": "(v./n.) 報償，回報",
+    "fixed_collocation": "reward A with B (用 B 回報 A)；as a reward for (作為...的回報)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_search",
+    "day": 24,
+    "order": 19,
+    "word": "search",
+    "chinese": "(n.) 尋找，搜尋",
+    "fixed_collocation": "in search of (尋找...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_inexperienced",
+    "day": 24,
+    "order": 20,
+    "word": "inexperienced",
+    "chinese": "(adj.) 沒經驗的",
+    "fixed_collocation": "",
+    "common_usage": "too inexperienced to (太沒經驗以至於不能...)"
+  },
+  {
+    "id": "day24_early",
+    "day": 24,
+    "order": 21,
+    "word": "early",
+    "chinese": "(adj.) 早的，提早的",
+    "fixed_collocation": "",
+    "common_usage": "early retirement (提早退休)"
+  },
+  {
+    "id": "day24_designate",
+    "day": 24,
+    "order": 22,
+    "word": "designate",
+    "chinese": "(v.) 指定，指派",
+    "fixed_collocation": "",
+    "common_usage": "designate A to be B (指派 A 擔任 B)"
+  },
+  {
+    "id": "day24_executive",
+    "day": 24,
+    "order": 23,
+    "word": "executive",
+    "chinese": "(adj.) 經營管理的",
+    "fixed_collocation": "",
+    "common_usage": "executive position (管理職位)"
+  },
+  {
+    "id": "day24_dedication",
+    "day": 24,
+    "order": 24,
+    "word": "dedication",
+    "chinese": "(n.) 專心致力",
+    "fixed_collocation": "dedication to (對...的奉獻/致力)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_unanimously",
+    "day": 24,
+    "order": 25,
+    "word": "unanimously",
+    "chinese": "(adv.) 全體意見一致地",
+    "fixed_collocation": "",
+    "common_usage": "vote unanimously to (投票一致決定...)"
+  },
+  {
+    "id": "day24_progress",
+    "day": 24,
+    "order": 26,
+    "word": "progress",
+    "chinese": "(n.) 行進，進步",
+    "fixed_collocation": "",
+    "common_usage": "work progress (工作進度)"
+  },
+  {
+    "id": "day24_congratulate",
+    "day": 24,
+    "order": 27,
+    "word": "congratulate",
+    "chinese": "(v.) 祝賀",
+    "fixed_collocation": "congratulate A on B (向 A 祝賀 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_dismiss",
+    "day": 24,
+    "order": 28,
+    "word": "dismiss",
+    "chinese": "(v.) 解雇",
+    "fixed_collocation": "",
+    "common_usage": "be dismissed (被解雇)"
+  },
+  {
+    "id": "day24_independence",
+    "day": 24,
+    "order": 29,
+    "word": "independence",
+    "chinese": "(n.) 獨立",
+    "fixed_collocation": "",
+    "common_usage": "independence to make decisions (做決定的自主權)"
+  },
+  {
+    "id": "day24_participation",
+    "day": 24,
+    "order": 30,
+    "word": "participation",
+    "chinese": "(n.) 參與，參加",
+    "fixed_collocation": "participation in (參加...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_praise",
+    "day": 24,
+    "order": 31,
+    "word": "praise",
+    "chinese": "(n.) 稱讚",
+    "fixed_collocation": "",
+    "common_usage": "receive praise for (因...受到稱讚)"
+  },
+  {
+    "id": "day24_accomplishment",
+    "day": 24,
+    "order": 32,
+    "word": "accomplishment",
+    "chinese": "(n.) 成就",
+    "fixed_collocation": "",
+    "common_usage": "bonus for accomplishments (因成就獲得獎金)"
+  },
+  {
+    "id": "day24_deliberation",
+    "day": 24,
+    "order": 33,
+    "word": "deliberation",
+    "chinese": "(n.) 商議，審議",
+    "fixed_collocation": "",
+    "common_usage": "deliberation about (關於...的商議)"
+  },
+  {
+    "id": "day24_leadership",
+    "day": 24,
+    "order": 34,
+    "word": "leadership",
+    "chinese": "(n.) 領導才能",
+    "fixed_collocation": "",
+    "common_usage": "display of leadership (領導能力的展現)"
+  },
+  {
+    "id": "day24_retire",
+    "day": 24,
+    "order": 35,
+    "word": "retire",
+    "chinese": "(v.) 退休",
+    "fixed_collocation": "",
+    "common_usage": "retire in / after (在某時間退休)"
+  },
+  {
+    "id": "day24_nomination",
+    "day": 24,
+    "order": 36,
+    "word": "nomination",
+    "chinese": "(n.) 提名，任命",
+    "fixed_collocation": "",
+    "common_usage": "nomination to the board (被任命進入董事會)"
+  },
+  {
+    "id": "day24_reorganize",
+    "day": 24,
+    "order": 37,
+    "word": "reorganize",
+    "chinese": "(v.) 重新組織",
+    "fixed_collocation": "",
+    "common_usage": "be reorganized (被改組)"
+  },
+  {
+    "id": "day24_serve",
+    "day": 24,
+    "order": 38,
+    "word": "serve",
+    "chinese": "(v.) 服務，擔任",
+    "fixed_collocation": "serve as (擔任...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day24_encouragement",
+    "day": 24,
+    "order": 39,
+    "word": "encouragement",
+    "chinese": "(n.) 鼓勵",
+    "fixed_collocation": "",
+    "common_usage": "offer encouragement to (提供鼓勵給...)"
+  },
+  {
+    "id": "day24_resignation",
+    "day": 24,
+    "order": 40,
+    "word": "resignation",
+    "chinese": "(n.) 辭職，辭呈",
+    "fixed_collocation": "",
+    "common_usage": "announce the resignation (宣布辭職)"
+  },
+  {
+    "id": "day24_strictly",
+    "day": 24,
+    "order": 41,
+    "word": "strictly",
+    "chinese": "(adv.) 嚴格地",
+    "fixed_collocation": "",
+    "common_usage": "strictly + limited/prohibited (嚴格受限/禁止)"
+  }
+]

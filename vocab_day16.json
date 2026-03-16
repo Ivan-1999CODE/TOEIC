@@ -1,0 +1,371 @@
+[
+  {
+    "id": "day16_completely",
+    "day": 16,
+    "order": 1,
+    "word": "completely",
+    "chinese": "(adv.) 完整地",
+    "fixed_collocation": "",
+    "common_usage": "completely guaranteed (完全受到保障)"
+  },
+  {
+    "id": "day16_refuse",
+    "day": 16,
+    "order": 2,
+    "word": "refuse",
+    "chinese": "(v.) 拒絕",
+    "fixed_collocation": "",
+    "common_usage": "reject / turn down (拒絕提議)"
+  },
+  {
+    "id": "day16_temporarily",
+    "day": 16,
+    "order": 3,
+    "word": "temporarily",
+    "chinese": "(adv.) 暫時地",
+    "fixed_collocation": "",
+    "common_usage": "temporarily out of stock (暫時缺貨)"
+  },
+  {
+    "id": "day16_dealer",
+    "day": 16,
+    "order": 4,
+    "word": "dealer",
+    "chinese": "(n.) 經銷商",
+    "fixed_collocation": "",
+    "common_usage": "car dealers (汽車經銷商)"
+  },
+  {
+    "id": "day16_bulk",
+    "day": 16,
+    "order": 5,
+    "word": "bulk",
+    "chinese": "(adj.) 大量的",
+    "fixed_collocation": "in bulk (大量地)",
+    "common_usage": "bulk orders (大宗訂單)"
+  },
+  {
+    "id": "day16_inventory",
+    "day": 16,
+    "order": 6,
+    "word": "inventory",
+    "chinese": "(n.) 庫存",
+    "fixed_collocation": "",
+    "common_usage": "checked at regular intervals (定期檢查)"
+  },
+  {
+    "id": "day16_short",
+    "day": 16,
+    "order": 7,
+    "word": "short",
+    "chinese": "(adj.) 短缺的",
+    "fixed_collocation": "be short of (缺乏...)",
+    "common_usage": "run short (不足/短缺)"
+  },
+  {
+    "id": "day16_cost",
+    "day": 16,
+    "order": 8,
+    "word": "cost",
+    "chinese": "(n./v.) 費用/花費",
+    "fixed_collocation": "",
+    "common_usage": "cost of living (生活費用)"
+  },
+  {
+    "id": "day16_selection",
+    "day": 16,
+    "order": 9,
+    "word": "selection",
+    "chinese": "(n.) 選擇範圍",
+    "fixed_collocation": "a wide selection of (種類廣泛的)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_commercial",
+    "day": 16,
+    "order": 10,
+    "word": "commercial",
+    "chinese": "(adj./n.) 商業的/廣告",
+    "fixed_collocation": "",
+    "common_usage": "television commercial (電視廣告)"
+  },
+  {
+    "id": "day16_order",
+    "day": 16,
+    "order": 11,
+    "word": "order",
+    "chinese": "(v./n.) 訂購/訂單",
+    "fixed_collocation": "",
+    "common_usage": "place regular orders (定期訂購)"
+  },
+  {
+    "id": "day16_provide",
+    "day": 16,
+    "order": 12,
+    "word": "provide",
+    "chinese": "(v.) 提供",
+    "fixed_collocation": "provide A with B (提供B給A)\nbe provided with (附有...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_contact",
+    "day": 16,
+    "order": 13,
+    "word": "contact",
+    "chinese": "(v./n.) 聯絡/聯絡人",
+    "fixed_collocation": "",
+    "common_usage": "business contacts (商業人脈)"
+  },
+  {
+    "id": "day16_invoice",
+    "day": 16,
+    "order": 14,
+    "word": "invoice",
+    "chinese": "(n.) 發票/發貨單",
+    "fixed_collocation": "",
+    "common_usage": "invoice for... (關於...費用的發票)"
+  },
+  {
+    "id": "day16_move",
+    "day": 16,
+    "order": 15,
+    "word": "move",
+    "chinese": "(v./n.) 移動/行動",
+    "fixed_collocation": "",
+    "common_usage": "next move (下一步措施)"
+  },
+  {
+    "id": "day16_supply",
+    "day": 16,
+    "order": 16,
+    "word": "supply",
+    "chinese": "(v./n.) 供應/用品",
+    "fixed_collocation": "supply A with B (供應B給A)",
+    "common_usage": "office supplies (辦公用品)"
+  },
+  {
+    "id": "day16_discount",
+    "day": 16,
+    "order": 17,
+    "word": "discount",
+    "chinese": "(n.) 折扣",
+    "fixed_collocation": "",
+    "common_usage": "30 percent discount (七折折扣)"
+  },
+  {
+    "id": "day16_distribute",
+    "day": 16,
+    "order": 18,
+    "word": "distribute",
+    "chinese": "(v.) 分發",
+    "fixed_collocation": "distribute A to B (把A分配給B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_acquisition",
+    "day": 16,
+    "order": 19,
+    "word": "acquisition",
+    "chinese": "(n.) 收購/獲得",
+    "fixed_collocation": "",
+    "common_usage": "acquisition of other businesses (收購公司)"
+  },
+  {
+    "id": "day16_assure",
+    "day": 16,
+    "order": 20,
+    "word": "assure",
+    "chinese": "(v.) 保證",
+    "fixed_collocation": "assure A of B (向A保證B)\nassure A that... (向A保證...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_subject",
+    "day": 16,
+    "order": 21,
+    "word": "subject",
+    "chinese": "(adj./v.) 易受影響/使受到",
+    "fixed_collocation": "be subject to (易受...影響/需經...)\nsubject A to B (使A受到B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_seek",
+    "day": 16,
+    "order": 22,
+    "word": "seek",
+    "chinese": "(v.) 追求/尋找",
+    "fixed_collocation": "",
+    "common_usage": "seeking a new manager (尋找新經理)"
+  },
+  {
+    "id": "day16_satisfactory",
+    "day": 16,
+    "order": 23,
+    "word": "satisfactory",
+    "chinese": "(adj.) 令人滿意的",
+    "fixed_collocation": "satisfied with (人對...感到滿意)",
+    "common_usage": "satisfactory responses (令人滿意的回應)"
+  },
+  {
+    "id": "day16_confirmation",
+    "day": 16,
+    "order": 24,
+    "word": "confirmation",
+    "chinese": "(n.) 確認",
+    "fixed_collocation": "confirmation of (對於...的確認)",
+    "common_usage": "written confirmation (書面確認)"
+  },
+  {
+    "id": "day16_unable",
+    "day": 16,
+    "order": 25,
+    "word": "unable",
+    "chinese": "(adj.) 不能的",
+    "fixed_collocation": "unable to + V (無法做某事)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_payment",
+    "day": 16,
+    "order": 26,
+    "word": "payment",
+    "chinese": "(n.) 支付款項",
+    "fixed_collocation": "",
+    "common_usage": "payment has been received (收到付款)"
+  },
+  {
+    "id": "day16_measure",
+    "day": 16,
+    "order": 27,
+    "word": "measure",
+    "chinese": "(n./v.) 措施/測量",
+    "fixed_collocation": "",
+    "common_usage": "safety measures (安全措施)"
+  },
+  {
+    "id": "day16_bargain",
+    "day": 16,
+    "order": 28,
+    "word": "bargain",
+    "chinese": "(n.) 特價商品",
+    "fixed_collocation": "",
+    "common_usage": "great bargains (划算的特價商品)"
+  },
+  {
+    "id": "day16_stock",
+    "day": 16,
+    "order": 29,
+    "word": "stock",
+    "chinese": "(n.) 庫存/股票",
+    "fixed_collocation": "in stock (有現貨)\nout of stock (缺貨)\ncheck prices of stocks (查看股價)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_affordability",
+    "day": 16,
+    "order": 30,
+    "word": "affordability",
+    "chinese": "(n.) 可負擔性",
+    "fixed_collocation": "",
+    "common_usage": "affordability of groceries (食品雜貨的可負擔性)"
+  },
+  {
+    "id": "day16_clientele",
+    "day": 16,
+    "order": 31,
+    "word": "clientele",
+    "chinese": "(n.) 顧客(總稱)",
+    "fixed_collocation": "",
+    "common_usage": "wealthiest clientele (最富有的客群)"
+  },
+  {
+    "id": "day16_acclaim",
+    "day": 16,
+    "order": 32,
+    "word": "acclaim",
+    "chinese": "(n.) 喝采/稱讚",
+    "fixed_collocation": "",
+    "common_usage": "critical acclaim (書評/影評的稱讚)"
+  },
+  {
+    "id": "day16_represent",
+    "day": 16,
+    "order": 33,
+    "word": "represent",
+    "chinese": "(v.) 代表",
+    "fixed_collocation": "",
+    "common_usage": "represent the firm (代表公司)"
+  },
+  {
+    "id": "day16_rating",
+    "day": 16,
+    "order": 34,
+    "word": "rating",
+    "chinese": "(n.) 等級/評等",
+    "fixed_collocation": "",
+    "common_usage": "energy efficiency rating (能源效率評等)"
+  },
+  {
+    "id": "day16_encompass",
+    "day": 16,
+    "order": 35,
+    "word": "encompass",
+    "chinese": "(v.) 包含/圍繞",
+    "fixed_collocation": "",
+    "common_usage": "encompasses all kinds of (包含各種...)"
+  },
+  {
+    "id": "day16_finalize",
+    "day": 16,
+    "order": 36,
+    "word": "finalize",
+    "chinese": "(v.) 完成/敲定",
+    "fixed_collocation": "",
+    "common_usage": "finalize the contract (敲定合約)"
+  },
+  {
+    "id": "day16_market",
+    "day": 16,
+    "order": 37,
+    "word": "market",
+    "chinese": "(n.) 市場",
+    "fixed_collocation": "on the market (市面上)",
+    "common_usage": ""
+  },
+  {
+    "id": "day16_retail",
+    "day": 16,
+    "order": 38,
+    "word": "retail",
+    "chinese": "(n.) 零售",
+    "fixed_collocation": "",
+    "common_usage": "retail stores (零售店)"
+  },
+  {
+    "id": "day16_commodity",
+    "day": 16,
+    "order": 39,
+    "word": "commodity",
+    "chinese": "(n.) 商品",
+    "fixed_collocation": "",
+    "common_usage": "agricultural commodities (農產品)"
+  },
+  {
+    "id": "day16_quote",
+    "day": 16,
+    "order": 40,
+    "word": "quote",
+    "chinese": "(n./v.) 報價",
+    "fixed_collocation": "",
+    "common_usage": "price quote (報價單)"
+  },
+  {
+    "id": "day16_consignment",
+    "day": 16,
+    "order": 41,
+    "word": "consignment",
+    "chinese": "(n.) 委託販賣",
+    "fixed_collocation": "on consignment (以寄售方式)",
+    "common_usage": ""
+  }
+]

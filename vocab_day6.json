@@ -1,0 +1,419 @@
+[
+  {
+    "order": 1,
+    "day": 6,
+    "word": "collection",
+    "chinese": "n. 收藏品，收集的東西；（款項的）收取",
+    "common_usage": [
+      "ceramic tiles collection (瓷磚收藏)",
+      "toll collection (道路收費)"
+    ],
+    "fixed_collocation": [
+      "collect A from B (從 B 收集/收取 A)"
+    ],
+    "id": "day6_collection"
+  },
+  {
+    "order": 2,
+    "day": 6,
+    "word": "exhibition",
+    "chinese": "n. 展覽",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_exhibition"
+  },
+  {
+    "order": 3,
+    "day": 6,
+    "word": "celebrity",
+    "chinese": "n. 名人",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_celebrity"
+  },
+  {
+    "order": 4,
+    "day": 6,
+    "word": "live",
+    "chinese": "adj. 現場表演的，（廣播、電視）直播的",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_live"
+  },
+  {
+    "order": 5,
+    "day": 6,
+    "word": "improvise",
+    "chinese": "v. 即興演奏，即席演講，即興創作",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_improvise"
+  },
+  {
+    "order": 6,
+    "day": 6,
+    "word": "popular",
+    "chinese": "adj. 受歡迎的",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_popular"
+  },
+  {
+    "order": 7,
+    "day": 6,
+    "word": "donation",
+    "chinese": "n. 捐贈，捐獻",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_donation"
+  },
+  {
+    "order": 8,
+    "day": 6,
+    "word": "alumni",
+    "chinese": "n. 校友們，畢業生們",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_alumni"
+  },
+  {
+    "order": 9,
+    "day": 6,
+    "word": "present",
+    "chinese": "v. 提出，出示；adj. 現在的，出席的",
+    "common_usage": [],
+    "fixed_collocation": [
+      "present A with B (向 A 提供 B)",
+      "present B to A (把 B 提供給 A)"
+    ],
+    "id": "day6_present"
+  },
+  {
+    "order": 10,
+    "day": 6,
+    "word": "admission",
+    "chinese": "n. 入場",
+    "common_usage": [
+      "free admission (免費入場)",
+      "admission fee / price (入場費)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_admission"
+  },
+  {
+    "order": 11,
+    "day": 6,
+    "word": "banquet",
+    "chinese": "n. 宴會",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_banquet"
+  },
+  {
+    "order": 12,
+    "day": 6,
+    "word": "anniversary",
+    "chinese": "n. 週年紀念日",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_anniversary"
+  },
+  {
+    "order": 13,
+    "day": 6,
+    "word": "required",
+    "chinese": "adj. 必要的，必需的",
+    "common_usage": [],
+    "fixed_collocation": [
+      "be required for (對於...是必要的)",
+      "be required to do (必須做...)"
+    ],
+    "id": "day6_required"
+  },
+  {
+    "order": 14,
+    "day": 6,
+    "word": "succeed",
+    "chinese": "v. 成功；接著發生；繼任",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_succeed"
+  },
+  {
+    "order": 15,
+    "day": 6,
+    "word": "rest",
+    "chinese": "v. 休息；n. 休息，剩餘部分",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_rest"
+  },
+  {
+    "order": 16,
+    "day": 6,
+    "word": "fund-raising",
+    "chinese": "n. 募款",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_fund-raising"
+  },
+  {
+    "order": 17,
+    "day": 6,
+    "word": "resume",
+    "chinese": "v. 繼續，重新開始",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_resume"
+  },
+  {
+    "order": 18,
+    "day": 6,
+    "word": "issue",
+    "chinese": "n. (期刊的) 一期；問題，爭議",
+    "common_usage": [
+      "common issue (共同的問題)",
+      "address an issue (處理/討論問題)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_issue"
+  },
+  {
+    "order": 19,
+    "day": 6,
+    "word": "subscription",
+    "chinese": "n. (定期刊物的) 訂閱",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_subscription"
+  },
+  {
+    "order": 20,
+    "day": 6,
+    "word": "appear",
+    "chinese": "v. 出現，現身",
+    "common_usage": [
+      "it appears that + 子句 (似乎...)",
+      "appear in court (出庭)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_appear"
+  },
+  {
+    "order": 21,
+    "day": 6,
+    "word": "accompany",
+    "chinese": "v. 陪同，伴隨",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_accompany"
+  },
+  {
+    "order": 22,
+    "day": 6,
+    "word": "edition",
+    "chinese": "n. (出版品的) 版本",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_edition"
+  },
+  {
+    "order": 23,
+    "day": 6,
+    "word": "specifically",
+    "chinese": "adv. 明確地，具體地；特別地",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_specifically"
+  },
+  {
+    "order": 24,
+    "day": 6,
+    "word": "anonymous",
+    "chinese": "adj. 匿名的，不具名的",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_anonymous"
+  },
+  {
+    "order": 25,
+    "day": 6,
+    "word": "commit",
+    "chinese": "v. 奉獻，使致力於某事",
+    "common_usage": [],
+    "fixed_collocation": [
+      "be committed to + -ing (獻身/致力於...)"
+    ],
+    "id": "day6_commit"
+  },
+  {
+    "order": 26,
+    "day": 6,
+    "word": "informative",
+    "chinese": "adj. 提供資訊的，有益的",
+    "common_usage": [
+      "informative + brochure/booklet (很有益的摺頁/小冊子)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_informative"
+  },
+  {
+    "order": 27,
+    "day": 6,
+    "word": "audience",
+    "chinese": "n. 聽眾，觀眾",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_audience"
+  },
+  {
+    "order": 28,
+    "day": 6,
+    "word": "author",
+    "chinese": "n. 作家，作者",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_author"
+  },
+  {
+    "order": 29,
+    "day": 6,
+    "word": "note",
+    "chinese": "v. 注意到；提及",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_note"
+  },
+  {
+    "order": 30,
+    "day": 6,
+    "word": "antique",
+    "chinese": "n. 古董",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_antique"
+  },
+  {
+    "order": 31,
+    "day": 6,
+    "word": "manuscript",
+    "chinese": "n. 手稿，原稿",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_manuscript"
+  },
+  {
+    "order": 32,
+    "day": 6,
+    "word": "beneficial",
+    "chinese": "adj. 有益的，有利的",
+    "common_usage": [],
+    "fixed_collocation": [
+      "be beneficial for + 人 (對某人有益)",
+      "be beneficial to + 物/事 (對某事有益)"
+    ],
+    "id": "day6_beneficial"
+  },
+  {
+    "order": 33,
+    "day": 6,
+    "word": "upcoming",
+    "chinese": "adj. 即將來臨的",
+    "common_usage": [
+      "upcoming school year / event / election (即將到來的學年/活動/選舉)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_upcoming"
+  },
+  {
+    "order": 34,
+    "day": 6,
+    "word": "lend",
+    "chinese": "v. 借出",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_lend"
+  },
+  {
+    "order": 35,
+    "day": 6,
+    "word": "current",
+    "chinese": "adj. 現在的，目前的；現行的",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_current"
+  },
+  {
+    "order": 36,
+    "day": 6,
+    "word": "local",
+    "chinese": "adj. 地方的，當地的",
+    "common_usage": [
+      "local high school (當地的中學)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_local"
+  },
+  {
+    "order": 37,
+    "day": 6,
+    "word": "variety",
+    "chinese": "n. 多樣性，變化",
+    "common_usage": [],
+    "fixed_collocation": [
+      "a (large/wide) variety of + 複數名詞 (很多樣的...)"
+    ],
+    "id": "day6_variety"
+  },
+  {
+    "order": 38,
+    "day": 6,
+    "word": "advocate",
+    "chinese": "n. 擁護者",
+    "common_usage": [],
+    "fixed_collocation": [
+      "an advocate of ... (...的擁護者)"
+    ],
+    "id": "day6_advocate"
+  },
+  {
+    "order": 39,
+    "day": 6,
+    "word": "contributor",
+    "chinese": "n. 投稿人，捐贈者",
+    "common_usage": [],
+    "fixed_collocation": [
+      "contributor to ... (...的投稿人/捐贈者)"
+    ],
+    "id": "day6_contributor"
+  },
+  {
+    "order": 40,
+    "day": 6,
+    "word": "defy",
+    "chinese": "v. 反抗；使（說明、描寫等）不可能",
+    "common_usage": [
+      "defy description (難以形容，好到無法言語)"
+    ],
+    "fixed_collocation": [],
+    "id": "day6_defy"
+  },
+  {
+    "order": 41,
+    "day": 6,
+    "word": "fascinating",
+    "chinese": "adj. 迷人的，美妙的",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_fascinating"
+  },
+  {
+    "order": 42,
+    "day": 6,
+    "word": "showing",
+    "chinese": "n. (電影、舞台劇) 上映，上演；展示",
+    "common_usage": [],
+    "fixed_collocation": [],
+    "id": "day6_showing"
+  }
+]

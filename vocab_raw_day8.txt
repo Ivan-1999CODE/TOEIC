@@ -1,0 +1,41 @@
+編號,單字 (中/英),搭配用法標示
+1,advertisement [n.] 廣告,-
+2,marginal [adj.] 微小的；邊緣的,-
+3,customer [n.] 顧客,-
+4,influence [v./n.] 影響,固定搭配： have an influence on (對⋯有影響)
+5,instantly [adv.] 立即，馬上,-
+6,creative [adj.] 創造性的，有創意的,-
+7,aggressively [adv.] 積極地,-
+8,aim [v./n.] 目標,常見搭配： aim to do (以做⋯為目標)常見搭配： aimed at (以⋯為目標客層的產品)
+9,strategy [n.] 策略,-
+10,indicate [v.] 指出，顯示,-
+11,attract [v.] 吸引,-
+12,experience [n./v.] 經驗；體驗,-
+13,analyze [v.] 分析,-
+14,introduce [v.] 介紹，發表 (商品),-
+15,advise [v.] 勸告，建議,固定搭配： advise A to do (建議 A 做⋯)常見搭配： advise A on B (給 A 關於 B 的建議)
+16,subscribe [v.] 訂閱,-
+17,absence [n.] 缺席，缺少,固定搭配： during/in + one's absence (在某人不在的時候)
+18,means [n.] 方法，手段,常見搭配： means of (⋯的方法)固定搭配： by means of (藉由⋯)
+19,prefer [v.] 偏好,-
+20,advantage [n.] 優點，優勢,固定搭配： take advantage of (利用⋯)
+21,forward [adv./v.] 向前；轉寄,常見搭配： a huge step forward (很大的進步)固定搭配： look forward to -ing (期待⋯)
+22,contemporary [adj.] 當代的,-
+23,discussion [n.] 討論,-
+24,initial [adj.] 開始的，最初的,-
+25,steadily [adv.] 平穩地，穩定地,-
+26,necessarily [adv.] 必然,常見搭配： not necessarily + 動詞 (不必然⋯)
+27,resolve [v.] 解決 (問題等),-
+28,detect [v.] 察覺，發現,-
+29,intensify [v.] 強化，使⋯變強烈,-
+30,favorably [adv.] 順利地；好評地,-
+31,cover [v.] 包含；支付,常見搭配： 可換成 report on (報導) 或 pay (支付)
+32,less [adj.] 較少的,-
+33,majority [n.] 大多數,固定搭配： a/the majority of... (大多數的⋯)
+34,adopt [v.] 採納,-
+35,largely [adv.] 大部分，主要,-
+36,disregard [v.] 不理會，忽視,-
+37,effort [n.] 努力,常見搭配： in an effort to do (為了努力做到⋯)常見搭配： make an effort (努力)
+38,incentive [n.] 獎勵，誘因,常見搭配： financial incentives (金錢上的誘因)
+39,need [n./v.] 需求；需要,常見搭配： meet one's needs (符合⋯的需求)
+40,mastermind [n.] 策畫者,-

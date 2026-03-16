@@ -1,0 +1,63 @@
+編號	單字 (中英)	固定搭配 (固定用法/介系詞)	常見搭配 (常用詞組)
+1	completely (adv.) 完整地		completely guaranteed (完全受到保障)
+2	refuse (v.) 拒絕		reject / turn down (拒絕提議)
+3	temporarily (adv.) 暫時地		temporarily out of stock (暫時缺貨)
+4	dealer (n.) 經銷商		car dealers (汽車經銷商)
+5	bulk (adj.) 大量的	in bulk (大量地)	bulk orders (大宗訂單)
+6	inventory (n.) 庫存		checked at regular intervals (定期檢查)
+7	short (adj.) 短缺的	be short of (缺乏...)	run short (不足/短缺)
+8	cost (n./v.) 費用/花費		cost of living (生活費用)
+9	selection (n.) 選擇範圍	a wide selection of (種類廣泛的)	
+10	commercial (adj./n.) 商業的/廣告		television commercial (電視廣告)
+11	order (v./n.) 訂購/訂單		place regular orders (定期訂購)
+12	provide (v.) 提供	
+provide A with B (提供B給A)
+
+
+be provided with (附有...)
+
+13	contact (v./n.) 聯絡/聯絡人		business contacts (商業人脈)
+14	invoice (n.) 發票/發貨單		invoice for... (關於...費用的發票)
+15	move (v./n.) 移動/行動		next move (下一步措施)
+16	supply (v./n.) 供應/用品	supply A with B (供應B給A)	office supplies (辦公用品)
+17	discount (n.) 折扣		30 percent discount (七折折扣)
+18	distribute (v.) 分發	distribute A to B (把A分配給B)	
+19	acquisition (n.) 收購/獲得		acquisition of other businesses (收購公司)
+20	assure (v.) 保證	
+assure A of B (向A保證B)
+
+
+assure A that... (向A保證...)
+
+21	subject (adj./v.) 易受影響/使受到	
+be subject to (易受...影響/需經...)
+
+
+subject A to B (使A受到B)
+
+22	seek (v.) 追求/尋找		seeking a new manager (尋找新經理)
+23	satisfactory (adj.) 令人滿意的	satisfied with (人對...感到滿意)	satisfactory responses (令人滿意的回應)
+24	confirmation (n.) 確認	confirmation of (對於...的確認)	written confirmation (書面確認)
+25	unable (adj.) 不能的	unable to + V (無法做某事)	
+26	payment (n.) 支付款項		payment has been received (收到付款)
+27	measure (n./v.) 措施/測量		safety measures (安全措施)
+28	bargain (n.) 特價商品		great bargains (划算的特價商品)
+29	stock (n.) 庫存/股票	
+in stock (有現貨)
+
+
+out of stock (缺貨)
+
+check prices of stocks (查看股價)
+30	affordability (n.) 可負擔性		affordability of groceries (食品雜貨的可負擔性)
+31	clientele (n.) 顧客(總稱)		wealthiest clientele (最富有的客群)
+32	acclaim (n.) 喝采/稱讚		critical acclaim (書評/影評的稱讚)
+33	represent (v.) 代表		represent the firm (代表公司)
+34	rating (n.) 等級/評等		energy efficiency rating (能源效率評等)
+35	encompass (v.) 包含/圍繞		encompasses all kinds of (包含各種...)
+36	finalize (v.) 完成/敲定		finalize the contract (敲定合約)
+37	market (n.) 市場	on the market (市面上)	
+38	retail (n.) 零售		retail stores (零售店)
+39	commodity (n.) 商品		agricultural commodities (農產品)
+40	quote (n./v.) 報價		price quote (報價單)
+41	consignment (n.) 委託販賣	on consignment (以寄售方式)

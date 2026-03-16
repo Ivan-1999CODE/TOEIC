@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day15_proposal",
+    "day": 15,
+    "order": 1,
+    "word": "proposal",
+    "chinese": "(n.) 提案，提議",
+    "fixed_collocation": "",
+    "common_usage": "submit a proposal (提出提案)"
+  },
+  {
+    "id": "day15_alliance",
+    "day": 15,
+    "order": 2,
+    "word": "alliance",
+    "chinese": "(n.) 同盟，聯盟",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_stipulation",
+    "day": 15,
+    "order": 3,
+    "word": "stipulation",
+    "chinese": "(n.) 契約規定",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_term",
+    "day": 15,
+    "order": 4,
+    "word": "term",
+    "chinese": "(n.) 條款；任期",
+    "fixed_collocation": "",
+    "common_usage": "terms and conditions (契約條款)、in terms of (就...而言)、long-term (長期的)"
+  },
+  {
+    "id": "day15_compromise",
+    "day": 15,
+    "order": 5,
+    "word": "compromise",
+    "chinese": "(n./v.) 妥協，折衷",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_negotiation",
+    "day": 15,
+    "order": 6,
+    "word": "negotiation",
+    "chinese": "(n.) 談判，協商",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_agreement",
+    "day": 15,
+    "order": 7,
+    "word": "agreement",
+    "chinese": "(n.) 協議，同意",
+    "fixed_collocation": "",
+    "common_usage": "come to/reach an agreement (達成協議)"
+  },
+  {
+    "id": "day15_deadlock",
+    "day": 15,
+    "order": 8,
+    "word": "deadlock",
+    "chinese": "(n.) 僵局",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_review",
+    "day": 15,
+    "order": 9,
+    "word": "review",
+    "chinese": "(v.) 再檢查，審查",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_contract",
+    "day": 15,
+    "order": 10,
+    "word": "contract",
+    "chinese": "(n./v.) 合約；簽約",
+    "fixed_collocation": "",
+    "common_usage": "contract out A to B (把 A 外包給 B)"
+  },
+  {
+    "id": "day15_signature",
+    "day": 15,
+    "order": 11,
+    "word": "signature",
+    "chinese": "(n.) 簽名",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_originally",
+    "day": 15,
+    "order": 12,
+    "word": "originally",
+    "chinese": "(adv.) 原來，起初",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_direction",
+    "day": 15,
+    "order": 13,
+    "word": "direction",
+    "chinese": "(n.) 方向，指示",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_initially",
+    "day": 15,
+    "order": 14,
+    "word": "initially",
+    "chinese": "(adv.) 起初",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_expire",
+    "day": 15,
+    "order": 15,
+    "word": "expire",
+    "chinese": "(v.) 期滿",
+    "fixed_collocation": "",
+    "common_usage": "observe expiration date (遵守截止日期)"
+  },
+  {
+    "id": "day15_collaborate",
+    "day": 15,
+    "order": 16,
+    "word": "collaborate",
+    "chinese": "(v.) 合作",
+    "fixed_collocation": "collaborate on + 內容 (在某方面合作)\ncollaborate with + 人 (和某人合作)",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_dedicate",
+    "day": 15,
+    "order": 17,
+    "word": "dedicate",
+    "chinese": "(v.) 奉獻，致力於",
+    "fixed_collocation": "be dedicated to + V-ing/N (致力於...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_revised",
+    "day": 15,
+    "order": 18,
+    "word": "revised",
+    "chinese": "(adj.) 修改過的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_imperative",
+    "day": 15,
+    "order": 19,
+    "word": "imperative",
+    "chinese": "(adj.) 必要的",
+    "fixed_collocation": "It is imperative that 主詞 (+ should) + 動詞原形",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_cooperatively",
+    "day": 15,
+    "order": 20,
+    "word": "cooperatively",
+    "chinese": "(adv.) 合作地",
+    "fixed_collocation": "",
+    "common_usage": "in cooperation with (和...合作)"
+  },
+  {
+    "id": "day15_commission",
+    "day": 15,
+    "order": 21,
+    "word": "commission",
+    "chinese": "(n./v.) 佣金；委任",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_omit",
+    "day": 15,
+    "order": 22,
+    "word": "omit",
+    "chinese": "(v.) 遺漏，省略",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_conflict",
+    "day": 15,
+    "order": 23,
+    "word": "conflict",
+    "chinese": "(n.) 衝突，不一致",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_renew",
+    "day": 15,
+    "order": 24,
+    "word": "renew",
+    "chinese": "(v.) 更新（合約等）",
+    "fixed_collocation": "",
+    "common_usage": "renew + contract/license/subscription (更新合約/執照/續訂)"
+  },
+  {
+    "id": "day15_proficient",
+    "day": 15,
+    "order": 25,
+    "word": "proficient",
+    "chinese": "(adj.) 熟練的，精通的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_confidentiality",
+    "day": 15,
+    "order": 26,
+    "word": "confidentiality",
+    "chinese": "(n.) 機密",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_dispute",
+    "day": 15,
+    "order": 27,
+    "word": "dispute",
+    "chinese": "(n.) 爭論，爭執",
+    "fixed_collocation": "",
+    "common_usage": "dispute over (爭論...)"
+  },
+  {
+    "id": "day15_objection",
+    "day": 15,
+    "order": 28,
+    "word": "objection",
+    "chinese": "(n.) 反對，異議",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_define",
+    "day": 15,
+    "order": 29,
+    "word": "define",
+    "chinese": "(v.) 定義，界定",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_impression",
+    "day": 15,
+    "order": 30,
+    "word": "impression",
+    "chinese": "(n.) 印象",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_security",
+    "day": 15,
+    "order": 31,
+    "word": "security",
+    "chinese": "(n.) 安全，保全",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_option",
+    "day": 15,
+    "order": 32,
+    "word": "option",
+    "chinese": "(n.) 選擇，選擇權",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_proceed",
+    "day": 15,
+    "order": 33,
+    "word": "proceed",
+    "chinese": "(v.) 進行，繼續",
+    "fixed_collocation": "proceed with (繼續進行...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_modify",
+    "day": 15,
+    "order": 34,
+    "word": "modify",
+    "chinese": "(v.) 修改，更改",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_narrow",
+    "day": 15,
+    "order": 35,
+    "word": "narrow",
+    "chinese": "(v.) 縮小（範圍）",
+    "fixed_collocation": "narrow down A to B (把 A 縮小到 B，務必搭配 to)",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_bid",
+    "day": 15,
+    "order": 36,
+    "word": "bid",
+    "chinese": "(n./v.) 出價，投標",
+    "fixed_collocation": "必須搭配介系詞 for (bid for / put in a bid for)",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_settle",
+    "day": 15,
+    "order": 37,
+    "word": "settle",
+    "chinese": "(v.) 解決，和解",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_terminate",
+    "day": 15,
+    "order": 38,
+    "word": "terminate",
+    "chinese": "(v.) 結束，終止",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day15_challenging",
+    "day": 15,
+    "order": 39,
+    "word": "challenging",
+    "chinese": "(adj.) 有挑戰性的",
+    "fixed_collocation": "",
+    "common_usage": "challenging project (有挑戰性的工程)"
+  },
+  {
+    "id": "day15_foundation",
+    "day": 15,
+    "order": 40,
+    "word": "foundation",
+    "chinese": "(n.) 基礎；建立",
+    "fixed_collocation": "",
+    "common_usage": "serve as the foundation (作為基礎)、lay the foundation (奠定基礎)"
+  }
+]

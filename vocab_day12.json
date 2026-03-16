@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day12_equipment",
+    "day": 12,
+    "order": 1,
+    "word": "equipment",
+    "chinese": "n. 設備，裝備",
+    "fixed_collocation": "",
+    "common_usage": "office equipment (辦公設備)"
+  },
+  {
+    "id": "day12_automate",
+    "day": 12,
+    "order": 2,
+    "word": "automate",
+    "chinese": "v. 自動化",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_specification",
+    "day": 12,
+    "order": 3,
+    "word": "specification",
+    "chinese": "n. 明細單，規格",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_properly",
+    "day": 12,
+    "order": 4,
+    "word": "properly",
+    "chinese": "adv. 適當地，正確地",
+    "fixed_collocation": "",
+    "common_usage": "operate properly (正常運作)"
+  },
+  {
+    "id": "day12_safety",
+    "day": 12,
+    "order": 5,
+    "word": "safety",
+    "chinese": "n. 安全",
+    "fixed_collocation": "",
+    "common_usage": "safety precautions / regulations (安全預防措施 / 規定)"
+  },
+  {
+    "id": "day12_precaution",
+    "day": 12,
+    "order": 6,
+    "word": "precaution",
+    "chinese": "n. 預防措施",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_operate",
+    "day": 12,
+    "order": 7,
+    "word": "operate",
+    "chinese": "v. 運作，操作",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_processing",
+    "day": 12,
+    "order": 8,
+    "word": "processing",
+    "chinese": "n. 加工，處理",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_capacity",
+    "day": 12,
+    "order": 9,
+    "word": "capacity",
+    "chinese": "n. 能力；容量",
+    "fixed_collocation": "",
+    "common_usage": "be filled to capacity (裝到滿)、expand the capacity (擴大容量)、limited capacity (有限的容量)、storage capacity (儲存容量)"
+  },
+  {
+    "id": "day12_assemble",
+    "day": 12,
+    "order": 10,
+    "word": "assemble",
+    "chinese": "v. 組裝；召集",
+    "fixed_collocation": "",
+    "common_usage": "assembly line (組裝線)、assembly plant (組裝廠)"
+  },
+  {
+    "id": "day12_utilize",
+    "day": 12,
+    "order": 11,
+    "word": "utilize",
+    "chinese": "v. 利用",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_place",
+    "day": 12,
+    "order": 12,
+    "word": "place",
+    "chinese": "v. 使處於某種狀態，下指示",
+    "fixed_collocation": "place A on standby (使 A 處於待命狀態)",
+    "common_usage": "place an order (下訂單)"
+  },
+  {
+    "id": "day12_fill",
+    "day": 12,
+    "order": 13,
+    "word": "fill",
+    "chinese": "v. 裝滿；滿足要求",
+    "fixed_collocation": "fill A with B (用 B 裝滿 A)",
+    "common_usage": "fill an order (供應訂單要求)、fill the position (填補職缺)"
+  },
+  {
+    "id": "day12_manufacturing",
+    "day": 12,
+    "order": 14,
+    "word": "manufacturing",
+    "chinese": "adj. 製造(業)的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_renovate",
+    "day": 12,
+    "order": 15,
+    "word": "renovate",
+    "chinese": "v. 翻新，翻修",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_decision",
+    "day": 12,
+    "order": 16,
+    "word": "decision",
+    "chinese": "n. 決定",
+    "fixed_collocation": "",
+    "common_usage": "make a decision about (做出關於...的決定)"
+  },
+  {
+    "id": "day12_material",
+    "day": 12,
+    "order": 17,
+    "word": "material",
+    "chinese": "n. 材料，料子",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_success",
+    "day": 12,
+    "order": 18,
+    "word": "success",
+    "chinese": "n. 成功，成就",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_attribute",
+    "day": 12,
+    "order": 19,
+    "word": "attribute",
+    "chinese": "v. 把...歸因於",
+    "fixed_collocation": "attribute A to B (把 A 歸因於 B)、A is attributed to B (A 被歸因於 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_efficiency",
+    "day": 12,
+    "order": 20,
+    "word": "efficiency",
+    "chinese": "n. 效率，效能",
+    "fixed_collocation": "",
+    "common_usage": "office efficiency (辦公效率)、energy efficiency (能源效率)"
+  },
+  {
+    "id": "day12_limit",
+    "day": 12,
+    "order": 21,
+    "word": "limit",
+    "chinese": "n. 限制，界限",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_tailored",
+    "day": 12,
+    "order": 22,
+    "word": "tailored",
+    "chinese": "adj. 量身訂做的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_component",
+    "day": 12,
+    "order": 23,
+    "word": "component",
+    "chinese": "n. 零件，構成要素",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_capable",
+    "day": 12,
+    "order": 24,
+    "word": "capable",
+    "chinese": "adj. 有能力的",
+    "fixed_collocation": "be capable of -ing (有能力做...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_economize",
+    "day": 12,
+    "order": 25,
+    "word": "economize",
+    "chinese": "v. 節約，節省",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_flexible",
+    "day": 12,
+    "order": 26,
+    "word": "flexible",
+    "chinese": "adj. 柔軟的，可變通的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_comparable",
+    "day": 12,
+    "order": 27,
+    "word": "comparable",
+    "chinese": "adj. 可比較的，比得上的",
+    "fixed_collocation": "be comparable to (可以和…比較、和…比得上)",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_produce",
+    "day": 12,
+    "order": 28,
+    "word": "produce",
+    "chinese": "v. 生產",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_respectively",
+    "day": 12,
+    "order": 29,
+    "word": "respectively",
+    "chinese": "adv. 分別，各自",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_device",
+    "day": 12,
+    "order": 30,
+    "word": "device",
+    "chinese": "n. 裝置",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_trim",
+    "day": 12,
+    "order": 31,
+    "word": "trim",
+    "chinese": "v. 修剪，削減",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_launch",
+    "day": 12,
+    "order": 32,
+    "word": "launch",
+    "chinese": "v. 使新產品上市",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_separately",
+    "day": 12,
+    "order": 33,
+    "word": "separately",
+    "chinese": "adv. 分別地",
+    "fixed_collocation": "",
+    "common_usage": "be made separately (被分別製作)、be ordered separately (被分別訂購)"
+  },
+  {
+    "id": "day12_expiration",
+    "day": 12,
+    "order": 34,
+    "word": "expiration",
+    "chinese": "n. 到期，期滿",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_maneuver",
+    "day": 12,
+    "order": 35,
+    "word": "maneuver",
+    "chinese": "v. 調動",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_coming",
+    "day": 12,
+    "order": 36,
+    "word": "coming",
+    "chinese": "adj. 即將到來的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_damaged",
+    "day": 12,
+    "order": 37,
+    "word": "damaged",
+    "chinese": "adj. 受損的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_prevent",
+    "day": 12,
+    "order": 38,
+    "word": "prevent",
+    "chinese": "v. 預防，防止",
+    "fixed_collocation": "prevent A from -ing (防止 A 做…)",
+    "common_usage": ""
+  },
+  {
+    "id": "day12_power",
+    "day": 12,
+    "order": 39,
+    "word": "power",
+    "chinese": "n. 力量，電力",
+    "fixed_collocation": "",
+    "common_usage": "power supply (電力供應)、power plant (發電廠)、a powerful engine (強力的引擎)"
+  },
+  {
+    "id": "day12_chemical",
+    "day": 12,
+    "order": 40,
+    "word": "chemical",
+    "chinese": "n. 化學製品",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

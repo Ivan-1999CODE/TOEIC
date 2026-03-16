@@ -1,0 +1,432 @@
+[
+  {
+    "id": "day30_fatigue",
+    "day": 30,
+    "order": 1,
+    "word": "fatigue",
+    "chinese": "(n.) 疲勞",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_checkup",
+    "day": 30,
+    "order": 2,
+    "word": "checkup",
+    "chinese": "(n.) 健康檢查",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "yearly medical checkups (每年的健康檢查)"
+    ]
+  },
+  {
+    "id": "day30_symptom",
+    "day": 30,
+    "order": 3,
+    "word": "symptom",
+    "chinese": "(n.) 症狀",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "symptoms of a stress disorder (壓力失調的症狀)"
+    ]
+  },
+  {
+    "id": "day30_physician",
+    "day": 30,
+    "order": 4,
+    "word": "physician",
+    "chinese": "(n.) 內科醫師",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "consult a physician (向醫師求診)"
+    ]
+  },
+  {
+    "id": "day30_diagnosis",
+    "day": 30,
+    "order": 5,
+    "word": "diagnosis",
+    "chinese": "(n.) 診斷",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_prescribe",
+    "day": 30,
+    "order": 6,
+    "word": "prescribe",
+    "chinese": "(v.) 開 (藥方)",
+    "fixed_collocation_list": [
+      "fill a prescription (依處方配藥)"
+    ],
+    "common_usage_list": [
+      "prescribe medicine (開藥方)"
+    ]
+  },
+  {
+    "id": "day30_recovery",
+    "day": 30,
+    "order": 7,
+    "word": "recovery",
+    "chinese": "(n.) 恢復，康復",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "make a complete recovery (完全恢復)"
+    ]
+  },
+  {
+    "id": "day30_recognize",
+    "day": 30,
+    "order": 8,
+    "word": "recognize",
+    "chinese": "(v.) 認定，表彰",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "be recognized as (被認為是...)"
+    ]
+  },
+  {
+    "id": "day30_join",
+    "day": 30,
+    "order": 9,
+    "word": "join",
+    "chinese": "(v.) 加入",
+    "fixed_collocation_list": [
+      "join a club / join a company (及物動詞，後不加介系詞)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_comprehensive",
+    "day": 30,
+    "order": 10,
+    "word": "comprehensive",
+    "chinese": "(adj.) 全面的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "comprehensive physical examination (綜合體檢)"
+    ]
+  },
+  {
+    "id": "day30_participate",
+    "day": 30,
+    "order": 11,
+    "word": "participate",
+    "chinese": "(v.) 參與",
+    "fixed_collocation_list": [
+      "participate in (參加...)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_recommend",
+    "day": 30,
+    "order": 12,
+    "word": "recommend",
+    "chinese": "(v.) 推薦，建議",
+    "fixed_collocation_list": [
+      "on the recommendation of (藉著...的推薦)"
+    ],
+    "common_usage_list": [
+      "be strongly recommended (被強烈建議)"
+    ]
+  },
+  {
+    "id": "day30_necessary",
+    "day": 30,
+    "order": 13,
+    "word": "necessary",
+    "chinese": "(adj.) 必要的",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_ability",
+    "day": 30,
+    "order": 14,
+    "word": "ability",
+    "chinese": "(n.) 能力",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_operation",
+    "day": 30,
+    "order": 15,
+    "word": "operation",
+    "chinese": "(n.) 手術",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "operation on (針對...部位的手術)"
+    ]
+  },
+  {
+    "id": "day30_cleanliness",
+    "day": 30,
+    "order": 16,
+    "word": "cleanliness",
+    "chinese": "(n.) 清潔",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_duration",
+    "day": 30,
+    "order": 17,
+    "word": "duration",
+    "chinese": "(n.) 持續期間",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_examination",
+    "day": 30,
+    "order": 18,
+    "word": "examination",
+    "chinese": "(n.) 檢查",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_eliminate",
+    "day": 30,
+    "order": 19,
+    "word": "eliminate",
+    "chinese": "(v.) 消除",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_easily",
+    "day": 30,
+    "order": 20,
+    "word": "easily",
+    "chinese": "(adv.) 容易地",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_dental",
+    "day": 30,
+    "order": 21,
+    "word": "dental",
+    "chinese": "(adj.) 牙科的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "dental checkups (牙齒檢查)"
+    ]
+  },
+  {
+    "id": "day30_dietary",
+    "day": 30,
+    "order": 22,
+    "word": "dietary",
+    "chinese": "(adj.) 飲食的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "dietary guidelines (飲食指南)"
+    ]
+  },
+  {
+    "id": "day30_related",
+    "day": 30,
+    "order": 23,
+    "word": "related",
+    "chinese": "(adj.) 有關的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "related symptoms (相關症狀)"
+    ]
+  },
+  {
+    "id": "day30_transmit",
+    "day": 30,
+    "order": 24,
+    "word": "transmit",
+    "chinese": "(v.) 傳播",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_periodically",
+    "day": 30,
+    "order": 25,
+    "word": "periodically",
+    "chinese": "(adv.) 定期地",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_reaction",
+    "day": 30,
+    "order": 26,
+    "word": "reaction",
+    "chinese": "(n.) 反應",
+    "fixed_collocation_list": [
+      "reaction to (對...的反應)"
+    ],
+    "common_usage_list": [
+      "allergic reactions (過敏反應)"
+    ]
+  },
+  {
+    "id": "day30_simple",
+    "day": 30,
+    "order": 27,
+    "word": "simple",
+    "chinese": "(adj.) 簡單的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "simple remedies (簡單的治療法)"
+    ]
+  },
+  {
+    "id": "day30_coverage",
+    "day": 30,
+    "order": 28,
+    "word": "coverage",
+    "chinese": "(n.) 保險範圍",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "insurance coverage (保險涵蓋範圍)"
+    ]
+  },
+  {
+    "id": "day30_exposure",
+    "day": 30,
+    "order": 29,
+    "word": "exposure",
+    "chinese": "(n.) 暴露",
+    "fixed_collocation_list": [
+      "exposure to (對於...的暴露)",
+      "be exposed to (暴露在...)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_pharmaceutical",
+    "day": 30,
+    "order": 30,
+    "word": "pharmaceutical",
+    "chinese": "(adj.) 製藥的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "pharmaceutical company (製藥公司)"
+    ]
+  },
+  {
+    "id": "day30_premium",
+    "day": 30,
+    "order": 31,
+    "word": "premium",
+    "chinese": "(n.) 保險費",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "insurance premiums (保險費)"
+    ]
+  },
+  {
+    "id": "day30_relieve",
+    "day": 30,
+    "order": 32,
+    "word": "relieve",
+    "chinese": "(v.) 緩解",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_combination",
+    "day": 30,
+    "order": 33,
+    "word": "combination",
+    "chinese": "(n.) 結合",
+    "fixed_collocation_list": [
+      "in combination with (與...一起/聯合)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_conscious",
+    "day": 30,
+    "order": 34,
+    "word": "conscious",
+    "chinese": "(adj.) 有意識的",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "conscious of (意識到...)"
+    ]
+  },
+  {
+    "id": "day30_deprivation",
+    "day": 30,
+    "order": 35,
+    "word": "deprivation",
+    "chinese": "(n.) 剝奪",
+    "fixed_collocation_list": [
+      "deprive A of B (剝奪 A 的 B)"
+    ],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_health",
+    "day": 30,
+    "order": 36,
+    "word": "health",
+    "chinese": "(n.) 健康",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "health insurance (健康保險)",
+      "financial health (財務健全)"
+    ]
+  },
+  {
+    "id": "day30_induce",
+    "day": 30,
+    "order": 37,
+    "word": "induce",
+    "chinese": "(v.) 引起",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_insurance",
+    "day": 30,
+    "order": 38,
+    "word": "insurance",
+    "chinese": "(n.) 保險",
+    "fixed_collocation_list": [],
+    "common_usage_list": [
+      "insurance company (保險公司)",
+      "insurance policy (保單)"
+    ]
+  },
+  {
+    "id": "day30_nutrition",
+    "day": 30,
+    "order": 39,
+    "word": "nutrition",
+    "chinese": "(n.) 營養",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_prevention",
+    "day": 30,
+    "order": 40,
+    "word": "prevention",
+    "chinese": "(n.) 預防",
+    "fixed_collocation_list": [],
+    "common_usage_list": []
+  },
+  {
+    "id": "day30_susceptible",
+    "day": 30,
+    "order": 41,
+    "word": "susceptible",
+    "chinese": "(adj.) 易受影響的",
+    "fixed_collocation_list": [
+      "susceptible to (容易感染/受影響的)"
+    ],
+    "common_usage_list": []
+  }
+]

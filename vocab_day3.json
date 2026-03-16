@@ -1,0 +1,322 @@
+[
+  {
+    "day": 3,
+    "order": 1,
+    "word": "accustomed",
+    "chinese": "(adj.) 習慣的",
+    "fixed_collocation": "be accustomed to + V-ing：習慣做…（注意 to 是介系詞，後接動名詞）",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 2,
+    "word": "corporation",
+    "chinese": "(n.) 股份（有限）公司、法人",
+    "fixed_collocation": "",
+    "common_usage": "multinational telecommunications corporation：跨國電信公司"
+  },
+  {
+    "day": 3,
+    "order": 3,
+    "word": "demanding",
+    "chinese": "(adj.) 要求很多的、吃力的",
+    "fixed_collocation": "",
+    "common_usage": "demanding supervisor：很苛求的主管"
+  },
+  {
+    "day": 3,
+    "order": 4,
+    "word": "colleague",
+    "chinese": "(n.) （工作上的）同事",
+    "fixed_collocation": "",
+    "common_usage": "cooperation among colleagues：同事之間的合作"
+  },
+  {
+    "day": 3,
+    "order": 5,
+    "word": "division",
+    "chinese": "(n.) 部門",
+    "fixed_collocation": "",
+    "common_usage": "automobile division：汽車部門"
+  },
+  {
+    "day": 3,
+    "order": 6,
+    "word": "request",
+    "chinese": "(n./v.) 要求",
+    "fixed_collocation": "request that + 主詞 + 動詞原形：要求…做…\nbe requested to do：被要求做…",
+    "common_usage": "upon request：有人提出要求時\nrequest for：對於…的要求"
+  },
+  {
+    "day": 3,
+    "order": 7,
+    "word": "efficiently",
+    "chinese": "(adv.) 有效率地",
+    "fixed_collocation": "",
+    "common_usage": "work more efficiently：更有效率地工作"
+  },
+  {
+    "day": 3,
+    "order": 8,
+    "word": "manage",
+    "chinese": "(v.) 經營、管理；設法做到",
+    "fixed_collocation": "manage to do：設法做到…、勉強做到…",
+    "common_usage": "under the new management：在新的經營團隊下"
+  },
+  {
+    "day": 3,
+    "order": 9,
+    "word": "submit",
+    "chinese": "(v.) 提交",
+    "fixed_collocation": "submit A to B：提交 A 給 B",
+    "common_usage": "submit a résumé/receipt/recommendation：提交履歷/收據/推薦信"
+  },
+  {
+    "day": 3,
+    "order": 10,
+    "word": "directly",
+    "chinese": "(adv.) 直接地",
+    "fixed_collocation": "",
+    "common_usage": "report/contact/call + directly：直接報告/聯絡/致電"
+  },
+  {
+    "day": 3,
+    "order": 11,
+    "word": "remind",
+    "chinese": "(v.) 提醒、使想起",
+    "fixed_collocation": "remind 人 + of 內容 / that 子句：提醒某人某事\nremind 人 + to do：提醒某人做某事\nbe reminded to do：被提醒做某事",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 12,
+    "word": "instruct",
+    "chinese": "(v.) 指示、教導",
+    "fixed_collocation": "",
+    "common_usage": "instruct the staff to read...：指示員工閱讀…"
+  },
+  {
+    "day": 3,
+    "order": 13,
+    "word": "deadline",
+    "chinese": "(n.) 截止期限、最後期限",
+    "fixed_collocation": "",
+    "common_usage": "ahead of the deadline：在期限之前"
+  },
+  {
+    "day": 3,
+    "order": 14,
+    "word": "sample",
+    "chinese": "(n.) 樣本、試用品 (v.) 試吃、抽樣檢查",
+    "fixed_collocation": "",
+    "common_usage": "prepare samples：準備樣本"
+  },
+  {
+    "day": 3,
+    "order": 15,
+    "word": "notify",
+    "chinese": "(v.) 通知、告知",
+    "fixed_collocation": "notify 人 + of 內容 / that 子句：通知某人某事",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 16,
+    "word": "perform",
+    "chinese": "(v.) 執行、實施（工作、任務、義務等）",
+    "fixed_collocation": "",
+    "common_usage": "perform work/duties：執行工作/任務"
+  },
+  {
+    "day": 3,
+    "order": 17,
+    "word": "monitor",
+    "chinese": "(v.) 監視、監控、監督",
+    "fixed_collocation": "",
+    "common_usage": "monitor progress：監督進度"
+  },
+  {
+    "day": 3,
+    "order": 18,
+    "word": "deserve",
+    "chinese": "(v.) 值得、應該得到",
+    "fixed_collocation": "",
+    "common_usage": "well-deserved advancement：應得的晉升"
+  },
+  {
+    "day": 3,
+    "order": 19,
+    "word": "assignment",
+    "chinese": "(n.) 工作、任務、作業",
+    "fixed_collocation": "",
+    "common_usage": "take the assignment：接受任務"
+  },
+  {
+    "day": 3,
+    "order": 20,
+    "word": "entire",
+    "chinese": "(adj.) 整個的",
+    "fixed_collocation": "",
+    "common_usage": "entire team：整個團隊"
+  },
+  {
+    "day": 3,
+    "order": 21,
+    "word": "release",
+    "chinese": "(v./n.) 發表、公開；發行、上市",
+    "fixed_collocation": "",
+    "common_usage": "press release：新聞稿\nrelease date：發表日、發售日"
+  },
+  {
+    "day": 3,
+    "order": 22,
+    "word": "extension",
+    "chinese": "(n.) 延長、延期；（電話的）分機",
+    "fixed_collocation": "",
+    "common_usage": "extension of the deadline：截止日期的延期"
+  },
+  {
+    "day": 3,
+    "order": 23,
+    "word": "electronically",
+    "chinese": "(adv.) 以電子方式",
+    "fixed_collocation": "",
+    "common_usage": "send invoices electronically：以電子方式寄送發貨單"
+  },
+  {
+    "day": 3,
+    "order": 24,
+    "word": "attendance",
+    "chinese": "(n.) 出席、出勤",
+    "fixed_collocation": "",
+    "common_usage": "attendance records：出勤紀錄\na certificate of attendance：修業證書"
+  },
+  {
+    "day": 3,
+    "order": 25,
+    "word": "absolutely",
+    "chinese": "(adv.) 絕對地、完全地",
+    "fixed_collocation": "",
+    "common_usage": "absolutely necessary：絕對必要"
+  },
+  {
+    "day": 3,
+    "order": 26,
+    "word": "delegate",
+    "chinese": "(v.) 委任（權限等） (n.) 代表",
+    "fixed_collocation": "",
+    "common_usage": "delegating responsibility：委任責任"
+  },
+  {
+    "day": 3,
+    "order": 27,
+    "word": "attentively",
+    "chinese": "(adv.) 專心地、聚精會神地",
+    "fixed_collocation": "",
+    "common_usage": "listen attentively：注意聆聽"
+  },
+  {
+    "day": 3,
+    "order": 28,
+    "word": "supervision",
+    "chinese": "(n.) 監督",
+    "fixed_collocation": "",
+    "common_usage": "close supervision：密切的監督"
+  },
+  {
+    "day": 3,
+    "order": 29,
+    "word": "workshop",
+    "chinese": "(n.) 專題討論會、研討會",
+    "fixed_collocation": "",
+    "common_usage": "speak at the workshop：在研討會演講"
+  },
+  {
+    "day": 3,
+    "order": 30,
+    "word": "draw",
+    "chinese": "(v.) 拉、吸引",
+    "fixed_collocation": "draw + praise/inspiration + from：從…得到讚賞/靈感",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 31,
+    "word": "revision",
+    "chinese": "(n.) 修訂",
+    "fixed_collocation": "",
+    "common_usage": "make a revision：進行修訂\nrevised edition/policy：修訂版/修訂後的政策"
+  },
+  {
+    "day": 3,
+    "order": 32,
+    "word": "reluctantly",
+    "chinese": "(adv.) 不情願地、勉強地",
+    "fixed_collocation": "",
+    "common_usage": "reluctantly agree：勉強同意"
+  },
+  {
+    "day": 3,
+    "order": 33,
+    "word": "acquaint",
+    "chinese": "(v.) 使…認識、使…熟悉",
+    "fixed_collocation": "acquaint A with B：使 A 熟悉 B",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 34,
+    "word": "convey",
+    "chinese": "(v.) 傳達（事情）",
+    "fixed_collocation": "convey A to B：把 A 傳達給 B",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 35,
+    "word": "check",
+    "chinese": "(v.) 檢查、查明；確認",
+    "fixed_collocation": "check A for B：檢查 A 是否有 B\ncheck for A：檢查是否有 A",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 36,
+    "word": "headquarters",
+    "chinese": "(n.) 總部、總公司",
+    "fixed_collocation": "",
+    "common_usage": "located in [location]：總部位於某處"
+  },
+  {
+    "day": 3,
+    "order": 37,
+    "word": "file",
+    "chinese": "(v.) 把…歸檔；正式提起或提出（文件、申請等）",
+    "fixed_collocation": "",
+    "common_usage": "file a claim：提出保險理賠申請"
+  },
+  {
+    "day": 3,
+    "order": 38,
+    "word": "oversee",
+    "chinese": "(v.) 監督",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 39,
+    "word": "involved",
+    "chinese": "(adj.) 有關的、牽涉在內的",
+    "fixed_collocation": "be involved in：牽涉…、參與…",
+    "common_usage": ""
+  },
+  {
+    "day": 3,
+    "order": 40,
+    "word": "concentrate",
+    "chinese": "(v.) 集中、專注",
+    "fixed_collocation": "concentrate on：專注於…\nconcentrate A on B：把 A 集中於 B",
+    "common_usage": ""
+  }
+]

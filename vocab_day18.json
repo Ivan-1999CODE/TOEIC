@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day18_check in",
+    "day": 18,
+    "order": 1,
+    "word": "check in",
+    "chinese": "(phr.) 辦理入住/報到手續",
+    "fixed_collocation": "反義詞為 check out (辦理退房手續)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_compensate",
+    "day": 18,
+    "order": 2,
+    "word": "compensate",
+    "chinese": "(v.) 補償",
+    "fixed_collocation": "compensate A for B (向 A 補償 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_complimentary",
+    "day": 18,
+    "order": 3,
+    "word": "complimentary",
+    "chinese": "(adj.) 免費贈送的",
+    "fixed_collocation": "須區分 complimentary (免費的) 與 complementary (互補的)",
+    "common_usage": "complimentary + breakfast/service (免費早餐/服務)"
+  },
+  {
+    "id": "day18_chef",
+    "day": 18,
+    "order": 4,
+    "word": "chef",
+    "chinese": "(n.) 主廚",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_container",
+    "day": 18,
+    "order": 5,
+    "word": "container",
+    "chinese": "(n.) 容器，貨櫃",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_elegant",
+    "day": 18,
+    "order": 6,
+    "word": "elegant",
+    "chinese": "(adj.) 優雅的，高雅的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_flavor",
+    "day": 18,
+    "order": 7,
+    "word": "flavor",
+    "chinese": "(n.) 味道，風味",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_accommodate",
+    "day": 18,
+    "order": 8,
+    "word": "accommodate",
+    "chinese": "(v.) 容納；提供住宿",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_available",
+    "day": 18,
+    "order": 9,
+    "word": "available",
+    "chinese": "(adj.) 可利用的；有空的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_reception",
+    "day": 18,
+    "order": 10,
+    "word": "reception",
+    "chinese": "(n.) 接待；歡迎會",
+    "fixed_collocation": "須區分 reception (事物名詞) 與 receptionist (人物名詞：接待員)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_in advance",
+    "day": 18,
+    "order": 11,
+    "word": "in advance",
+    "chinese": "(phr.) 事先，預先",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_refreshments",
+    "day": 18,
+    "order": 12,
+    "word": "refreshments",
+    "chinese": "(n.) 茶點，輕便飲食",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_make",
+    "day": 18,
+    "order": 13,
+    "word": "make",
+    "chinese": "(v.) 做...，製作...",
+    "fixed_collocation": "",
+    "common_usage": "make a decision (做決定)、make a request (提出要求)、make a reservation (預約)、make a telephone call (打電話)、make progress (進步)"
+  },
+  {
+    "id": "day18_cater",
+    "day": 18,
+    "order": 14,
+    "word": "cater",
+    "chinese": "(v.) 供應飲食，承辦外燴",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_reservation",
+    "day": 18,
+    "order": 15,
+    "word": "reservation",
+    "chinese": "(n.) 預約，預訂",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_beverage",
+    "day": 18,
+    "order": 16,
+    "word": "beverage",
+    "chinese": "(n.) 飲料",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_confirm",
+    "day": 18,
+    "order": 17,
+    "word": "confirm",
+    "chinese": "(v.) 確認",
+    "fixed_collocation": "同義詞為 verify",
+    "common_usage": "confirm a reservation (確認預約)"
+  },
+  {
+    "id": "day18_cancel",
+    "day": 18,
+    "order": 18,
+    "word": "cancel",
+    "chinese": "(v.) 取消",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_rate",
+    "day": 18,
+    "order": 19,
+    "word": "rate",
+    "chinese": "(n.) 費用",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_conveniently",
+    "day": 18,
+    "order": 20,
+    "word": "conveniently",
+    "chinese": "(adv.) 便利地",
+    "fixed_collocation": "須區分 conveniently (adv.) 與 convenient (adj.) 的詞性差異",
+    "common_usage": "conveniently + located/placed (便利地位於...)"
+  },
+  {
+    "id": "day18_decorate",
+    "day": 18,
+    "order": 21,
+    "word": "decorate",
+    "chinese": "(v.) 裝飾，裝潢",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_information",
+    "day": 18,
+    "order": 22,
+    "word": "information",
+    "chinese": "(n.) 資訊",
+    "fixed_collocation": "",
+    "common_usage": "additional/further + information (額外的/進一步的資訊)"
+  },
+  {
+    "id": "day18_retain",
+    "day": 18,
+    "order": 23,
+    "word": "retain",
+    "chinese": "(v.) 保持，保留",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_atmosphere",
+    "day": 18,
+    "order": 24,
+    "word": "atmosphere",
+    "chinese": "(n.) 氣氛，氛圍",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_cuisine",
+    "day": 18,
+    "order": 25,
+    "word": "cuisine",
+    "chinese": "(n.) 料理",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_sequence",
+    "day": 18,
+    "order": 26,
+    "word": "sequence",
+    "chinese": "(n.) 順序，次序",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_extensive",
+    "day": 18,
+    "order": 27,
+    "word": "extensive",
+    "chinese": "(adj.) 廣泛的",
+    "fixed_collocation": "表示包含各種事物時，同義詞可換為 comprehensive",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_prior",
+    "day": 18,
+    "order": 28,
+    "word": "prior",
+    "chinese": "(adj.) 在前的",
+    "fixed_collocation": "prior to (在...之前)，必須加上 to 才能當介係詞使用",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_book",
+    "day": 18,
+    "order": 29,
+    "word": "book",
+    "chinese": "(v.) 預約",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_amenity",
+    "day": 18,
+    "order": 30,
+    "word": "amenity",
+    "chinese": "(n.) 便利設施",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_belongings",
+    "day": 18,
+    "order": 31,
+    "word": "belongings",
+    "chinese": "(n.) 攜帶物品",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_entirely",
+    "day": 18,
+    "order": 32,
+    "word": "entirely",
+    "chinese": "(adv.) 完全地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_ease",
+    "day": 18,
+    "order": 33,
+    "word": "ease",
+    "chinese": "(v.) 減輕；(n.) 容易",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_ingredient",
+    "day": 18,
+    "order": 34,
+    "word": "ingredient",
+    "chinese": "(n.) 材料，成分",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_sip",
+    "day": 18,
+    "order": 35,
+    "word": "sip",
+    "chinese": "(v.) 啜飲，小口喝",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_stir",
+    "day": 18,
+    "order": 36,
+    "word": "stir",
+    "chinese": "(v.) 攪拌",
+    "fixed_collocation": "區分 stir (攪拌液體等) 與 turn (以軸為中心旋轉，如轉動旋鈕)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_choice",
+    "day": 18,
+    "order": 37,
+    "word": "choice",
+    "chinese": "(n.) 選擇",
+    "fixed_collocation": "區分 choice (從中選出的人或物) 與 option (可選擇的選項、選擇權)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_complication",
+    "day": 18,
+    "order": 38,
+    "word": "complication",
+    "chinese": "(n.) 複雜的問題",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_freshness",
+    "day": 18,
+    "order": 39,
+    "word": "freshness",
+    "chinese": "(n.) 新鮮",
+    "fixed_collocation": "區分 freshness (新鮮) 與 refreshment (恢復活力/茶點)",
+    "common_usage": ""
+  },
+  {
+    "id": "day18_occupancy",
+    "day": 18,
+    "order": 40,
+    "word": "occupancy",
+    "chinese": "(n.) 入住率",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "day22_agenda",
+    "day": 22,
+    "order": 1,
+    "word": "agenda",
+    "chinese": "(n.) 議程",
+    "fixed_collocation": "",
+    "common_usage": "printed agenda (印出來的議程表)\non the agenda (在議程上的)"
+  },
+  {
+    "id": "day22_convene",
+    "day": 22,
+    "order": 2,
+    "word": "convene",
+    "chinese": "(v.) 召開會議",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_refute",
+    "day": 22,
+    "order": 3,
+    "word": "refute",
+    "chinese": "(v.) 反駁",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_coordination",
+    "day": 22,
+    "order": 4,
+    "word": "coordination",
+    "chinese": "(n.) 協調",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_unanimous",
+    "day": 22,
+    "order": 5,
+    "word": "unanimous",
+    "chinese": "(adj.) 一致同意的",
+    "fixed_collocation": "",
+    "common_usage": "express unanimous support (表達一致的支持)"
+  },
+  {
+    "id": "day22_convince",
+    "day": 22,
+    "order": 6,
+    "word": "convince",
+    "chinese": "(v.) 說服",
+    "fixed_collocation": "convince A of B (說服 A 相信 B 這件事)\nconvince A that 子句 (說服 A 相信...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_consensus",
+    "day": 22,
+    "order": 7,
+    "word": "consensus",
+    "chinese": "(n.) 共識",
+    "fixed_collocation": "",
+    "common_usage": "general consensus (普遍的意見)\nreach a consensus on (對...達成共識)"
+  },
+  {
+    "id": "day22_defer",
+    "day": 22,
+    "order": 8,
+    "word": "defer",
+    "chinese": "(v.) 延期",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_usually",
+    "day": 22,
+    "order": 9,
+    "word": "usually",
+    "chinese": "(adv.) 通常",
+    "fixed_collocation": "usually + 現在式 (表示通常習慣時使用)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_reschedule",
+    "day": 22,
+    "order": 10,
+    "word": "reschedule",
+    "chinese": "(v.) 重新安排時間",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_meeting",
+    "day": 22,
+    "order": 11,
+    "word": "meeting",
+    "chinese": "(n.) 會議",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_determine",
+    "day": 22,
+    "order": 12,
+    "word": "determine",
+    "chinese": "(v.) 判定；決定",
+    "fixed_collocation": "",
+    "common_usage": "determine the cause of (判定...的原因)"
+  },
+  {
+    "id": "day22_report",
+    "day": 22,
+    "order": 13,
+    "word": "report",
+    "chinese": "(v./n.) 報告",
+    "fixed_collocation": "",
+    "common_usage": "report A (directly) to B (向 B 直接報告 A)"
+  },
+  {
+    "id": "day22_comment",
+    "day": 22,
+    "order": 14,
+    "word": "comment",
+    "chinese": "(v.) 評論",
+    "fixed_collocation": "comment + about/on (對於...發表意見)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_phase",
+    "day": 22,
+    "order": 15,
+    "word": "phase",
+    "chinese": "(n.) 階段",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_approve",
+    "day": 22,
+    "order": 16,
+    "word": "approve",
+    "chinese": "(v.) 批准",
+    "fixed_collocation": "",
+    "common_usage": "approve the request (批准請求)\napprove the plan (批准計畫)"
+  },
+  {
+    "id": "day22_enclosed",
+    "day": 22,
+    "order": 17,
+    "word": "enclosed",
+    "chinese": "(adj.) 隨附的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_easy",
+    "day": 22,
+    "order": 18,
+    "word": "easy",
+    "chinese": "(adj.) 容易的",
+    "fixed_collocation": "",
+    "common_usage": "easy to do (做...很容易)"
+  },
+  {
+    "id": "day22_record",
+    "day": 22,
+    "order": 19,
+    "word": "record",
+    "chinese": "(n./v.) 紀錄",
+    "fixed_collocation": "",
+    "common_usage": "transaction records (交易紀錄)\nvideo recordings (影像紀錄)"
+  },
+  {
+    "id": "day22_suggestion",
+    "day": 22,
+    "order": 20,
+    "word": "suggestion",
+    "chinese": "(n.) 建議",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_attention",
+    "day": 22,
+    "order": 21,
+    "word": "attention",
+    "chinese": "(n.) 注意",
+    "fixed_collocation": "attentive to (注意...的)",
+    "common_usage": "pay attention to / call attention to (注意/引起注意)"
+  },
+  {
+    "id": "day22_object",
+    "day": 22,
+    "order": 22,
+    "word": "object",
+    "chinese": "(v.) 反對",
+    "fixed_collocation": "object to -ing (反對...，to 為介系詞後接動名詞)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_coincidentally",
+    "day": 22,
+    "order": 23,
+    "word": "coincidentally",
+    "chinese": "(adv.) 巧合地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_crowded",
+    "day": 22,
+    "order": 24,
+    "word": "crowded",
+    "chinese": "(adj.) 擁擠的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_undergo",
+    "day": 22,
+    "order": 25,
+    "word": "undergo",
+    "chinese": "(v.) 經歷；接受",
+    "fixed_collocation": "",
+    "common_usage": "undergo construction/renovations (受到建設/整修)\nundergo extensive training (接受廣泛訓練)"
+  },
+  {
+    "id": "day22_outcome",
+    "day": 22,
+    "order": 26,
+    "word": "outcome",
+    "chinese": "(n.) 結果",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_narrowly",
+    "day": 22,
+    "order": 27,
+    "word": "narrowly",
+    "chinese": "(adv.) 狹窄地；勉強",
+    "fixed_collocation": "",
+    "common_usage": "be narrowly focused on (密切集中於...)"
+  },
+  {
+    "id": "day22_differ",
+    "day": 22,
+    "order": 28,
+    "word": "differ",
+    "chinese": "(v.) 不同",
+    "fixed_collocation": "",
+    "common_usage": "differ in/from (在...方面不同/和...不同)"
+  },
+  {
+    "id": "day22_discuss",
+    "day": 22,
+    "order": 29,
+    "word": "discuss",
+    "chinese": "(v.) 討論",
+    "fixed_collocation": "discuss + 受詞 (及物動詞，不加介系詞)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_give",
+    "day": 22,
+    "order": 30,
+    "word": "give",
+    "chinese": "(v.) 給予；發表",
+    "fixed_collocation": "",
+    "common_usage": "give a speech/presentation (發表演說/簡報)"
+  },
+  {
+    "id": "day22_brief",
+    "day": 22,
+    "order": 31,
+    "word": "brief",
+    "chinese": "(v.) 向...簡報",
+    "fixed_collocation": "brief A on B (向 A 簡短說明 B)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_distract",
+    "day": 22,
+    "order": 32,
+    "word": "distract",
+    "chinese": "(v.) 使分心",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_emphasis",
+    "day": 22,
+    "order": 33,
+    "word": "emphasis",
+    "chinese": "(n.) 強調",
+    "fixed_collocation": "",
+    "common_usage": "place an emphasis on (強調...；把重點放在...)"
+  },
+  {
+    "id": "day22_press",
+    "day": 22,
+    "order": 34,
+    "word": "press",
+    "chinese": "(n.) 報刊",
+    "fixed_collocation": "",
+    "common_usage": "press release / press conference (新聞稿/記者會)"
+  },
+  {
+    "id": "day22_organize",
+    "day": 22,
+    "order": 35,
+    "word": "organize",
+    "chinese": "(v.) 組織；整理",
+    "fixed_collocation": "",
+    "common_usage": "organize a committee / organize one's thoughts"
+  },
+  {
+    "id": "day22_mention",
+    "day": 22,
+    "order": 36,
+    "word": "mention",
+    "chinese": "(v.) 提到",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_persuasive",
+    "day": 22,
+    "order": 37,
+    "word": "persuasive",
+    "chinese": "(adj.) 有說服力的",
+    "fixed_collocation": "persuade 人 to do (說服某人去做...)",
+    "common_usage": "persuasive argument/evidence (有說服力的論點/證據)"
+  },
+  {
+    "id": "day22_understanding",
+    "day": 22,
+    "order": 38,
+    "word": "understanding",
+    "chinese": "(adj.) 體諒的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_adjourn",
+    "day": 22,
+    "order": 39,
+    "word": "adjourn",
+    "chinese": "(v.) 使休會",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_constructive",
+    "day": 22,
+    "order": 40,
+    "word": "constructive",
+    "chinese": "(adj.) 建設性的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_preside",
+    "day": 22,
+    "order": 41,
+    "word": "preside",
+    "chinese": "(v.) 主持會議",
+    "fixed_collocation": "preside over (主持；掌管)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_irrelevant",
+    "day": 22,
+    "order": 42,
+    "word": "irrelevant",
+    "chinese": "(adj.) 無關的",
+    "fixed_collocation": "irrelevant to (和...無關)\nirrespective of (與...無關；不論...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day22_constraint",
+    "day": 22,
+    "order": 43,
+    "word": "constraint",
+    "chinese": "(n.) 限制",
+    "fixed_collocation": "",
+    "common_usage": "due to time constraints (由於時間限制)"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day9_stagnant",
+    "day": 9,
+    "order": 1,
+    "word": "stagnant",
+    "chinese": "停滯的，不景氣的",
+    "fixed_collocation": "",
+    "common_usage": "stagnant market/economy (停滯的市場/經濟)"
+  },
+  {
+    "id": "day9_dramatically",
+    "day": 9,
+    "order": 2,
+    "word": "dramatically",
+    "chinese": "戲劇性地，急劇地",
+    "fixed_collocation": "",
+    "common_usage": "increase/grow/climb dramatically (急劇增加/成長)"
+  },
+  {
+    "id": "day9_brisk",
+    "day": 9,
+    "order": 3,
+    "word": "brisk",
+    "chinese": "活潑的，興旺的",
+    "fixed_collocation": "",
+    "common_usage": "a brisk market (興旺的市場)"
+  },
+  {
+    "id": "day9_unstable",
+    "day": 9,
+    "order": 4,
+    "word": "unstable",
+    "chinese": "不穩定的，易變的",
+    "fixed_collocation": "",
+    "common_usage": "unstable weather/prices (不穩定的天氣/價格)"
+  },
+  {
+    "id": "day9_rapidly",
+    "day": 9,
+    "order": 5,
+    "word": "rapidly",
+    "chinese": "迅速地，很快地",
+    "fixed_collocation": "",
+    "common_usage": "expand/grow/increase rapidly (迅速擴張/成長)"
+  },
+  {
+    "id": "day9_soar",
+    "day": 9,
+    "order": 6,
+    "word": "soar",
+    "chinese": "急漲，高升",
+    "fixed_collocation": "",
+    "common_usage": "prices/rates soar (物價/利率急漲)"
+  },
+  {
+    "id": "day9_assert",
+    "day": 9,
+    "order": 7,
+    "word": "assert",
+    "chinese": "斷言，主張",
+    "fixed_collocation": "",
+    "common_usage": "assert that + 子句 (主張某事)"
+  },
+  {
+    "id": "day9_boost",
+    "day": 9,
+    "order": 8,
+    "word": "boost",
+    "chinese": "推動，促進",
+    "fixed_collocation": "",
+    "common_usage": "boost the economy/sales (推動經濟/增加銷售)"
+  },
+  {
+    "id": "day9_analyst",
+    "day": 9,
+    "order": 9,
+    "word": "analyst",
+    "chinese": "分析師",
+    "fixed_collocation": "",
+    "common_usage": "financial/market analyst (財務/市場分析師)"
+  },
+  {
+    "id": "day9_potential",
+    "day": 9,
+    "order": 10,
+    "word": "potential",
+    "chinese": "潛在的；潛力",
+    "fixed_collocation": "",
+    "common_usage": "potential earnings/customers (潛在收益/客戶)"
+  },
+  {
+    "id": "day9_pleased",
+    "day": 9,
+    "order": 11,
+    "word": "pleased",
+    "chinese": "滿意的，高興的",
+    "fixed_collocation": "be pleased with (對...滿意)；be pleased to do (很樂意做...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_remain",
+    "day": 9,
+    "order": 12,
+    "word": "remain",
+    "chinese": "保持；仍有待...",
+    "fixed_collocation": "",
+    "common_usage": "remain steady/the same (保持穩定/相同)"
+  },
+  {
+    "id": "day9_limited",
+    "day": 9,
+    "order": 13,
+    "word": "limited",
+    "chinese": "有限的",
+    "fixed_collocation": "for a limited time (限時)；limited offer (限定優惠)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_costly",
+    "day": 9,
+    "order": 14,
+    "word": "costly",
+    "chinese": "昂貴的",
+    "fixed_collocation": "",
+    "common_usage": "a costly mistake (代價慘重的錯誤)"
+  },
+  {
+    "id": "day9_particular",
+    "day": 9,
+    "order": 15,
+    "word": "particular",
+    "chinese": "特定的",
+    "fixed_collocation": "in particular (特別，尤其)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_drastic",
+    "day": 9,
+    "order": 16,
+    "word": "drastic",
+    "chinese": "激烈的，徹底的",
+    "fixed_collocation": "",
+    "common_usage": "drastic action/reform (大刀闊斧的行動/改革)"
+  },
+  {
+    "id": "day9_evenly",
+    "day": 9,
+    "order": 17,
+    "word": "evenly",
+    "chinese": "均勻地，平均地",
+    "fixed_collocation": "",
+    "common_usage": "evenly distributed (平均分配)"
+  },
+  {
+    "id": "day9_evidence",
+    "day": 9,
+    "order": 18,
+    "word": "evidence",
+    "chinese": "證據",
+    "fixed_collocation": "",
+    "common_usage": "evidence that + 子句 (某事物的證據)"
+  },
+  {
+    "id": "day9_prospect",
+    "day": 9,
+    "order": 19,
+    "word": "prospect",
+    "chinese": "展望，預期",
+    "fixed_collocation": "",
+    "common_usage": "the prospect of (對...的預期/可能性)"
+  },
+  {
+    "id": "day9_lead",
+    "day": 9,
+    "order": 20,
+    "word": "lead",
+    "chinese": "領導；導致",
+    "fixed_collocation": "lead to + 結果 (導致...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_fall",
+    "day": 9,
+    "order": 21,
+    "word": "fall",
+    "chinese": "下降",
+    "fixed_collocation": "",
+    "common_usage": "fall steadily/sharply (穩定/大幅下降)"
+  },
+  {
+    "id": "day9_period",
+    "day": 9,
+    "order": 22,
+    "word": "period",
+    "chinese": "期間",
+    "fixed_collocation": "",
+    "common_usage": "for a period of + 時間 (在一長段...期間內)"
+  },
+  {
+    "id": "day9_indicator",
+    "day": 9,
+    "order": 23,
+    "word": "indicator",
+    "chinese": "指標",
+    "fixed_collocation": "",
+    "common_usage": "economic indicators (經濟指標)"
+  },
+  {
+    "id": "day9_industry",
+    "day": 9,
+    "order": 24,
+    "word": "industry",
+    "chinese": "工業，產業",
+    "fixed_collocation": "",
+    "common_usage": "service/newspaper industry (服務業/報業)"
+  },
+  {
+    "id": "day9_likely",
+    "day": 9,
+    "order": 25,
+    "word": "likely",
+    "chinese": "很可能的",
+    "fixed_collocation": "be likely to do (很可能做...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_boom",
+    "day": 9,
+    "order": 26,
+    "word": "boom",
+    "chinese": "繁榮，興盛",
+    "fixed_collocation": "",
+    "common_usage": "housing boom (住宅市場熱潮)"
+  },
+  {
+    "id": "day9_director",
+    "day": 9,
+    "order": 27,
+    "word": "director",
+    "chinese": "主管，董事",
+    "fixed_collocation": "",
+    "common_usage": "board of directors (董事會)"
+  },
+  {
+    "id": "day9_substitute",
+    "day": 9,
+    "order": 28,
+    "word": "substitute",
+    "chinese": "代替品；代替",
+    "fixed_collocation": "substitute A with B / substitute B for A (用 B 代替 A)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_consequence",
+    "day": 9,
+    "order": 29,
+    "word": "consequence",
+    "chinese": "結果，後果",
+    "fixed_collocation": "",
+    "common_usage": "as a consequence of (作為...的結果)"
+  },
+  {
+    "id": "day9_fairly",
+    "day": 9,
+    "order": 30,
+    "word": "fairly",
+    "chinese": "相當，頗為",
+    "fixed_collocation": "",
+    "common_usage": "fairly widespread/common (相當普遍)"
+  },
+  {
+    "id": "day9_economical",
+    "day": 9,
+    "order": 31,
+    "word": "economical",
+    "chinese": "經濟的，節約的",
+    "fixed_collocation": "",
+    "common_usage": "economical ways (經濟實惠的方法)"
+  },
+  {
+    "id": "day9_thrive",
+    "day": 9,
+    "order": 32,
+    "word": "thrive",
+    "chinese": "繁榮，成功",
+    "fixed_collocation": "",
+    "common_usage": "a thriving industry/business (繁榮的產業)"
+  },
+  {
+    "id": "day9_implication",
+    "day": 9,
+    "order": 33,
+    "word": "implication",
+    "chinese": "暗示，結果",
+    "fixed_collocation": "",
+    "common_usage": "have implications for (對...造成影響)"
+  },
+  {
+    "id": "day9_wane",
+    "day": 9,
+    "order": 34,
+    "word": "wane",
+    "chinese": "減少，衰退",
+    "fixed_collocation": "on the wane (正在減少中)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_prosperity",
+    "day": 9,
+    "order": 35,
+    "word": "prosperity",
+    "chinese": "繁榮",
+    "fixed_collocation": "in times of prosperity (在繁榮時期)",
+    "common_usage": ""
+  },
+  {
+    "id": "day9_depression",
+    "day": 9,
+    "order": 36,
+    "word": "depression",
+    "chinese": "不景氣，蕭條",
+    "fixed_collocation": "",
+    "common_usage": "economic depression (經濟蕭條)"
+  },
+  {
+    "id": "day9_dwindle",
+    "day": 9,
+    "order": 37,
+    "word": "dwindle",
+    "chinese": "逐漸減少",
+    "fixed_collocation": "",
+    "common_usage": "profits dwindle (利潤縮減)"
+  },
+  {
+    "id": "day9_impede",
+    "day": 9,
+    "order": 38,
+    "word": "impede",
+    "chinese": "妨礙，阻礙",
+    "fixed_collocation": "",
+    "common_usage": "impede growth/progress (妨礙成長/進度)"
+  },
+  {
+    "id": "day9_promising",
+    "day": 9,
+    "order": 39,
+    "word": "promising",
+    "chinese": "有前途的",
+    "fixed_collocation": "",
+    "common_usage": "promising careers/future (有前途的職業/未來)"
+  },
+  {
+    "id": "day9_adversity",
+    "day": 9,
+    "order": 40,
+    "word": "adversity",
+    "chinese": "逆境，不幸",
+    "fixed_collocation": "",
+    "common_usage": "face adversity (面臨逆境)"
+  }
+]

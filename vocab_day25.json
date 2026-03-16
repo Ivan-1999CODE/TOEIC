@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day25_congestion",
+    "day": 25,
+    "order": 1,
+    "word": "congestion",
+    "chinese": "(n.) (交通) 堵塞，擁擠",
+    "fixed_collocation": "",
+    "common_usage": "traffic congestion (交通堵塞)"
+  },
+  {
+    "id": "day25_alleviate",
+    "day": 25,
+    "order": 2,
+    "word": "alleviate",
+    "chinese": "(v.) 緩和，減輕",
+    "fixed_collocation": "",
+    "common_usage": "alleviate + congestion/concern (緩和堵塞/減輕憂慮)"
+  },
+  {
+    "id": "day25_divert",
+    "day": 25,
+    "order": 3,
+    "word": "divert",
+    "chinese": "(v.) 使轉向，使改道",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_detour",
+    "day": 25,
+    "order": 4,
+    "word": "detour",
+    "chinese": "(n.) 繞道，繞行的路",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_fuel",
+    "day": 25,
+    "order": 5,
+    "word": "fuel",
+    "chinese": "(n.) 燃料",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_malfunction",
+    "day": 25,
+    "order": 6,
+    "word": "malfunction",
+    "chinese": "(n.) 故障，機能失常",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_permit",
+    "day": 25,
+    "order": 7,
+    "word": "permit",
+    "chinese": "(v.) 許可 / (n.) 許可證",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_transportation",
+    "day": 25,
+    "order": 8,
+    "word": "transportation",
+    "chinese": "(n.) 運輸，運輸工具",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_opportunity",
+    "day": 25,
+    "order": 9,
+    "word": "opportunity",
+    "chinese": "(n.) 機會",
+    "fixed_collocation": "",
+    "common_usage": "opportunity to do (做...的機會)"
+  },
+  {
+    "id": "day25_clearly",
+    "day": 25,
+    "order": 10,
+    "word": "clearly",
+    "chinese": "(adv.) 清楚地，顯然",
+    "fixed_collocation": "",
+    "common_usage": "be clearly displayed (被清楚展示出來)、speak clearly (說清楚)"
+  },
+  {
+    "id": "day25_ongoing",
+    "day": 25,
+    "order": 11,
+    "word": "ongoing",
+    "chinese": "(adj.) 持續進行中的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_detailed",
+    "day": 25,
+    "order": 12,
+    "word": "detailed",
+    "chinese": "(adj.) 詳細的",
+    "fixed_collocation": "in detail (詳細地)",
+    "common_usage": "detailed information (詳細資訊)"
+  },
+  {
+    "id": "day25_alternative",
+    "day": 25,
+    "order": 13,
+    "word": "alternative",
+    "chinese": "(n.) 替代方案 / (adj.) 替代的",
+    "fixed_collocation": "",
+    "common_usage": "a feasible alternative to (取代...的可行方案)"
+  },
+  {
+    "id": "day25_obtain",
+    "day": 25,
+    "order": 14,
+    "word": "obtain",
+    "chinese": "(v.) 得到，獲得",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_designated",
+    "day": 25,
+    "order": 15,
+    "word": "designated",
+    "chinese": "(adj.) 指定的",
+    "fixed_collocation": "",
+    "common_usage": "designated + spots/hotels (指定的地點/旅館)"
+  },
+  {
+    "id": "day25_intersection",
+    "day": 25,
+    "order": 16,
+    "word": "intersection",
+    "chinese": "(n.) 交叉路口",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_equip",
+    "day": 25,
+    "order": 17,
+    "word": "equip",
+    "chinese": "(v.) 使配備，使具備",
+    "fixed_collocation": "equip A with B (使 A 配備 B)、be equipped with (配備...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_commute",
+    "day": 25,
+    "order": 18,
+    "word": "commute",
+    "chinese": "(v.) 通勤",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_downtown",
+    "day": 25,
+    "order": 19,
+    "word": "downtown",
+    "chinese": "(adv.) 在市中心",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_automotive",
+    "day": 25,
+    "order": 20,
+    "word": "automotive",
+    "chinese": "(adj.) 汽車的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_closure",
+    "day": 25,
+    "order": 21,
+    "word": "closure",
+    "chinese": "(n.) 關閉",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_vehicle",
+    "day": 25,
+    "order": 22,
+    "word": "vehicle",
+    "chinese": "(n.) 車輛，運載工具",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_platform",
+    "day": 25,
+    "order": 23,
+    "word": "platform",
+    "chinese": "(n.) 月台",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_official",
+    "day": 25,
+    "order": 24,
+    "word": "official",
+    "chinese": "(n.) 公務員 / (adj.) 官方的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_transit",
+    "day": 25,
+    "order": 25,
+    "word": "transit",
+    "chinese": "(n.) 運輸，運送",
+    "fixed_collocation": "in transit (運送途中)",
+    "common_usage": "public transit (大眾運輸)"
+  },
+  {
+    "id": "day25_fare",
+    "day": 25,
+    "order": 26,
+    "word": "fare",
+    "chinese": "(n.) 交通票價",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_expense",
+    "day": 25,
+    "order": 27,
+    "word": "expense",
+    "chinese": "(n.) 費用，支出",
+    "fixed_collocation": "at one's expense (由...負擔)",
+    "common_usage": "travel expenses (旅行費用)、expense receipts (支出收據)、outstanding expenses (未償付的費用)"
+  },
+  {
+    "id": "day25_trust",
+    "day": 25,
+    "order": 28,
+    "word": "trust",
+    "chinese": "(n./v.) 信任，信賴",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_head",
+    "day": 25,
+    "order": 29,
+    "word": "head",
+    "chinese": "(v.) 出發，前進",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_drive",
+    "day": 25,
+    "order": 30,
+    "word": "drive",
+    "chinese": "(v.) 開(車)，駕駛",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_fine",
+    "day": 25,
+    "order": 31,
+    "word": "fine",
+    "chinese": "(n.) 罰金",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_pass",
+    "day": 25,
+    "order": 32,
+    "word": "pass",
+    "chinese": "(v.) 經過，通過",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_securely",
+    "day": 25,
+    "order": 33,
+    "word": "securely",
+    "chinese": "(adv.) 牢固地，穩固地",
+    "fixed_collocation": "",
+    "common_usage": "securely + fastened/attached/anchored (穩固地繫上的/貼上的/下錨停泊的)"
+  },
+  {
+    "id": "day25_prominently",
+    "day": 25,
+    "order": 34,
+    "word": "prominently",
+    "chinese": "(adv.) 顯著地，顯眼地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_reserved",
+    "day": 25,
+    "order": 35,
+    "word": "reserved",
+    "chinese": "(adj.) 預約的，留作專用的",
+    "fixed_collocation": "",
+    "common_usage": "reserved parking (專用停車位)"
+  },
+  {
+    "id": "day25_average",
+    "day": 25,
+    "order": 36,
+    "word": "average",
+    "chinese": "(n.) 平均值",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_collision",
+    "day": 25,
+    "order": 37,
+    "word": "collision",
+    "chinese": "(n.) 碰撞",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_tow",
+    "day": 25,
+    "order": 38,
+    "word": "tow",
+    "chinese": "(n.) 拖吊 (汽車)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_reverse",
+    "day": 25,
+    "order": 39,
+    "word": "reverse",
+    "chinese": "(adj.) 相反的，背面的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day25_obstruct",
+    "day": 25,
+    "order": 40,
+    "word": "obstruct",
+    "chinese": "(v.) 遮擋，阻塞",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

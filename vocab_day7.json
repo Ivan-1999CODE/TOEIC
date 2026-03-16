@@ -1,0 +1,353 @@
+[
+  {
+    "order": 1,
+    "day": 7,
+    "word": "survey",
+    "id": "day7_survey",
+    "chinese": "調查，意見調查",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 2,
+    "day": 7,
+    "word": "analysis",
+    "id": "day7_analysis",
+    "chinese": "分析",
+    "fixed_collocation": "",
+    "common_usage": "reliable analysis (可靠的分析)\nmarket analysis (市場分析)"
+  },
+  {
+    "order": 3,
+    "day": 7,
+    "word": "respondent",
+    "id": "day7_respondent",
+    "chinese": "回答者，受訪者",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 4,
+    "day": 7,
+    "word": "monopoly",
+    "id": "day7_monopoly",
+    "chinese": "(商品的) 獨佔，壟斷",
+    "fixed_collocation": "have a monopoly on (擁有對...的獨佔地位)",
+    "common_usage": ""
+  },
+  {
+    "order": 5,
+    "day": 7,
+    "word": "competition",
+    "id": "day7_competition",
+    "chinese": "競爭",
+    "fixed_collocation": "compete for (為了...而競爭)",
+    "common_usage": ""
+  },
+  {
+    "order": 6,
+    "day": 7,
+    "word": "consistently",
+    "id": "day7_consistently",
+    "chinese": "一貫地，始終如一地",
+    "fixed_collocation": "",
+    "common_usage": "consistently + produce/provide (持續生產/提供)"
+  },
+  {
+    "order": 7,
+    "day": 7,
+    "word": "demand",
+    "id": "day7_demand",
+    "chinese": "需求 / 要求",
+    "fixed_collocation": "demand for (對...的需求、要求)\ndemand that + 主詞 (+ should) + 動詞原形 (要求...)",
+    "common_usage": ""
+  },
+  {
+    "order": 8,
+    "day": 7,
+    "word": "do one's utmost (phr.)",
+    "id": "day7_do one's utmost (phr.)",
+    "chinese": "盡全力",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 9,
+    "day": 7,
+    "word": "expand",
+    "id": "day7_expand",
+    "chinese": "擴張，擴大",
+    "fixed_collocation": "",
+    "common_usage": "expand + the market/the division (擴大市場/部門)"
+  },
+  {
+    "order": 10,
+    "day": 7,
+    "word": "advanced",
+    "id": "day7_advanced",
+    "chinese": "高階的；先進的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 11,
+    "day": 7,
+    "word": "postpone",
+    "id": "day7_postpone",
+    "chinese": "使延期，延後",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 12,
+    "day": 7,
+    "word": "additional",
+    "id": "day7_additional",
+    "chinese": "額外的，附加的",
+    "fixed_collocation": "",
+    "common_usage": "additional + information/detail (進一步資訊/細節)"
+  },
+  {
+    "order": 13,
+    "day": 7,
+    "word": "appreciate",
+    "id": "day7_appreciate",
+    "chinese": "感謝；賞識；欣賞",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 14,
+    "day": 7,
+    "word": "demonstration",
+    "id": "day7_demonstration",
+    "chinese": "證明；說明，示範操作",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 15,
+    "day": 7,
+    "word": "buy",
+    "id": "day7_buy",
+    "chinese": "買，購買",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 16,
+    "day": 7,
+    "word": "examine",
+    "id": "day7_examine",
+    "chinese": "檢查，審查",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 17,
+    "day": 7,
+    "word": "effective",
+    "id": "day7_effective",
+    "chinese": "有效的；(法律等)生效的",
+    "fixed_collocation": "",
+    "common_usage": "run effectively (有效地運作)"
+  },
+  {
+    "order": 18,
+    "day": 7,
+    "word": "like",
+    "id": "day7_like",
+    "chinese": "喜歡",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 19,
+    "day": 7,
+    "word": "especially",
+    "id": "day7_especially",
+    "chinese": "尤其，特別",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 20,
+    "day": 7,
+    "word": "closely",
+    "id": "day7_closely",
+    "chinese": "仔細地，嚴密地",
+    "fixed_collocation": "",
+    "common_usage": "closely + watch/examine (仔細觀察/檢視)"
+  },
+  {
+    "order": 21,
+    "day": 7,
+    "word": "reserve",
+    "id": "day7_reserve",
+    "chinese": "預約，保留；保存",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 22,
+    "day": 7,
+    "word": "cooperate",
+    "id": "day7_cooperate",
+    "chinese": "協力，合作",
+    "fixed_collocation": "cooperate with + 人 (和...合作)\ncooperate on + 事 (合作進行...)",
+    "common_usage": ""
+  },
+  {
+    "order": 23,
+    "day": 7,
+    "word": "very",
+    "id": "day7_very",
+    "chinese": "非常，很",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 24,
+    "day": 7,
+    "word": "consecutive",
+    "id": "day7_consecutive",
+    "chinese": "連續的",
+    "fixed_collocation": "",
+    "common_usage": "for the third consecutive year (連續第三年)\nfor three consecutive years (連續三年)"
+  },
+  {
+    "order": 25,
+    "day": 7,
+    "word": "expectation",
+    "id": "day7_expectation",
+    "chinese": "預期，期待",
+    "fixed_collocation": "",
+    "common_usage": "meet/surpass + expectations (符合/超出預期)\nabove/beyond + one's expectations (超乎預期)"
+  },
+  {
+    "order": 26,
+    "day": 7,
+    "word": "publicize",
+    "id": "day7_publicize",
+    "chinese": "公布；宣傳",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 27,
+    "day": 7,
+    "word": "raise",
+    "id": "day7_raise",
+    "chinese": "提高，增加；提出（疑問）",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 28,
+    "day": 7,
+    "word": "extremely",
+    "id": "day7_extremely",
+    "chinese": "極度地，非常",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 29,
+    "day": 7,
+    "word": "affect",
+    "id": "day7_affect",
+    "chinese": "影響，對...產生不好的作用",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 30,
+    "day": 7,
+    "word": "target",
+    "id": "day7_target",
+    "chinese": "目標 / 以...為目標",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 31,
+    "day": 7,
+    "word": "campaign",
+    "id": "day7_campaign",
+    "chinese": "活動，競選活動",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 32,
+    "day": 7,
+    "word": "probable",
+    "id": "day7_probable",
+    "chinese": "有可能的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "order": 33,
+    "day": 7,
+    "word": "focus",
+    "id": "day7_focus",
+    "chinese": "聚焦，集中",
+    "fixed_collocation": "focus A on B (把 A 集中於 B)\nbe focused on (被集中於...)",
+    "common_usage": ""
+  },
+  {
+    "order": 34,
+    "day": 7,
+    "word": "seasonal",
+    "id": "day7_seasonal",
+    "chinese": "季節的，季節性的",
+    "fixed_collocation": "",
+    "common_usage": "seasonal + variations/demands/changes (季節性的變動/需求/改變)\nseasoned traveler (經驗豐富的旅行者)"
+  },
+  {
+    "order": 35,
+    "day": 7,
+    "word": "impact",
+    "id": "day7_impact",
+    "chinese": "影響，衝擊",
+    "fixed_collocation": "have an impact on (對...造成影響/衝擊)",
+    "common_usage": ""
+  },
+  {
+    "order": 36,
+    "day": 7,
+    "word": "comparison",
+    "id": "day7_comparison",
+    "chinese": "比較",
+    "fixed_collocation": "in comparison with (和...比起來)",
+    "common_usage": ""
+  },
+  {
+    "order": 37,
+    "day": 7,
+    "word": "gap",
+    "id": "day7_gap",
+    "chinese": "差距",
+    "fixed_collocation": "gap between A and B (A 與 B 的差距)",
+    "common_usage": "generation gap (世代間的代溝)"
+  },
+  {
+    "order": 38,
+    "day": 7,
+    "word": "mounting",
+    "id": "day7_mounting",
+    "chinese": "增加中的，上升中的",
+    "fixed_collocation": "",
+    "common_usage": "mounting pressure (增加中的壓力)\nmounting tension (逐漸升高的緊張情勢)"
+  },
+  {
+    "order": 39,
+    "day": 7,
+    "word": "reflective",
+    "id": "day7_reflective",
+    "chinese": "反映的",
+    "fixed_collocation": "be reflective of (反映出...)",
+    "common_usage": ""
+  }
+]

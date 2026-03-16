@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day13_complaint",
+    "day": 13,
+    "order": 1,
+    "word": "complaint",
+    "chinese": "(n.) 抱怨",
+    "fixed_collocation": "",
+    "common_usage": "make complaints against (提出對於…的抱怨)\nfile a complaint with (投訴…)"
+  },
+  {
+    "id": "day13_deal",
+    "day": 13,
+    "order": 2,
+    "word": "deal",
+    "chinese": "(v./n.) 處理；交易",
+    "fixed_collocation": "deal with (處理問題等)",
+    "common_usage": "a good deal (有利/划算的交易)\na great deal of (大量的)"
+  },
+  {
+    "id": "day13_argumentative",
+    "day": 13,
+    "order": 3,
+    "word": "argumentative",
+    "chinese": "(adj.) 爭辯的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_appropriately",
+    "day": 13,
+    "order": 4,
+    "word": "appropriately",
+    "chinese": "(adv.) 適當地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_respond",
+    "day": 13,
+    "order": 5,
+    "word": "respond",
+    "chinese": "(v.) 答覆",
+    "fixed_collocation": "respond to + 詢問/投訴 (不及物動詞用法)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_infuriate",
+    "day": 13,
+    "order": 6,
+    "word": "infuriate",
+    "chinese": "(v.) 激怒",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_courteous",
+    "day": 13,
+    "order": 7,
+    "word": "courteous",
+    "chinese": "(adj.) 有禮貌的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_satisfaction",
+    "day": 13,
+    "order": 8,
+    "word": "satisfaction",
+    "chinese": "(n.) 滿意",
+    "fixed_collocation": "",
+    "common_usage": "to one's satisfaction (令…滿意的)\ncustomer satisfaction (顧客滿意)\nsatisfaction survey (滿意度調查)"
+  },
+  {
+    "id": "day13_inconvenience",
+    "day": 13,
+    "order": 9,
+    "word": "inconvenience",
+    "chinese": "(n./v.) 不便",
+    "fixed_collocation": "inconvenience + 人 (對…造成不便)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_complete",
+    "day": 13,
+    "order": 10,
+    "word": "complete",
+    "chinese": "(v./adj.) 完成；完整的",
+    "fixed_collocation": "",
+    "common_usage": "complete a survey/an application (完成調查問卷/寫好申請書)"
+  },
+  {
+    "id": "day13_specific",
+    "day": 13,
+    "order": 11,
+    "word": "specific",
+    "chinese": "(adj.) 具體的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_return",
+    "day": 13,
+    "order": 12,
+    "word": "return",
+    "chinese": "(v.) 歸還",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_replace",
+    "day": 13,
+    "order": 13,
+    "word": "replace",
+    "chinese": "(v.) 取代",
+    "fixed_collocation": "replace A with B (用 B 代替 A)\nsubstitute B for A (用 B 代替 A)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_presentation",
+    "day": 13,
+    "order": 14,
+    "word": "presentation",
+    "chinese": "(n.) 簡報",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_evaluation",
+    "day": 13,
+    "order": 15,
+    "word": "evaluation",
+    "chinese": "(n.) 評價",
+    "fixed_collocation": "",
+    "common_usage": "performance evaluation (表現評價)\ncourse evaluation (課程評價)"
+  },
+  {
+    "id": "day13_confident",
+    "day": 13,
+    "order": 16,
+    "word": "confident",
+    "chinese": "(adj.) 有自信的",
+    "fixed_collocation": "",
+    "common_usage": "with a confident manner (用有自信的態度)"
+  },
+  {
+    "id": "day13_cause",
+    "day": 13,
+    "order": 17,
+    "word": "cause",
+    "chinese": "(v./n.) 引起；原因",
+    "fixed_collocation": "",
+    "common_usage": "cause + damage/malfunction/delay (造成損害/故障/延遲)"
+  },
+  {
+    "id": "day13_commentary",
+    "day": 13,
+    "order": 18,
+    "word": "commentary",
+    "chinese": "(n.) 評論",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_notification",
+    "day": 13,
+    "order": 19,
+    "word": "notification",
+    "chinese": "(n.) 通知",
+    "fixed_collocation": "",
+    "common_usage": "notification of (關於…的通知)"
+  },
+  {
+    "id": "day13_apologize",
+    "day": 13,
+    "order": 20,
+    "word": "apologize",
+    "chinese": "(v.) 道歉",
+    "fixed_collocation": "apologize for + 原因 (為了…道歉)\napologize to + 人 (向某人道歉)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_interact",
+    "day": 13,
+    "order": 21,
+    "word": "interact",
+    "chinese": "(v.) 互動",
+    "fixed_collocation": "interacting with (與…溝通/互動)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_certain",
+    "day": 13,
+    "order": 22,
+    "word": "certain",
+    "chinese": "(adj.) 確定的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_commitment",
+    "day": 13,
+    "order": 23,
+    "word": "commitment",
+    "chinese": "(n.) 投身；致力",
+    "fixed_collocation": "",
+    "common_usage": "commitment to (對…的投入)\nbe committed to (投入…)"
+  },
+  {
+    "id": "day13_applaud",
+    "day": 13,
+    "order": 24,
+    "word": "applaud",
+    "chinese": "(v.) 稱讚",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_biography",
+    "day": 13,
+    "order": 25,
+    "word": "biography",
+    "chinese": "(n.) 傳記",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_critical",
+    "day": 13,
+    "order": 26,
+    "word": "critical",
+    "chinese": "(adj.) 批評的；關鍵的",
+    "fixed_collocation": "",
+    "common_usage": "be critical of (對…不滿/挑剔)"
+  },
+  {
+    "id": "day13_depend on",
+    "day": 13,
+    "order": 27,
+    "word": "depend on",
+    "chinese": "(phr.) 依賴；取決於",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_combine",
+    "day": 13,
+    "order": 28,
+    "word": "combine",
+    "chinese": "(v.) 使結合",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_priority",
+    "day": 13,
+    "order": 29,
+    "word": "priority",
+    "chinese": "(n.) 優先（權）",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_observe",
+    "day": 13,
+    "order": 30,
+    "word": "observe",
+    "chinese": "(v.) 遵守；觀察",
+    "fixed_collocation": "",
+    "common_usage": "observe safety regulations (遵守安全規定)\nobserve guidelines (遵守指導方針)"
+  },
+  {
+    "id": "day13_defective",
+    "day": 13,
+    "order": 31,
+    "word": "defective",
+    "chinese": "(adj.) 有缺陷的",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_reflect",
+    "day": 13,
+    "order": 32,
+    "word": "reflect",
+    "chinese": "(v.) 反映",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_attitude",
+    "day": 13,
+    "order": 33,
+    "word": "attitude",
+    "chinese": "(n.) 態度",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_disappoint",
+    "day": 13,
+    "order": 34,
+    "word": "disappoint",
+    "chinese": "(v.) 使失望",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_inquire",
+    "day": 13,
+    "order": 35,
+    "word": "inquire",
+    "chinese": "(v.) 詢問",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_insert",
+    "day": 13,
+    "order": 36,
+    "word": "insert",
+    "chinese": "(v.) 插入",
+    "fixed_collocation": "",
+    "common_usage": "insert A into B (將 A 插入 B)"
+  },
+  {
+    "id": "day13_disclose",
+    "day": 13,
+    "order": 37,
+    "word": "disclose",
+    "chinese": "(v.) 公開；透露",
+    "fixed_collocation": "disclose + 受詞 (及物動詞，不可接介係詞)",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_guarantee",
+    "day": 13,
+    "order": 38,
+    "word": "guarantee",
+    "chinese": "(v./n.) 保證",
+    "fixed_collocation": "",
+    "common_usage": "guarantee of (對於…的保證)"
+  },
+  {
+    "id": "day13_politely",
+    "day": 13,
+    "order": 39,
+    "word": "politely",
+    "chinese": "(adv.) 禮貌地",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day13_seriously",
+    "day": 13,
+    "order": 40,
+    "word": "seriously",
+    "chinese": "(adv.) 認真地",
+    "fixed_collocation": "",
+    "common_usage": "take A seriously (認真看待 A)"
+  }
+]

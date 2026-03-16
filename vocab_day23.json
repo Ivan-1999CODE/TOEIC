@@ -1,0 +1,362 @@
+[
+  {
+    "id": "day23_host",
+    "day": 23,
+    "order": 1,
+    "word": "host",
+    "chinese": "(v. 主辦；n. 主人)",
+    "fixed_collocation": "",
+    "common_usage": "host + a display / a lecture / a celebration (主辦展覽/講座/慶祝活動)"
+  },
+  {
+    "id": "day23_annual",
+    "day": 23,
+    "order": 2,
+    "word": "annual",
+    "chinese": "(adj. 年度的)",
+    "fixed_collocation": "",
+    "common_usage": "annual growth rate (年成長率)\nannual conference (年度會議)\nannual safety inspection (年度安全檢查)"
+  },
+  {
+    "id": "day23_purpose",
+    "day": 23,
+    "order": 3,
+    "word": "purpose",
+    "chinese": "(n. 目的)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_enroll",
+    "day": 23,
+    "order": 4,
+    "word": "enroll",
+    "chinese": "(v. 報名、登記)",
+    "fixed_collocation": "enroll in (報名參加...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_lecture",
+    "day": 23,
+    "order": 5,
+    "word": "lecture",
+    "chinese": "(n. 講座、演講)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_participant",
+    "day": 23,
+    "order": 6,
+    "word": "participant",
+    "chinese": "(n. 參與者)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_attend",
+    "day": 23,
+    "order": 7,
+    "word": "attend",
+    "chinese": "(v. 出席、參加)",
+    "fixed_collocation": "attend + 受詞 (及物動詞)\nparticipate in (不及物動詞，須加 in)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_encourage",
+    "day": 23,
+    "order": 8,
+    "word": "encourage",
+    "chinese": "(v. 鼓勵)",
+    "fixed_collocation": "encourage A to do (鼓勵 A 做...)\nbe encouraged to do (被鼓勵做...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_leave",
+    "day": 23,
+    "order": 9,
+    "word": "leave",
+    "chinese": "(n. 休假；v. 離開)",
+    "fixed_collocation": "on leave (休假中)",
+    "common_usage": "leave for + 目的地\nleave A for B (離開 A 前往 B)"
+  },
+  {
+    "id": "day23_recommendation",
+    "day": 23,
+    "order": 10,
+    "word": "recommendation",
+    "chinese": "(n. 推薦)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_conference",
+    "day": 23,
+    "order": 11,
+    "word": "conference",
+    "chinese": "(n. 會議)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_schedule",
+    "day": 23,
+    "order": 12,
+    "word": "schedule",
+    "chinese": "(v. 預定時間)",
+    "fixed_collocation": "be scheduled for + 時間\nbe scheduled to do (被預定做...)",
+    "common_usage": "ahead of / behind schedule (超前/落後進度)"
+  },
+  {
+    "id": "day23_include",
+    "day": 23,
+    "order": 13,
+    "word": "include",
+    "chinese": "(v. 包含)",
+    "fixed_collocation": "consist of (由...組成)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_result",
+    "day": 23,
+    "order": 14,
+    "word": "result",
+    "chinese": "(n. 結果；v. 導致)",
+    "fixed_collocation": "as a result of (由於...的結果)\nresult in + 結果\nresult from + 原因",
+    "common_usage": "as a result (結果、最後)"
+  },
+  {
+    "id": "day23_register",
+    "day": 23,
+    "order": 15,
+    "word": "register",
+    "chinese": "(v. 登記、註冊)",
+    "fixed_collocation": "register for (登記參加...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_require",
+    "day": 23,
+    "order": 16,
+    "word": "require",
+    "chinese": "(v. 要求)",
+    "fixed_collocation": "require A to do (要求 A 做...)\nbe required to do\nbe required for (對於...是必要的)",
+    "common_usage": "required documents (必要文件)"
+  },
+  {
+    "id": "day23_grateful",
+    "day": 23,
+    "order": 17,
+    "word": "grateful",
+    "chinese": "(adj. 感激的)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_overtime",
+    "day": 23,
+    "order": 18,
+    "word": "overtime",
+    "chinese": "(n. 加班時間)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_responsibility",
+    "day": 23,
+    "order": 19,
+    "word": "responsibility",
+    "chinese": "(n. 責任)",
+    "fixed_collocation": "",
+    "common_usage": "environmental and social responsibility (環境及社會責任)"
+  },
+  {
+    "id": "day23_assent",
+    "day": 23,
+    "order": 20,
+    "word": "assent",
+    "chinese": "(v./n. 同意)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_regard",
+    "day": 23,
+    "order": 21,
+    "word": "regard",
+    "chinese": "(v. 認為...是；n. 關心)",
+    "fixed_collocation": "regard A as B (認為 A 是 B)",
+    "common_usage": "show little regard for (不怎麼關心...)\nsend one's regards (代某人問安)"
+  },
+  {
+    "id": "day23_tentative",
+    "day": 23,
+    "order": 22,
+    "word": "tentative",
+    "chinese": "(adj. 暫定的)",
+    "fixed_collocation": "",
+    "common_usage": "be tentatively scheduled for + 時間 (時間暫定在...)"
+  },
+  {
+    "id": "day23_welcome",
+    "day": 23,
+    "order": 23,
+    "word": "welcome",
+    "chinese": "(adj. 受歡迎的)",
+    "fixed_collocation": "",
+    "common_usage": "a welcome addition to (受歡迎的新成員/新增物)\nbe welcome to do (可以隨意做...)"
+  },
+  {
+    "id": "day23_function",
+    "day": 23,
+    "order": 24,
+    "word": "function",
+    "chinese": "(n. 聚會；功能)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_commence",
+    "day": 23,
+    "order": 25,
+    "word": "commence",
+    "chinese": "(v. 開始)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_objective",
+    "day": 23,
+    "order": 26,
+    "word": "objective",
+    "chinese": "(n. 目標，目的)",
+    "fixed_collocation": "object to (反對...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_excited",
+    "day": 23,
+    "order": 27,
+    "word": "excited",
+    "chinese": "(adj. 興奮的)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_reimbursement",
+    "day": 23,
+    "order": 28,
+    "word": "reimbursement",
+    "chinese": "(n. 費用核銷)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_treatment",
+    "day": 23,
+    "order": 29,
+    "word": "treatment",
+    "chinese": "(n. 對待，處理)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_honor",
+    "day": 23,
+    "order": 30,
+    "word": "honor",
+    "chinese": "(n. 榮譽，尊敬)",
+    "fixed_collocation": "in honor of (為了祝賀...\n為了向...表示敬意)",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_emphasize",
+    "day": 23,
+    "order": 31,
+    "word": "emphasize",
+    "chinese": "(v. 強調)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_entry",
+    "day": 23,
+    "order": 32,
+    "word": "entry",
+    "chinese": "(n. 參賽作品；參賽者)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_bonus",
+    "day": 23,
+    "order": 33,
+    "word": "bonus",
+    "chinese": "(n. 獎金，紅利)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_salary",
+    "day": 23,
+    "order": 34,
+    "word": "salary",
+    "chinese": "(n. 薪水)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_earn",
+    "day": 23,
+    "order": 35,
+    "word": "earn",
+    "chinese": "(v. 賺取；獲得)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_arise",
+    "day": 23,
+    "order": 36,
+    "word": "arise",
+    "chinese": "(v. 問題等出現)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_labor",
+    "day": 23,
+    "order": 37,
+    "word": "labor",
+    "chinese": "(n. 勞動)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_union",
+    "day": 23,
+    "order": 38,
+    "word": "union",
+    "chinese": "(n. 工會)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  },
+  {
+    "id": "day23_existing",
+    "day": 23,
+    "order": 39,
+    "word": "existing",
+    "chinese": "(adj. 現存的)",
+    "fixed_collocation": "",
+    "common_usage": "existing + equipment / product (現有的設備/產品)"
+  },
+  {
+    "id": "day23_exploit",
+    "day": 23,
+    "order": 40,
+    "word": "exploit",
+    "chinese": "(v. 剝削，濫用)",
+    "fixed_collocation": "",
+    "common_usage": ""
+  }
+]

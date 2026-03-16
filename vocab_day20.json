@@ -1,0 +1,344 @@
+[
+  {
+    "id": "day20_audit",
+    "day": 20,
+    "order": 1,
+    "word": "audit",
+    "chinese": "(n. 審計，查帳)",
+    "fixed_collocation": "",
+    "common_usage": "internal audit (內部審計)"
+  },
+  {
+    "id": "day20_accounting",
+    "day": 20,
+    "order": 2,
+    "word": "accounting",
+    "chinese": "(n. 會計)",
+    "fixed_collocation": "",
+    "common_usage": "accounting department (會計部)"
+  },
+  {
+    "id": "day20_budget",
+    "day": 20,
+    "order": 3,
+    "word": "budget",
+    "chinese": "(n. 預算)",
+    "fixed_collocation": "",
+    "common_usage": "annual operations budget (年度營運預算)"
+  },
+  {
+    "id": "day20_financial",
+    "day": 20,
+    "order": 4,
+    "word": "financial",
+    "chinese": "(adj. 財務的，金融的)",
+    "fixed_collocation": "",
+    "common_usage": "financial advice (財務建議)"
+  },
+  {
+    "id": "day20_curtail",
+    "day": 20,
+    "order": 5,
+    "word": "curtail",
+    "chinese": "(v. 縮減，削減)",
+    "fixed_collocation": "",
+    "common_usage": "curtail office expenses (削減辦公室開支)"
+  },
+  {
+    "id": "day20_deficit",
+    "day": 20,
+    "order": 6,
+    "word": "deficit",
+    "chinese": "(n. 赤字，不足額)",
+    "fixed_collocation": "",
+    "common_usage": "make up for the deficit (彌補赤字)"
+  },
+  {
+    "id": "day20_recently",
+    "day": 20,
+    "order": 7,
+    "word": "recently",
+    "chinese": "(adv. 最近)",
+    "fixed_collocation": "",
+    "common_usage": "have + recently + p.p. (最近...了)"
+  },
+  {
+    "id": "day20_substantially",
+    "day": 20,
+    "order": 8,
+    "word": "substantially",
+    "chinese": "(adv. 大大地，相當多地)",
+    "fixed_collocation": "",
+    "common_usage": "substantially + expand/exceed (大幅擴大/超過)"
+  },
+  {
+    "id": "day20_committee",
+    "day": 20,
+    "order": 9,
+    "word": "committee",
+    "chinese": "(n. 委員會)",
+    "fixed_collocation": "",
+    "common_usage": "committee submitted a report (委員會提交報告)"
+  },
+  {
+    "id": "day20_frequently",
+    "day": 20,
+    "order": 10,
+    "word": "frequently",
+    "chinese": "(adv. 頻繁地，經常)",
+    "fixed_collocation": "",
+    "common_usage": "frequently pay on time (經常準時付款)"
+  },
+  {
+    "id": "day20_capability",
+    "day": 20,
+    "order": 11,
+    "word": "capability",
+    "chinese": "(n. 能力，才能)",
+    "fixed_collocation": "",
+    "common_usage": "capability to advise (有能力提供建議)"
+  },
+  {
+    "id": "day20_proceeds",
+    "day": 20,
+    "order": 12,
+    "word": "proceeds",
+    "chinese": "(n. 收入)",
+    "fixed_collocation": "",
+    "common_usage": "proceeds from the auction (拍賣的所有收入)"
+  },
+  {
+    "id": "day20_reimburse",
+    "day": 20,
+    "order": 13,
+    "word": "reimburse",
+    "chinese": "(v. 補償，核銷)",
+    "fixed_collocation": "reimburse [人] for [費用] (核銷某人付出的費用)",
+    "common_usage": "reimburse travel expenses (核銷差旅費)"
+  },
+  {
+    "id": "day20_considerably",
+    "day": 20,
+    "order": 14,
+    "word": "considerably",
+    "chinese": "(adv. 相當，相當多地)",
+    "fixed_collocation": "",
+    "common_usage": "considerably easier (簡單許多)"
+  },
+  {
+    "id": "day20_adequate",
+    "day": 20,
+    "order": 15,
+    "word": "adequate",
+    "chinese": "(adj. 足夠的，適當的)",
+    "fixed_collocation": "",
+    "common_usage": "adequate funds (足夠的資金)"
+  },
+  {
+    "id": "day20_total",
+    "day": 20,
+    "order": 16,
+    "word": "total",
+    "chinese": "(adj. 總計的，全部的)",
+    "fixed_collocation": "",
+    "common_usage": "total revenues (年度總收入)"
+  },
+  {
+    "id": "day20_allocate",
+    "day": 20,
+    "order": 17,
+    "word": "allocate",
+    "chinese": "(v. 分配，分派)",
+    "fixed_collocation": "",
+    "common_usage": "allocate A for B (為了 B 分配 A)\nallocate A to B (把 A 分配到 B)"
+  },
+  {
+    "id": "day20_browse",
+    "day": 20,
+    "order": 22,
+    "word": "browse",
+    "chinese": "(v. 瀏覽，隨意觀看)",
+    "fixed_collocation": "",
+    "common_usage": "browse through (瀏覽...)"
+  },
+  {
+    "id": "day20_prompt",
+    "day": 20,
+    "order": 23,
+    "word": "prompt",
+    "chinese": "(adj. 即時的，迅速的)",
+    "fixed_collocation": "",
+    "common_usage": "prompt response (即時的回應)"
+  },
+  {
+    "id": "day20_deduct",
+    "day": 20,
+    "order": 24,
+    "word": "deduct",
+    "chinese": "(v. 扣除，減除)",
+    "fixed_collocation": "",
+    "common_usage": "deduct A from B (從 B 中扣除 A)"
+  },
+  {
+    "id": "day20_measurement",
+    "day": 20,
+    "order": 25,
+    "word": "measurement",
+    "chinese": "(n. 測量，測定)",
+    "fixed_collocation": "",
+    "common_usage": "close measurement (嚴密計算/測量)"
+  },
+  {
+    "id": "day20_shorten",
+    "day": 20,
+    "order": 26,
+    "word": "shorten",
+    "chinese": "(v. 縮短，變短)",
+    "fixed_collocation": "",
+    "common_usage": "shorten payment terms (縮短付款期限)"
+  },
+  {
+    "id": "day20_amend",
+    "day": 20,
+    "order": 27,
+    "word": "amend",
+    "chinese": "(v. 修正)",
+    "fixed_collocation": "",
+    "common_usage": "amend the budget (修正預算)"
+  },
+  {
+    "id": "day20_calculate",
+    "day": 20,
+    "order": 28,
+    "word": "calculate",
+    "chinese": "(v. 計算)",
+    "fixed_collocation": "",
+    "common_usage": "calculate the cost (計算成本/費用)"
+  },
+  {
+    "id": "day20_exempt",
+    "day": 20,
+    "order": 29,
+    "word": "exempt",
+    "chinese": "(adj. 被免除的)",
+    "fixed_collocation": "be exempt from... (免於...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day20_deficient",
+    "day": 20,
+    "order": 30,
+    "word": "deficient",
+    "chinese": "(adj. 不足的，缺乏的)",
+    "fixed_collocation": "",
+    "common_usage": "funding is deficient (資金不足)"
+  },
+  {
+    "id": "day20_compare",
+    "day": 20,
+    "order": 31,
+    "word": "compare",
+    "chinese": "(v. 比較)",
+    "fixed_collocation": "",
+    "common_usage": "compared to (和...相比)\ncompare A with B (把 A 和 B 比較)"
+  },
+  {
+    "id": "day20_fortunate",
+    "day": 20,
+    "order": 32,
+    "word": "fortunate",
+    "chinese": "(adj. 幸運的)",
+    "fixed_collocation": "",
+    "common_usage": "fortunate to invest (很幸運地投資)"
+  },
+  {
+    "id": "day20_expenditure",
+    "day": 20,
+    "order": 33,
+    "word": "expenditure",
+    "chinese": "(n. 支出，開支)",
+    "fixed_collocation": "",
+    "common_usage": "outweigh expenditures (大於支出)"
+  },
+  {
+    "id": "day20_accurately",
+    "day": 20,
+    "order": 34,
+    "word": "accurately",
+    "chinese": "(adv. 精確地)",
+    "fixed_collocation": "",
+    "common_usage": "record transactions accurately (精確記錄交易內容)"
+  },
+  {
+    "id": "day20_worth",
+    "day": 20,
+    "order": 35,
+    "word": "worth",
+    "chinese": "(adj. 值得...的；n. 價值)",
+    "fixed_collocation": "",
+    "common_usage": "worth + 費用 (值多少費用)\nworth -ing (值得做...)"
+  },
+  {
+    "id": "day20_excess",
+    "day": 20,
+    "order": 36,
+    "word": "excess",
+    "chinese": "(n. 超過，過量)",
+    "fixed_collocation": "in excess of (超過...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day20_fiscal",
+    "day": 20,
+    "order": 37,
+    "word": "fiscal",
+    "chinese": "(adj. 會計的，財政的)",
+    "fixed_collocation": "",
+    "common_usage": "fiscal year (會計年度)\nfiscal operations (會計業務)"
+  },
+  {
+    "id": "day20_incidental",
+    "day": 20,
+    "order": 38,
+    "word": "incidental",
+    "chinese": "(adj. 附帶的)",
+    "fixed_collocation": "",
+    "common_usage": "incidental expenses (附帶費用)"
+  },
+  {
+    "id": "day20_inflation",
+    "day": 20,
+    "order": 39,
+    "word": "inflation",
+    "chinese": "(n. 通貨膨脹)",
+    "fixed_collocation": "",
+    "common_usage": "lead to inflation (導致通膨)\ninflation rate (通膨率)"
+  },
+  {
+    "id": "day20_liable",
+    "day": 20,
+    "order": 40,
+    "word": "liable",
+    "chinese": "(adj. 負有責任的；很可能會...)",
+    "fixed_collocation": "be liable for (對...有責任)\nbe liable to do (很可能會...)",
+    "common_usage": ""
+  },
+  {
+    "id": "day20_spend",
+    "day": 20,
+    "order": 41,
+    "word": "spend",
+    "chinese": "(v. 花費，花用)",
+    "fixed_collocation": "",
+    "common_usage": "spend A on B (把 A 花在 B 方面)"
+  },
+  {
+    "id": "day20_turnover",
+    "day": 20,
+    "order": 42,
+    "word": "turnover",
+    "chinese": "(n. 營業額；人事異動率)",
+    "fixed_collocation": "",
+    "common_usage": "turnover exceeded [amount] (營業額超過...)\nemployee turnover (員工流動率)"
+  }
+]
