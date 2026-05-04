@@ -519,50 +519,51 @@ const ResultView = ({
 
 
 
-                    {/* ── 按鈕區塊 ── */}
-                    <DraggableItem name="RetryButton" defaultPos={{ top: '95.57%', left: '27%' }}>
-                        <button
-                            onClick={onRetry}
-                            className="flex items-center gap-2 px-4 py-2 bg-[#e6dcc3]/90 hover:bg-[#dcd0b0] rounded font-bold border border-[#c2b280] shadow-xl transition-colors text-sm tracking-wide"
-                            style={{ fontFamily: "'EB Garamond', serif", color: '#5c4033' }}
-                        >
-                            <RotateCcw size={15} />
-                            Retry
-                        </button>
-                    </DraggableItem>
-
-                    <DraggableItem name="BackButton" defaultPos={{ top: '95.57%', left: '73%' }}>
-                        {canLoot ? (
-                            !hasDraftedLoot ? (
-                                <button
-                                    onClick={onManualOpenLoot}
-                                    className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-amber-100 to-amber-200 border border-amber-400 rounded font-bold shadow-[0_0_10px_rgba(251,191,36,0.3)] hover:scale-105 transition-transform text-amber-900 text-sm tracking-wide pointer-events-auto"
-                                    style={{ fontFamily: "'EB Garamond', serif" }}
-                                >
-                                    <Sparkles size={15} className="text-amber-600" />
-                                    領取咒語
-                                </button>
-                            ) : (
-                                <button
-                                    onClick={onGoToLibrary}
-                                    className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-teal-800 to-emerald-900 border border-emerald-600 rounded font-bold shadow-[0_0_10px_rgba(16,185,129,0.3)] hover:scale-105 transition-transform text-emerald-100 text-sm tracking-wide pointer-events-auto"
-                                    style={{ fontFamily: "'EB Garamond', serif" }}
-                                >
-                                    <Sparkles size={15} className="text-emerald-400" />
-                                    Continue
-                                </button>
-                            )
-                        ) : (
+                    {/* ── 按鈕區塊：單一 flex 容器，保證不重疊 ── */}
+                    <div className="absolute z-50 pointer-events-auto"
+                        style={{ top: '95.57%', left: '50%', transform: 'translate(-50%, -50%)', width: '78%' }}>
+                        <div className="flex justify-between items-center gap-3">
                             <button
-                                onClick={onBack}
-                                className="flex items-center gap-2 px-4 py-2 bg-[#e6dcc3]/90 hover:bg-[#dcd0b0] rounded font-bold border border-[#c2b280] shadow-xl transition-colors text-sm tracking-wide pointer-events-auto"
+                                onClick={onRetry}
+                                className="flex items-center gap-2 px-4 py-2 bg-[#e6dcc3]/90 hover:bg-[#dcd0b0] rounded font-bold border border-[#c2b280] shadow-xl transition-colors text-sm"
                                 style={{ fontFamily: "'EB Garamond', serif", color: '#5c4033' }}
                             >
-                                <Map size={15} />
-                                Continue
+                                <RotateCcw size={15} />
+                                Retry
                             </button>
-                        )}
-                    </DraggableItem>
+
+                            {canLoot ? (
+                                !hasDraftedLoot ? (
+                                    <button
+                                        onClick={onManualOpenLoot}
+                                        className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-amber-100 to-amber-200 border border-amber-400 rounded font-bold shadow-[0_0_10px_rgba(251,191,36,0.3)] hover:scale-105 transition-transform text-amber-900 text-sm"
+                                        style={{ fontFamily: "'EB Garamond', serif" }}
+                                    >
+                                        <Sparkles size={15} className="text-amber-600" />
+                                        領取咒語
+                                    </button>
+                                ) : (
+                                    <button
+                                        onClick={onGoToLibrary}
+                                        className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-teal-800 to-emerald-900 border border-emerald-600 rounded font-bold shadow-[0_0_10px_rgba(16,185,129,0.3)] hover:scale-105 transition-transform text-emerald-100 text-sm"
+                                        style={{ fontFamily: "'EB Garamond', serif" }}
+                                    >
+                                        <Sparkles size={15} className="text-emerald-400" />
+                                        Continue
+                                    </button>
+                                )
+                            ) : (
+                                <button
+                                    onClick={onBack}
+                                    className="flex items-center gap-2 px-4 py-2 bg-[#e6dcc3]/90 hover:bg-[#dcd0b0] rounded font-bold border border-[#c2b280] shadow-xl transition-colors text-sm"
+                                    style={{ fontFamily: "'EB Garamond', serif", color: '#5c4033' }}
+                                >
+                                    <Map size={15} />
+                                    Continue
+                                </button>
+                            )}
+                        </div>
+                    </div>
 
 
 
