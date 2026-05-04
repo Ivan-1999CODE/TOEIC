@@ -520,18 +520,18 @@ const ResultView = ({
 
 
                     {/* ── 按鈕區塊 ── */}
-                    <DraggableItem name="RetryButton" defaultPos={{ top: '95.57%', left: '29.40%' }}>
+                    <DraggableItem name="RetryButton" defaultPos={{ top: '95.57%', left: '27%' }}>
                         <button
                             onClick={onRetry}
                             className="flex items-center gap-2 px-4 py-2 bg-[#e6dcc3]/90 hover:bg-[#dcd0b0] rounded font-bold border border-[#c2b280] shadow-xl transition-colors text-sm tracking-wide"
                             style={{ fontFamily: "'EB Garamond', serif", color: '#5c4033' }}
                         >
                             <RotateCcw size={15} />
-                            重考 (Retry)
+                            Retry
                         </button>
                     </DraggableItem>
 
-                    <DraggableItem name="BackButton" defaultPos={{ top: '95.57%', left: '59.46%' }}>
+                    <DraggableItem name="BackButton" defaultPos={{ top: '95.57%', left: '73%' }}>
                         {canLoot ? (
                             !hasDraftedLoot ? (
                                 <button
@@ -549,7 +549,7 @@ const ResultView = ({
                                     style={{ fontFamily: "'EB Garamond', serif" }}
                                 >
                                     <Sparkles size={15} className="text-emerald-400" />
-                                    前往萬應室
+                                    Continue
                                 </button>
                             )
                         ) : (
@@ -559,7 +559,7 @@ const ResultView = ({
                                 style={{ fontFamily: "'EB Garamond', serif", color: '#5c4033' }}
                             >
                                 <Map size={15} />
-                                返回地圖
+                                Continue
                             </button>
                         )}
                     </DraggableItem>
