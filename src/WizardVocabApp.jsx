@@ -1285,7 +1285,7 @@ const WizardVocabApp = () => {
                 </div>
 
                 {/* 內容卷軸區 - 根據狀態切換 overflow */}
-                <div className={`flex-1 relative ${gameState === 'trial-selection' ? 'overflow-hidden' : 'overflow-y-auto p-4 sm:p-6 custom-scrollbar'}`}>
+                <div className={`flex-1 relative ${(gameState === 'trial-selection' || gameState === 'playing') ? 'overflow-hidden p-4 sm:p-6' : 'overflow-y-auto p-4 sm:p-6 custom-scrollbar'}`}>
 
                     {/* 真理之門：改為絕對定位，填滿這個內容區塊 */}
                     {gameState === 'trial-selection' && (
