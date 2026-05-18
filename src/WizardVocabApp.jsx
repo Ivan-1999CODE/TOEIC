@@ -1191,7 +1191,7 @@ const WizardVocabApp = () => {
 
             {/* 主容器 */}
             {/* 主容器 - 改為 h-[90vh] 固定高度 */}
-            <div className="relative w-full max-w-lg bg-[#f5e6c8] rounded-xl shadow-[0_0_50px_rgba(234,179,8,0.2)] border-4 border-double border-amber-800 flex flex-col h-[90vh] z-10 overflow-hidden">
+            <div className="relative w-full max-w-lg bg-[#f5e6c8] rounded-xl shadow-[0_0_50px_rgba(234,179,8,0.2)] border-4 border-double border-amber-800 flex flex-col h-[90dvh] z-10 overflow-hidden">
 
                 {/* 頂部標題列 */}
                 <div className="bg-red-900 text-amber-100 p-2 sm:p-3 text-center border-b-4 border-amber-700 relative shrink-0 z-20 shadow-md flex items-center justify-center min-h-[56px] sm:min-h-[60px]">
