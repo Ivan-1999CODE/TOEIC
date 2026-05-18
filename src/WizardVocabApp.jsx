@@ -1541,55 +1541,59 @@ const WizardVocabApp = () => {
                     {/* --- 5. 遊戲進行中 (Playing) --- */}
                     {gameState === 'playing' && currentQuestion && (
                         <div className="animate-fadeIn h-full flex flex-col">
-                            <div className="flex justify-between items-center mb-4 text-amber-900 font-bold text-xs uppercase tracking-widest border-b border-amber-700/20 pb-2">
-                                {/* 棄考按鈕 */}
-                                <button
-                                    onClick={() => setShowDropout(true)}
-                                    className="text-[10px] text-red-800/60 hover:text-red-800 font-serif italic tracking-normal normal-case transition-colors shrink-0"
-                                >
-                                    ＜ Drop out
-                                </button>
-                                <span className="text-center truncate px-2">{currentLevel?.title?.split('_')[1] || currentLevel?.title}</span>
-                                <span className="text-amber-700 font-black shrink-0">Score: {score}</span>
-                            </div>
+                            {/* === 固定頂部區域 (shrink-0)：永遠可見 === */}
+                            <div className="shrink-0">
+                                <div className="flex justify-between items-center mb-2 text-amber-900 font-bold text-xs uppercase tracking-widest border-b border-amber-700/20 pb-1">
+                                    {/* 棄考按鈕 */}
+                                    <button
+                                        onClick={() => setShowDropout(true)}
+                                        className="text-[10px] text-red-800/60 hover:text-red-800 font-serif italic tracking-normal normal-case transition-colors shrink-0"
+                                    >
+                                        ＜ Drop out
+                                    </button>
+                                    <span className="text-center truncate px-2">{currentLevel?.title?.split('_')[1] || currentLevel?.title}</span>
+                                    <span className="text-amber-700 font-black shrink-0">Score: {score}</span>
+                                </div>
 
-                            {/* 生命值顯示 */}
-                            <div className="flex justify-center gap-2 mb-4">
-                                {[...Array(5)].map((_, i) => (
-                                    <div key={i} className={`transition-all duration-300 ${i < hp ? 'scale-100 opacity-100' : 'scale-75 opacity-30 grayscale'}`}>
-                                        <Heart
-                                            size={28}
-                                            className={i < hp ? 'fill-red-500 text-red-600' : 'fill-gray-300 text-gray-400'}
-                                        />
+                                {/* 生命值顯示 */}
+                                <div className="flex justify-center gap-2 mb-2">
+                                    {[...Array(5)].map((_, i) => (
+                                        <div key={i} className={`transition-all duration-300 ${i < hp ? 'scale-100 opacity-100' : 'scale-75 opacity-30 grayscale'}`}>
+                                            <Heart
+                                                size={24}
+                                                className={i < hp ? 'fill-red-500 text-red-600' : 'fill-gray-300 text-gray-400'}
+                                            />
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* 題目進度 */}
+                                <div className="text-center text-xs text-slate-600 mb-1 font-semibold">
+                                    Question {currentQuestionIndex + 1} / {questionList.length}
+                                </div>
+
+                                {/* 計時進度條 */}
+                                <div className="w-full bg-slate-200 h-3 rounded-full mb-3 overflow-hidden border border-slate-300 relative">
+                                    <div
+                                        className={`h-full transition-all duration-1000 ${timeLeft < 2 ? 'bg-red-600 animate-pulse' : 'bg-gradient-to-r from-green-500 to-yellow-500'
+                                            }`}
+                                        style={{ width: `${(timeLeft / TIME_PER_QUESTION) * 100}%` }}
+                                    />
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <span className="text-xs font-bold text-slate-700 drop-shadow-sm">
+                                            {timeLeft}s
+                                        </span>
                                     </div>
-                                ))}
-                            </div>
-
-                            {/* 題目進度 */}
-                            <div className="text-center text-sm text-slate-600 mb-2 font-semibold">
-                                Question {currentQuestionIndex + 1} / {questionList.length}
-                            </div>
-
-                            {/* 計時進度條 */}
-                            <div className="w-full bg-slate-200 h-3 rounded-full mb-6 overflow-hidden border border-slate-300 relative">
-                                <div
-                                    className={`h-full transition-all duration-1000 ${timeLeft < 2 ? 'bg-red-600 animate-pulse' : 'bg-gradient-to-r from-green-500 to-yellow-500'
-                                        }`}
-                                    style={{ width: `${(timeLeft / TIME_PER_QUESTION) * 100}%` }}
-                                />
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <span className="text-xs font-bold text-slate-700 drop-shadow-sm">
-                                        {timeLeft}s
-                                    </span>
                                 </div>
                             </div>
 
-                            <div className="flex-1 flex flex-col justify-center">
-                                <div className="text-center mb-8">
-                                    <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 mb-2 drop-shadow-sm tracking-wide">
+                            {/* === 可縮放的內容區：word + options === */}
+                            <div className="flex-1 min-h-0 overflow-y-auto flex flex-col justify-center">
+                                <div className="text-center mb-4">
+                                    <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-800 mb-1 drop-shadow-sm tracking-wide">
                                         {currentQuestion.word}
                                     </h2>
-                                    <span className="inline-block px-3 py-1 bg-slate-800 text-amber-400 rounded-full text-xs font-serif italic mb-4">
+                                    <span className="inline-block px-3 py-1 bg-slate-800 text-amber-400 rounded-full text-xs font-serif italic mb-3">
                                         {currentQuestion.pos}
                                     </span>
 
@@ -1600,9 +1604,9 @@ const WizardVocabApp = () => {
                                     </div>
                                 </div>
 
-                                <div className="space-y-3">
+                                <div className="space-y-2">
                                     {currentQuestion.options.map((option, idx) => {
-                                        let btnClass = "w-full p-4 text-left border-2 rounded-lg transition-all duration-200 font-medium relative overflow-hidden text-sm sm:text-base ";
+                                        let btnClass = "w-full p-3 text-left border-2 rounded-lg transition-all duration-200 font-medium relative overflow-hidden text-sm sm:text-base ";
 
                                         if (selectedOption === option) {
                                             if (option === currentQuestion.meaning) {
@@ -1634,7 +1638,8 @@ const WizardVocabApp = () => {
                                 </div>
                             </div>
 
-                            <div className="h-8 mt-4 text-center font-bold text-lg shrink-0">
+                            {/* === 固定底部回饋區 === */}
+                            <div className="h-6 mt-2 text-center font-bold text-base shrink-0">
                                 {feedback === 'correct' && <span className="text-green-700 animate-pulse drop-shadow-md">✨ Lumos! ✨</span>}
                                 {feedback === 'wrong' && <span className="text-red-700 drop-shadow-md">⚡ Nox! ⚡</span>}
                                 {feedback === 'timeout' && <span className="text-orange-600 animate-bounce drop-shadow-md">⏰ Time's Up! ⏰</span>}
