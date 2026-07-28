@@ -26,6 +26,7 @@ const useMusicPlayer = () => {
     const audioRef = useRef(null);
     const fadeTimerRef = useRef(null);
     const pendingTrackRef = useRef(null);
+    const resumeAfterVisibilityRef = useRef(false);
 
     const [currentTrackPath, setCurrentTrackPath] = useState(null);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -59,10 +60,47 @@ const useMusicPlayer = () => {
         return () => {
             document.removeEventListener('click', unlockAudio);
             document.removeEventListener('touchstart', unlockAudio);
+            if (fadeTimerRef.current) clearInterval(fadeTimerRef.current);
             audio.pause();
             audio.src = '';
         };
     }, []);
+
+    // 分頁離開前先暫停；回到分頁時，只有原本正在播放才恢復。
+    useEffect(() => {
+        const pauseForPageExit = () => {
+            const audio = audioRef.current;
+            if (!audio) return;
+
+            resumeAfterVisibilityRef.current =
+                resumeAfterVisibilityRef.current || (!audio.paused && isEnabled);
+            audio.pause();
+            setIsPlaying(false);
+        };
+
+        const handleVisibilityChange = () => {
+            if (document.hidden) {
+                pauseForPageExit();
+                return;
+            }
+
+            const audio = audioRef.current;
+            if (audio && resumeAfterVisibilityRef.current && isEnabled) {
+                resumeAfterVisibilityRef.current = false;
+                audio.play()
+                    .then(() => setIsPlaying(true))
+                    .catch(() => setIsPlaying(false));
+            }
+        };
+
+        document.addEventListener('visibilitychange', handleVisibilityChange);
+        window.addEventListener('pagehide', pauseForPageExit);
+
+        return () => {
+            document.removeEventListener('visibilitychange', handleVisibilityChange);
+            window.removeEventListener('pagehide', pauseForPageExit);
+        };
+    }, [isEnabled]);
 
     // 音量同步
     useEffect(() => {
@@ -143,9 +181,31 @@ const useMusicPlayer = () => {
     /** 暫停 */
     const pauseMusic = useCallback(() => {
         if (audioRef.current) {
+            resumeAfterVisibilityRef.current = false;
             audioRef.current.pause();
             setIsPlaying(false);
         }
+    }, []);
+
+    /** 完全停止音樂並清除目前曲目 */
+    const stopMusic = useCallback(() => {
+        if (fadeTimerRef.current) {
+            clearInterval(fadeTimerRef.current);
+            fadeTimerRef.current = null;
+        }
+
+        resumeAfterVisibilityRef.current = false;
+        pendingTrackRef.current = null;
+
+        if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+            audioRef.current.removeAttribute('src');
+            audioRef.current.load();
+        }
+
+        setCurrentTrackPath(null);
+        setIsPlaying(false);
     }, []);
 
     /** 繼續 */
@@ -176,9 +236,10 @@ const useMusicPlayer = () => {
 
     /** 設定音量 */
     const setVolume = useCallback((v) => {
-        setVolumeState(v);
+        const nextVolume = Math.min(1, Math.max(0, v));
+        setVolumeState(nextVolume);
         if (audioRef.current && isEnabled) {
-            audioRef.current.volume = v;
+            audioRef.current.volume = nextVolume;
         }
     }, [isEnabled]);
 
@@ -199,6 +260,7 @@ const useMusicPlayer = () => {
         homeTrackPath,
         playTrack,
         pauseMusic,
+        stopMusic,
         resumeMusic,
         toggleMusic,
         setVolume,

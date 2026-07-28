@@ -329,8 +329,13 @@ const WizardVocabApp = () => {
     // === 音樂系統 ===
     const music = useMusicPlayer();
 
-    // 根據 gameState 自動切換背景音樂
+    // 根據登入狀態與 gameState 自動切換背景音樂
     useEffect(() => {
+        if (!user) {
+            music.stopMusic();
+            return;
+        }
+
         switch (gameState) {
             case 'start':
             case 'level-select':
@@ -354,10 +359,12 @@ const WizardVocabApp = () => {
             default:
                 break;
         }
-    }, [gameState, isTrialMode]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [user, gameState, isTrialMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
     // 萬應室（SpellLibrary）開啟時切換至 Room 音樂，關閉後恢復首頁音樂
     useEffect(() => {
+        if (!user) return;
+
         if (showSpellLibrary) {
             music.playTrack(MUSIC_TRACKS.ROOM);
         } else if (
@@ -367,7 +374,7 @@ const WizardVocabApp = () => {
         ) {
             music.playTrack(music.homeTrackPath);
         }
-    }, [showSpellLibrary]); // eslint-disable-line react-hooks/exhaustive-deps
+    }, [user, showSpellLibrary]); // eslint-disable-line react-hooks/exhaustive-deps
 
     // --- 導航與狀態控制 ---
 
