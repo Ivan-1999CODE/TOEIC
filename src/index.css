@@ -1,3 +1,6 @@
+/* Google Font for handwriting feel and header */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Uncial+Antiqua&family=Pinyon+Script&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,9 +20,6 @@ body {
 /* ====================================
    Wizard Student ID Card Styles
    ==================================== */
-
-/* Google Font for handwriting feel and header */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Uncial+Antiqua&family=Pinyon+Script&display=swap');
 
 /* Leather Journal Outer Container */
 .wizard-id-journal {
