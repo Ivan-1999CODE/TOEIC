@@ -46,6 +46,11 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
         speakVocabulary(word, voiceKey);
     };
 
+    const handleVoiceSelect = (voiceKey) => {
+        stopPronunciation();
+        setTtsVoice(voiceKey);
+    };
+
     const handleListItemClick = (word, index) => {
         setCurrentIndex(index);
         speakVocabulary(word, ttsVoice);
@@ -92,13 +97,13 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                                     <button
                                         key={voice.key}
                                         type="button"
-                                        onClick={(event) => handleSpeak(currentWord, voice.key, event)}
+                                        onClick={() => handleVoiceSelect(voice.key)}
                                         className={`flex items-center gap-1 rounded-md border px-2 py-1 transition-colors ${ttsVoice === voice.key
                                             ? 'bg-amber-700 border-amber-700 text-amber-50'
                                             : 'bg-amber-50 border-amber-700/30 text-amber-900 hover:bg-amber-100'
                                             }`}
-                                        aria-label={`播放${voice.label}發音`}
-                                        title={`播放${voice.label}發音`}
+                                        aria-label={`選擇${voice.label}`}
+                                        title={`選擇${voice.label}`}
                                     >
                                         <Volume2 size={12} />
                                         <span className="text-[10px]">{voice.label}</span>
