@@ -20,7 +20,6 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
 
     useEffect(() => {
         localStorage.setItem('toeicTtsVoice', ttsVoice);
-        stopPronunciation();
     }, [ttsVoice]);
 
     const handleNext = () => {
@@ -41,9 +40,21 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
         setIsFlipped(!isFlipped);
     };
 
-    const handleSpeak = (word, event) => {
-        event.stopPropagation(); // 防止觸發卡片點擊
+    const handleSpeak = (word, voiceKey = ttsVoice, event) => {
+        event?.stopPropagation(); // 防止觸發卡片點擊
+        setTtsVoice(voiceKey);
+        speakVocabulary(word, voiceKey);
+    };
+
+    const handleListItemClick = (word, index) => {
+        setCurrentIndex(index);
         speakVocabulary(word, ttsVoice);
+    };
+
+    const handleListItemKeyDown = (event, word, index) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        handleListItemClick(word, index);
     };
 
     if (!currentWord) {
@@ -75,21 +86,26 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                         {level?.week} - {viewMode === 'card' ? '卡牌' : '列表'}模式
                     </span>
                     <div className="flex items-center gap-2">
-                        <label className="flex items-center gap-1 text-[10px] normal-case tracking-normal">
-                            <Volume2 size={13} />
-                            <select
-                                value={ttsVoice}
-                                onChange={(event) => setTtsVoice(event.target.value)}
-                                className="bg-amber-50 border border-amber-700/30 rounded-md px-1.5 py-1 text-amber-900 outline-none"
-                                aria-label="選擇發音聲音"
-                            >
+                        {viewMode === 'list' && (
+                            <div className="flex items-center gap-1 normal-case tracking-normal">
                                 {TTS_VOICE_OPTIONS.map((voice) => (
-                                    <option key={voice.key} value={voice.key}>
-                                        {voice.label}
-                                    </option>
+                                    <button
+                                        key={voice.key}
+                                        type="button"
+                                        onClick={(event) => handleSpeak(currentWord, voice.key, event)}
+                                        className={`flex items-center gap-1 rounded-md border px-2 py-1 transition-colors ${ttsVoice === voice.key
+                                            ? 'bg-amber-700 border-amber-700 text-amber-50'
+                                            : 'bg-amber-50 border-amber-700/30 text-amber-900 hover:bg-amber-100'
+                                            }`}
+                                        aria-label={`播放${voice.label}發音`}
+                                        title={`播放${voice.label}發音`}
+                                    >
+                                        <Volume2 size={12} />
+                                        <span className="text-[10px]">{voice.label}</span>
+                                    </button>
                                 ))}
-                            </select>
-                        </label>
+                            </div>
+                        )}
                         <button
                             onClick={() => setViewMode(viewMode === 'card' ? 'list' : 'card')}
                             className="p-1.5 rounded-md hover:bg-amber-900/10 transition-colors border border-amber-700/30 flex items-center gap-1"
@@ -134,13 +150,24 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                                 className="absolute inset-0 w-full h-full bg-gradient-to-br from-amber-50 via-amber-100 to-amber-50 rounded-xl border-4 border-amber-700 shadow-xl flex flex-col items-center justify-center p-6 backface-hidden"
                                 style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                             >
-                                <button
-                                    onClick={(e) => handleSpeak(currentWord, e)}
-                                    className="absolute top-3 right-3 p-2 rounded-md hover:bg-amber-200/50 transition-colors group"
-                                    title="發音"
-                                >
-                                    <Volume2 size={20} className="text-amber-600 group-hover:text-amber-800" />
-                                </button>
+                                <div className="absolute top-3 right-3 flex items-center gap-1">
+                                    {TTS_VOICE_OPTIONS.map((voice) => (
+                                        <button
+                                            key={voice.key}
+                                            type="button"
+                                            onClick={(event) => handleSpeak(currentWord, voice.key, event)}
+                                            className={`flex items-center gap-1 rounded-md px-2 py-1.5 transition-colors ${ttsVoice === voice.key
+                                                ? 'bg-amber-700 text-amber-50'
+                                                : 'text-amber-700 hover:bg-amber-200/70 hover:text-amber-900'
+                                                }`}
+                                            aria-label={`播放${voice.label}發音`}
+                                            title={`播放${voice.label}發音`}
+                                        >
+                                            <Volume2 size={15} />
+                                            <span className="text-[10px] font-bold">{voice.label}</span>
+                                        </button>
+                                    ))}
+                                </div>
                                 <p className="text-xs text-amber-700 uppercase tracking-widest mb-2">English</p>
                                 <h2 className="text-4xl font-extrabold text-slate-800 text-center drop-shadow-sm">
                                     {currentWord.word}
@@ -209,18 +236,13 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                                     ? 'bg-amber-100 border-amber-600 shadow-md'
                                     : 'bg-white/60 border-amber-200 hover:bg-amber-50'
                                     }`}
-                                onClick={() => setCurrentIndex(index)}
+                                onClick={() => handleListItemClick(word, index)}
+                                onKeyDown={(event) => handleListItemKeyDown(event, word, index)}
+                                role="button"
+                                tabIndex={0}
+                                aria-label={`播放 ${word.word} 的${ttsVoice === 'female' ? '女聲' : '男聲'}發音`}
                             >
-                                {/* 發音按鈕 - 右上角 */}
-                                <button
-                                    onClick={(e) => handleSpeak(word, e)}
-                                    className="absolute top-2 right-2 p-1.5 rounded-md hover:bg-amber-200 transition-colors group"
-                                    title="發音"
-                                >
-                                    <Volume2 size={16} className="text-amber-700 group-hover:text-amber-900" />
-                                </button>
-
-                                <div className="flex items-start gap-3 pr-10">
+                                <div className="flex items-start gap-3">
                                     {/* 序號 */}
                                     <span className="text-sm font-bold text-slate-500 shrink-0 mt-0.5">{index + 1}.</span>
 
@@ -240,39 +262,41 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                 </div>
             )}
 
-            {/* 導航按鈕 */}
-            <div className="flex items-center justify-between gap-4 mt-6">
-                <button
-                    onClick={handlePrev}
-                    disabled={currentIndex === 0}
-                    className={`flex-1 py-3 rounded-lg font-bold flex items-center justify-center gap-2 transition-all ${currentIndex === 0
-                        ? 'bg-slate-200 text-slate-400 cursor-not-allowed'
-                        : 'bg-amber-100 text-amber-800 hover:bg-amber-200 border border-amber-300'
-                        }`}
-                >
-                    <ChevronLeft size={20} />
-                    上一張
-                </button>
+            {/* 卡牌模式導航按鈕 */}
+            {viewMode === 'card' && (
+                <div className="flex items-center justify-between gap-4 mt-6">
+                    <button
+                        onClick={handlePrev}
+                        disabled={currentIndex === 0}
+                        className={`flex-1 py-3 rounded-lg font-bold flex items-center justify-center gap-2 transition-all ${currentIndex === 0
+                            ? 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                            : 'bg-amber-100 text-amber-800 hover:bg-amber-200 border border-amber-300'
+                            }`}
+                    >
+                        <ChevronLeft size={20} />
+                        上一張
+                    </button>
 
-                <button
-                    onClick={handleFlip}
-                    className="px-4 py-3 bg-slate-800 text-amber-400 rounded-lg font-bold hover:bg-slate-700 transition-all"
-                >
-                    <RotateCcw size={20} />
-                </button>
+                    <button
+                        onClick={handleFlip}
+                        className="px-4 py-3 bg-slate-800 text-amber-400 rounded-lg font-bold hover:bg-slate-700 transition-all"
+                    >
+                        <RotateCcw size={20} />
+                    </button>
 
-                <button
-                    onClick={handleNext}
-                    disabled={currentIndex === words.length - 1}
-                    className={`flex-1 py-3 rounded-lg font-bold flex items-center justify-center gap-2 transition-all ${currentIndex === words.length - 1
-                        ? 'bg-slate-200 text-slate-400 cursor-not-allowed'
-                        : 'bg-amber-100 text-amber-800 hover:bg-amber-200 border border-amber-300'
-                        }`}
-                >
-                    下一張
-                    <ChevronRight size={20} />
-                </button>
-            </div>
+                    <button
+                        onClick={handleNext}
+                        disabled={currentIndex === words.length - 1}
+                        className={`flex-1 py-3 rounded-lg font-bold flex items-center justify-center gap-2 transition-all ${currentIndex === words.length - 1
+                            ? 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                            : 'bg-amber-100 text-amber-800 hover:bg-amber-200 border border-amber-300'
+                            }`}
+                    >
+                        下一張
+                        <ChevronRight size={20} />
+                    </button>
+                </div>
+            )}
 
             {/* 進入試煉按鈕 */}
             <div className="mt-6 space-y-3">
@@ -284,12 +308,14 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                     進入試煉 (Start Quiz)
                 </button>
 
-                <button
-                    onClick={onBack}
-                    className="w-full py-3 bg-transparent hover:bg-amber-900/10 text-amber-900 font-bold rounded-lg border border-amber-900/30 flex items-center justify-center gap-2"
-                >
-                    返回地圖
-                </button>
+                {viewMode === 'card' && (
+                    <button
+                        onClick={onBack}
+                        className="w-full py-3 bg-transparent hover:bg-amber-900/10 text-amber-900 font-bold rounded-lg border border-amber-900/30 flex items-center justify-center gap-2"
+                    >
+                        返回地圖
+                    </button>
+                )}
             </div>
         </div>
     );
