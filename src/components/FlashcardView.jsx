@@ -1,12 +1,27 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Wand2, RotateCcw, ChevronLeft, ChevronRight, Sparkles, BookOpen, List, CreditCard, Volume2 } from 'lucide-react';
+import {
+    speakVocabulary,
+    stopPronunciation,
+    TTS_VOICE_OPTIONS,
+} from '../utils/pronunciation';
 
 const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isFlipped, setIsFlipped] = useState(false);
     const [viewMode, setViewMode] = useState('card'); // 'card' or 'list'
+    const [ttsVoice, setTtsVoice] = useState(
+        () => localStorage.getItem('toeicTtsVoice') || 'female',
+    );
 
     const currentWord = words[currentIndex];
+
+    useEffect(() => stopPronunciation, []);
+
+    useEffect(() => {
+        localStorage.setItem('toeicTtsVoice', ttsVoice);
+        stopPronunciation();
+    }, [ttsVoice]);
 
     const handleNext = () => {
         if (currentIndex < words.length - 1) {
@@ -28,17 +43,7 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
 
     const handleSpeak = (word, event) => {
         event.stopPropagation(); // 防止觸發卡片點擊
-        if ('speechSynthesis' in window) {
-            // 停止當前正在播放的語音
-            window.speechSynthesis.cancel();
-
-            const utterance = new SpeechSynthesisUtterance(word);
-            utterance.lang = 'en-US'; // 設置為英文
-            utterance.rate = 0.9; // 語速稍慢一點
-            window.speechSynthesis.speak(utterance);
-        } else {
-            console.warn('此瀏覽器不支援 Web Speech API');
-        }
+        speakVocabulary(word, ttsVoice);
     };
 
     if (!currentWord) {
@@ -70,6 +75,21 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                         {level?.week} - {viewMode === 'card' ? '卡牌' : '列表'}模式
                     </span>
                     <div className="flex items-center gap-2">
+                        <label className="flex items-center gap-1 text-[10px] normal-case tracking-normal">
+                            <Volume2 size={13} />
+                            <select
+                                value={ttsVoice}
+                                onChange={(event) => setTtsVoice(event.target.value)}
+                                className="bg-amber-50 border border-amber-700/30 rounded-md px-1.5 py-1 text-amber-900 outline-none"
+                                aria-label="選擇發音聲音"
+                            >
+                                {TTS_VOICE_OPTIONS.map((voice) => (
+                                    <option key={voice.key} value={voice.key}>
+                                        {voice.label}
+                                    </option>
+                                ))}
+                            </select>
+                        </label>
                         <button
                             onClick={() => setViewMode(viewMode === 'card' ? 'list' : 'card')}
                             className="p-1.5 rounded-md hover:bg-amber-900/10 transition-colors border border-amber-700/30 flex items-center gap-1"
@@ -115,7 +135,7 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                                 style={{ backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden' }}
                             >
                                 <button
-                                    onClick={(e) => handleSpeak(currentWord.word, e)}
+                                    onClick={(e) => handleSpeak(currentWord, e)}
                                     className="absolute top-3 right-3 p-2 rounded-md hover:bg-amber-200/50 transition-colors group"
                                     title="發音"
                                 >
@@ -193,7 +213,7 @@ const FlashcardView = ({ words, level, onStartQuiz, onBack }) => {
                             >
                                 {/* 發音按鈕 - 右上角 */}
                                 <button
-                                    onClick={(e) => handleSpeak(word.word, e)}
+                                    onClick={(e) => handleSpeak(word, e)}
                                     className="absolute top-2 right-2 p-1.5 rounded-md hover:bg-amber-200 transition-colors group"
                                     title="發音"
                                 >

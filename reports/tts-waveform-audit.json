@@ -1,0 +1,30 @@
+{
+  "auditedAt": "2026-07-28T17:21:31.070Z",
+  "thresholds": {
+    "minAudioBytes": 500,
+    "minDurationSeconds": 0.18,
+    "maxDurationSeconds": 15,
+    "silentPeak": 0.005,
+    "silentRms": 0.001,
+    "quietPeak": 0.02,
+    "quietRms": 0.003,
+    "activeSampleThreshold": 0.01
+  },
+  "summary": {
+    "expectedFiles": 2442,
+    "checkedFiles": 2442,
+    "totalBytes": 54779136,
+    "totalMegabytes": 52.241455078125,
+    "issueCount": 0,
+    "clippingWarningCount": 0,
+    "metrics": {
+      "minDuration": 0.72,
+      "maxDuration": 3.456,
+      "minRms": 0.01817187608135889,
+      "maxPeak": 0.9450008869171143,
+      "minActiveRatio": 0.09040543300653595
+    }
+  },
+  "issues": [],
+  "clippingWarnings": []
+}
