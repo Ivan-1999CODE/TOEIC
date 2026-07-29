@@ -28,6 +28,7 @@ import TeacherView from './components/TeacherView';
 import OnboardingModal from './components/OnboardingModal';
 import GradingScaleModal from './components/GradingScaleModal';
 import LogoutModal from './components/LogoutModal';
+import { speakVocabulary } from './utils/pronunciation';
 
 const WizardVocabApp = () => {
     // === 登入狀態 ===
@@ -377,18 +378,8 @@ const WizardVocabApp = () => {
     };
 
     // 發音功能
-    const speakWord = (word) => {
-        if ('speechSynthesis' in window) {
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(word);
-            utterance.lang = 'en-US';
-            utterance.rate = 0.9;
-            window.speechSynthesis.speak(utterance);
-        }
-    };
-
     // 音效：答對
-    const playCorrectSound = (word) => {
+    const playCorrectSound = (word, voiceKey) => {
         const audioContext = new (window.AudioContext || window.webkitAudioContext)();
         const oscillator = audioContext.createOscillator();
         const gainNode = audioContext.createGain();
@@ -408,11 +399,11 @@ const WizardVocabApp = () => {
         oscillator.stop(audioContext.currentTime + 0.4);
 
         // 音效結束後唸出單字
-        setTimeout(() => speakWord(word), 450);
+        setTimeout(() => speakVocabulary(word, voiceKey), 450);
     };
 
     // 音效：答錯
-    const playWrongSound = (word) => {
+    const playWrongSound = (word, voiceKey) => {
         const audioContext = new (window.AudioContext || window.webkitAudioContext)();
         const oscillator = audioContext.createOscillator();
         const gainNode = audioContext.createGain();
@@ -431,7 +422,7 @@ const WizardVocabApp = () => {
         oscillator.stop(audioContext.currentTime + 0.35);
 
         // 音效結束後唸出正確答案單字
-        setTimeout(() => speakWord(word), 400);
+        setTimeout(() => speakVocabulary(word, voiceKey), 400);
     };
 
     const goToLevelSelect = () => {
@@ -540,6 +531,9 @@ const WizardVocabApp = () => {
     const handleAnswer = (option) => {
         if (selectedOption || isAnimating) return;
 
+        // 第一題男聲、第二題女聲，之後逐題交替。
+        const answerVoice = currentQuestionIndex % 2 === 0 ? 'male' : 'female';
+
         // 清除計時器
         if (timerRef.current) {
             clearInterval(timerRef.current);
@@ -561,12 +555,12 @@ const WizardVocabApp = () => {
             setScore(prev => prev + earnedScore);
             setFeedback('correct');
             // 播放答對音效並唸出單字
-            playCorrectSound(currentQuestion.word);
+            playCorrectSound(currentQuestion, answerVoice);
         } else {
             // 答錯：扣 HP
             setFeedback('wrong');
             // 播放答錯音效並唸出正確答案
-            playWrongSound(currentQuestion.word);
+            playWrongSound(currentQuestion, answerVoice);
             setHp(prev => {
                 const newHp = prev - 1;
                 if (newHp <= 0) {
@@ -621,10 +615,13 @@ const WizardVocabApp = () => {
     const handleTimeout = () => {
         if (selectedOption || isAnimating) return;
 
+        // 逾時也視為完成本題，沿用相同的逐題交替規則。
+        const answerVoice = currentQuestionIndex % 2 === 0 ? 'male' : 'female';
+
         setIsAnimating(true);
         setFeedback('timeout');
         // 播放答錯音效並唸出正確答案
-        playWrongSound(currentQuestion.word);
+        playWrongSound(currentQuestion, answerVoice);
 
         // 捕捉當下的 session
         const sessionId = gameSessionRef.current;
