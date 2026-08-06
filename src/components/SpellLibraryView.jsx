@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { X, Lock, Sparkles, BookOpen, Feather, Leaf, Moon, Castle, Sword, Flame, List, CreditCard, Volume2, Swords, CheckCircle2, XCircle, ChevronRight, Check, RotateCcw } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Lock, Sparkles, Feather, Leaf, Moon, Castle, Sword, Flame, Swords, CheckCircle2, XCircle, ChevronRight, ChevronLeft, Check, RotateCcw, DoorOpen, Eye, EyeOff } from 'lucide-react';
 import { db } from '../firebase';
 import { collection, getDocs, query } from 'firebase/firestore';
 
@@ -15,12 +15,12 @@ const PROFESSOR_THEMES = {
 
 // --- 6 位教授資料夾區段 ---
 const PROFESSOR_SECTIONS = [
-    { name: '菲力·弗立維', spell: 'Wingardium Leviosa', desc: '溫咖癲啦唯阿薩', themeKey: 'endgame_01', folderColor: 'from-blue-600 to-blue-900', folderBorder: 'border-blue-500/40', range: [1, 20] },
-    { name: '波莫娜·芽菜', spell: 'Lumos Solem', desc: '路摸思·索雷姆', themeKey: 'endgame_02', folderColor: 'from-green-600 to-green-900', folderBorder: 'border-green-500/40', range: [21, 40] },
-    { name: '雷木思·路平', spell: 'Riddikulus', desc: '去去幻形走', themeKey: 'endgame_03', folderColor: 'from-slate-400 to-slate-600', folderBorder: 'border-slate-400/40', range: [41, 60] },
-    { name: '米奈娃·麥', spell: 'Piertotum Locomotor', desc: '石墩出動', themeKey: 'endgame_04', folderColor: 'from-red-700 to-red-900', folderBorder: 'border-red-500/40', range: [61, 80] },
-    { name: '賽佛勒斯·石內卜', spell: 'Sectumsempra', desc: '神鋒無影', themeKey: 'endgame_05', folderColor: 'from-slate-800 to-black', folderBorder: 'border-slate-500/40', range: [81, 100] },
-    { name: '阿不思·鄧不利多', spell: 'Gubraithian Fire', desc: '古布拉仙之火', themeKey: 'endgame_06', folderColor: 'from-amber-500 to-orange-800', folderBorder: 'border-amber-500/40', range: [101, 120] },
+    { name: '菲力・弗立維', spell: 'Wingardium Leviosa', desc: '漂浮與精準，是咒語學的第一道光。', themeKey: 'endgame_01', folderColor: 'from-blue-600 to-blue-900', folderBorder: 'border-blue-500/40', accent: 'bg-blue-400', glow: 'shadow-blue-900/30', range: [1, 20] },
+    { name: '波莫娜・芽菜', spell: 'Lumos Solem', desc: '讓埋藏的知識，如種子般重新甦醒。', themeKey: 'endgame_02', folderColor: 'from-green-600 to-green-900', folderBorder: 'border-green-500/40', accent: 'bg-emerald-400', glow: 'shadow-emerald-900/30', range: [21, 40] },
+    { name: '雷木思・路平', spell: 'Riddikulus', desc: '直視恐懼，才能把未知變成力量。', themeKey: 'endgame_03', folderColor: 'from-slate-400 to-slate-600', folderBorder: 'border-slate-400/40', accent: 'bg-slate-300', glow: 'shadow-slate-900/30', range: [41, 60] },
+    { name: '米奈娃・麥', spell: 'Piertotum Locomotor', desc: '嚴謹的秩序，守護每一道變形魔法。', themeKey: 'endgame_04', folderColor: 'from-red-700 to-red-900', folderBorder: 'border-red-500/40', accent: 'bg-rose-400', glow: 'shadow-red-950/30', range: [61, 80] },
+    { name: '賽佛勒斯・石內卜', spell: 'Sectumsempra', desc: '危險的知識，總藏在最深的暗處。', themeKey: 'endgame_05', folderColor: 'from-slate-800 to-black', folderBorder: 'border-slate-500/40', accent: 'bg-violet-300', glow: 'shadow-black/50', range: [81, 100] },
+    { name: '阿不思・鄧不利多', spell: 'Gubraithian Fire', desc: '有些火焰不會熄滅，如同真正的智慧。', themeKey: 'endgame_06', folderColor: 'from-amber-500 to-orange-800', folderBorder: 'border-amber-500/40', accent: 'bg-amber-300', glow: 'shadow-amber-950/30', range: [101, 120] },
 ];
 
 // 根據 index 推算 chapterId
@@ -69,27 +69,6 @@ function getRarityStyle(rarity) {
     }
 }
 
-// 稀有度簡短標籤
-function getRarityLabel(rarity) {
-    switch (rarity) {
-        case 'Legendary': return '★';
-        case 'Rare': return '◆';
-        default: return '●';
-    }
-}
-
-// 發音
-function speakPhrase(phrase, e) {
-    if (e) e.stopPropagation();
-    if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const u = new SpeechSynthesisUtterance(phrase);
-        u.lang = 'en-US';
-        u.rate = 0.85;
-        window.speechSynthesis.speak(u);
-    }
-}
-
 // 打亂陣列
 function shuffleArray(arr) {
     const a = [...arr];
@@ -107,24 +86,38 @@ const SpellLibraryView = ({ show, onClose, onSaveRecord, unlockedSpells = [] }) 
     const [spells, setSpells] = useState([]);
     const [loading, setLoading] = useState(true);
     const [unlockedCount, setUnlockedCount] = useState(0);
-    const [viewMode, setViewMode] = useState('cards'); // 'cards' | 'list' | 'quiz'
+    const [viewMode, setViewMode] = useState('room'); // 'room' | 'collection' | 'quiz'
+    const [selectedProfessor, setSelectedProfessor] = useState(null);
+    const [collectionFilter, setCollectionFilter] = useState('unlocked');
     const [isQuizPlaying, setIsQuizPlaying] = useState(false);
     const [showDropoutConfirm, setShowDropoutConfirm] = useState(false);
+    const [dropoutDestination, setDropoutDestination] = useState('close');
     const [forceQuizRestart, setForceQuizRestart] = useState(0);
 
     const handleCloseClick = () => {
         if (viewMode === 'quiz' && isQuizPlaying) {
+            setDropoutDestination('close');
             setShowDropoutConfirm(true);
         } else {
             onClose();
         }
     };
 
+    const handleBackClick = () => {
+        if (viewMode === 'quiz' && isQuizPlaying) {
+            setDropoutDestination('room');
+            setShowDropoutConfirm(true);
+            return;
+        }
+        setViewMode('room');
+        setSelectedProfessor(null);
+    };
+
     useEffect(() => {
         if (show) {
-            const audio = new Audio('https://assets.mixkit.co/active_storage/sfx/1124/1124-preview.mp3');
-            audio.volume = 0.5;
-            audio.play().catch(e => console.log("Audio play failed", e));
+            setViewMode('room');
+            setSelectedProfessor(null);
+            setCollectionFilter('unlocked');
         }
     }, [show]);
 
@@ -162,92 +155,122 @@ const SpellLibraryView = ({ show, onClose, onSaveRecord, unlockedSpells = [] }) 
         return { index: i + 1, data: spell || null, isUnlocked: spell?.isUnlocked || false };
     });
 
-    const TABS = [
-        { key: 'cards', label: '卡片', icon: CreditCard },
-        { key: 'list', label: '列表', icon: List },
-    ];
+    const selectedSection = selectedProfessor === null ? null : PROFESSOR_SECTIONS[selectedProfessor];
+    const latestUnlocked = [...slots].reverse().find(slot => slot.isUnlocked && slot.data);
+    const canStartPractice = unlockedCount >= 4;
 
     return (
-        <div className="fixed inset-0 z-[60] flex items-center justify-center animate-fadeIn">
-            <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={onClose} />
+        <div className="fixed inset-0 z-[60] flex items-center justify-center room-overlay-reveal">
+            <div className="absolute inset-0 bg-[#05070d]/90 backdrop-blur-md" onClick={handleCloseClick} />
 
-            <div className="relative w-full max-w-6xl h-[95vh] bg-[#1a0f0a] rounded-lg shadow-2xl overflow-hidden border-4 border-[#3e2723] flex flex-col">
-                <div className="absolute inset-0 opacity-20 pointer-events-none"
-                    style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/wood-pattern.png")` }} />
+            <div className="room-panel-reveal relative flex h-[100dvh] w-full max-w-5xl flex-col overflow-hidden bg-[#0b0e17] shadow-[0_24px_90px_rgba(0,0,0,0.75)] sm:h-[94dvh] sm:w-[calc(100%-2rem)] sm:rounded-3xl sm:border sm:border-amber-500/30">
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(245,158,11,0.12),transparent_34%),radial-gradient(circle_at_8%_72%,rgba(127,29,29,0.12),transparent_28%),linear-gradient(145deg,#111827_0%,#090b12_54%,#170f0b_100%)]" />
+                <div className="room-light-seam pointer-events-none absolute inset-y-0 left-1/2 z-0 w-px bg-amber-200/20 shadow-[0_0_36px_8px_rgba(252,211,77,0.06)]" />
 
                 {/* ===== Header ===== */}
-                <div className="relative z-10 flex flex-col bg-gradient-to-b from-[#2d1b15] to-[#1a0f0a] border-b-2 border-[#5d4037]">
-                    {/* Top row */}
-                    <div className="flex items-start justify-between px-4 sm:px-6 pt-4 pb-1">
-                        <div className="flex items-center gap-3 mt-1">
-                            <BookOpen className="text-amber-500" size={24} />
-                            <div>
-                                <h2 className="text-lg sm:text-2xl font-serif font-bold text-amber-100 tracking-wider">萬應室：失傳咒語</h2>
-                                <p className="text-[10px] text-amber-500/60 uppercase tracking-widest">The Room of Requirement</p>
+                <div className="relative z-20 flex min-h-[72px] items-center justify-between border-b border-amber-500/15 bg-[#0b0e17]/90 px-3 py-3 backdrop-blur-xl sm:px-6">
+                    <div className="flex min-w-0 items-center gap-2 sm:gap-3">
+                        {viewMode !== 'room' ? (
+                            <button
+                                onClick={handleBackClick}
+                                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-amber-200 transition-colors hover:border-amber-400/40 hover:bg-amber-400/10"
+                                aria-label="返回萬應室大廳"
+                            >
+                                <ChevronLeft size={20} />
+                            </button>
+                        ) : (
+                            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-amber-400/30 bg-amber-500/10 text-amber-300 shadow-[0_0_18px_rgba(245,158,11,0.08)]">
+                                <DoorOpen size={20} />
                             </div>
-                        </div>
-                        <div className="flex flex-col items-end gap-2">
-                            <div className="flex items-center gap-3">
-                                <div className="text-amber-100 font-bold text-sm sm:text-lg bg-black/40 px-4 py-1.5 rounded-lg border border-amber-800/60 tracking-widest shadow-inner" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)', fontFamily: "'Segoe Print', 'Bradley Hand', cursive" }}>
-                                    <span className="text-amber-500 mr-1">{unlockedCount}</span>
-                                    <span className="text-amber-700/50 text-sm mx-1">/</span>
-                                    <span className="text-amber-800">{totalSlots}</span>
-                                </div>
-                                <button onClick={handleCloseClick} className="p-2 hover:bg-white/10 rounded-full text-amber-200 transition-colors">
-                                    <X size={24} />
-                                </button>
-                            </div>
+                        )}
+                        <div className="min-w-0">
+                            <p className="mb-0.5 text-[9px] font-bold uppercase tracking-[0.28em] text-amber-500/50">
+                                {viewMode === 'quiz' ? 'Spell Examination' : viewMode === 'collection' ? 'Professor Collection' : 'The Room of Requirement'}
+                            </p>
+                            <h2 className="truncate font-serif text-base font-bold tracking-wide text-amber-100 sm:text-xl">
+                                {viewMode === 'quiz' ? '咒語測驗' : selectedSection ? selectedSection.name : '萬應室・失傳咒語'}
+                            </h2>
                         </div>
                     </div>
 
-                    {/* Tab bar */}
-                    <div className="flex items-end justify-between px-4 sm:px-6 gap-1">
-                        <div className="flex gap-1">
-                            {TABS.map(tab => {
-                                const TabIcon = tab.icon;
-                                const isActive = viewMode === tab.key;
-                                return (
-                                    <button key={tab.key}
-                                        onClick={() => setViewMode(tab.key)}
-                                        className={`flex items-center gap-1.5 px-4 py-2 rounded-t-lg text-sm font-bold transition-all
-                                            ${isActive
-                                                ? 'bg-[#1a0f0a] text-amber-300 border-t-2 border-l-2 border-r-2 border-[#5d4037] -mb-[2px] z-10'
-                                                : 'text-amber-500/50 hover:text-amber-400/70 hover:bg-white/5'
-                                            }`}
-                                    >
-                                        <TabIcon size={14} />
-                                        {tab.label}
-                                    </button>
-                                );
-                            })}
-                        </div>
-                        <div className="pb-1">
-                            <button
-                                onClick={() => setViewMode('quiz')}
-                                className={`group flex items-center gap-2 px-3 py-1.5 rounded-lg border border-amber-500/30 transition-all ${viewMode === 'quiz'
-                                    ? 'bg-amber-600/20 text-amber-300 border-amber-500/60 shadow-[0_0_10px_rgba(245,158,11,0.2)]'
-                                    : 'bg-gradient-to-r from-amber-900/40 to-black/40 text-amber-400 hover:bg-amber-800/40 hover:border-amber-500/60'
-                                    }`}
-                            >
-                                <Swords size={16} className={viewMode === 'quiz' ? 'text-amber-300' : 'text-amber-500 group-hover:text-amber-300 transition-colors'} />
-                                <span className="text-xs font-bold tracking-wide">咒語測驗</span>
-                            </button>
-                        </div>
+                    <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+                        {viewMode !== 'quiz' && (
+                            <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-black/30 px-3 py-1.5 sm:flex">
+                                <span className="font-mono text-sm font-bold text-amber-300">{unlockedCount}</span>
+                                <span className="text-[10px] text-stone-500">/ {totalSlots} 已尋回</span>
+                            </div>
+                        )}
+                        <button
+                            onClick={handleCloseClick}
+                            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-stone-300 transition-colors hover:border-red-400/40 hover:bg-red-500/10 hover:text-red-200"
+                            aria-label="關閉萬應室"
+                        >
+                            <X size={20} />
+                        </button>
                     </div>
                 </div>
 
                 {/* ===== Content Area ===== */}
-                {viewMode === 'cards' && <CardsView slots={slots} />}
-                {viewMode === 'list' && <ListView slots={slots} />}
-                {viewMode === 'quiz' && (
-                    <QuizView
-                        slots={slots}
-                        allSpells={spells}
-                        setIsPlaying={setIsQuizPlaying}
-                        onSaveRecord={onSaveRecord}
-                        forceRestart={forceQuizRestart}
-                    />
-                )}
+                <div className="relative z-10 flex min-h-0 flex-1 flex-col">
+                    {loading ? (
+                        <div className="flex flex-1 flex-col items-center justify-center gap-3 text-amber-300/70">
+                            <Sparkles size={34} className="animate-pulse" />
+                            <p className="text-sm tracking-widest">房間正在回應你的需要…</p>
+                        </div>
+                    ) : (
+                        <>
+                            {viewMode === 'room' && (
+                                <RoomOverview
+                                    slots={slots}
+                                    unlockedCount={unlockedCount}
+                                    latestUnlocked={latestUnlocked}
+                                    onSelectProfessor={(professorIndex) => {
+                                        setSelectedProfessor(professorIndex);
+                                        setCollectionFilter('unlocked');
+                                        setViewMode('collection');
+                                    }}
+                                />
+                            )}
+                            {viewMode === 'collection' && selectedSection && (
+                                <CollectionView
+                                    slots={slots}
+                                    professor={selectedSection}
+                                    filter={collectionFilter}
+                                    onFilterChange={setCollectionFilter}
+                                />
+                            )}
+                            {viewMode === 'quiz' && (
+                                <QuizView
+                                    slots={slots}
+                                    allSpells={spells}
+                                    setIsPlaying={setIsQuizPlaying}
+                                    onSaveRecord={onSaveRecord}
+                                    forceRestart={forceQuizRestart}
+                                />
+                            )}
+                        </>
+                    )}
+
+                    {viewMode !== 'quiz' && !loading && (
+                        <div className="relative z-20 border-t border-amber-500/15 bg-[#0b0e17]/95 px-4 py-3 backdrop-blur-xl sm:px-6">
+                            <div className="mx-auto flex max-w-3xl items-center justify-between gap-3">
+                                <div className="hidden min-w-0 sm:block">
+                                    <p className="text-xs font-bold text-amber-100">把收藏變成真正記得的咒語</p>
+                                    <p className="mt-0.5 text-[10px] text-stone-500">
+                                        {canStartPractice ? `目前可練習 ${unlockedCount} 道咒語` : `再尋回 ${Math.max(4 - unlockedCount, 0)} 道咒語即可開始練習`}
+                                    </p>
+                                </div>
+                                <button
+                                    onClick={() => setViewMode('quiz')}
+                                    className="flex w-full items-center justify-center gap-2 rounded-xl border border-amber-400/30 bg-gradient-to-r from-amber-700 to-red-900 px-5 py-3 text-sm font-bold text-amber-50 shadow-lg shadow-black/30 transition-all hover:-translate-y-0.5 hover:from-amber-600 hover:to-red-800 sm:w-auto"
+                                >
+                                    <Swords size={17} />
+                                    練習與測驗
+                                </button>
+                            </div>
+                        </div>
+                    )}
+                </div>
 
                 {/* ===== Drop out \u78ba\u8a8d\u8986\u5c64 (Global inside modal) ===== */}
                 {showDropoutConfirm && (
@@ -269,9 +292,13 @@ const SpellLibraryView = ({ show, onClose, onSaveRecord, unlockedSpells = [] }) 
                                     onClick={() => {
                                         setShowDropoutConfirm(false);
                                         setForceQuizRestart(prev => prev + 1);
-                                        // User specifically said "退出畫面", so it could mean entirely closing the modal or just back to select
-                                        // Let's go completely exit.
-                                        onClose();
+                                        setIsQuizPlaying(false);
+                                        if (dropoutDestination === 'room') {
+                                            setViewMode('room');
+                                            setSelectedProfessor(null);
+                                        } else {
+                                            onClose();
+                                        }
                                     }}
                                     className="flex-1 py-3 rounded-xl font-bold bg-gradient-to-r from-red-800 to-red-900 text-red-200 hover:from-red-700 hover:to-red-800 border border-red-700/40 transition-all"
                                 >
@@ -289,117 +316,209 @@ const SpellLibraryView = ({ show, onClose, onSaveRecord, unlockedSpells = [] }) 
                 .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
                 .rotate-y-180 { transform: rotateY(180deg); }
                 .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-                .custom-scrollbar::-webkit-scrollbar-track { background: rgba(62, 39, 35, 0.3); }
-                .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(141, 110, 99, 0.5); border-radius: 3px; }
+                .custom-scrollbar::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.45); }
+                .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(217, 119, 6, 0.34); border-radius: 999px; }
+                @keyframes roomOverlayReveal { from { opacity: 0; } to { opacity: 1; } }
+                @keyframes roomPanelReveal { from { opacity: 0; transform: scale(0.965) translateY(16px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+                @keyframes roomLightSeam { 0% { opacity: 0; transform: scaleY(0.35); } 55% { opacity: 1; } 100% { opacity: 0.35; transform: scaleY(1); } }
+                .room-overlay-reveal { animation: roomOverlayReveal 320ms ease-out both; }
+                .room-panel-reveal { animation: roomPanelReveal 460ms cubic-bezier(.2,.75,.2,1) both; }
+                .room-light-seam { transform-origin: center; animation: roomLightSeam 800ms ease-out both; }
+                @media (prefers-reduced-motion: reduce) {
+                    .room-overlay-reveal, .room-panel-reveal, .room-light-seam { animation: none; }
+                }
             `}</style>
         </div>
     );
 };
 
 // =============================================
-// ======= Cards View (原本的卡片格子) ==========
+// ======= 萬應室大廳 ===========================
 // =============================================
-const CardsView = ({ slots }) => {
-    return (
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 custom-scrollbar relative z-10 space-y-10">
-            {PROFESSOR_SECTIONS.map((prof, pIdx) => {
-                const themeData = PROFESSOR_THEMES[prof.themeKey];
-                const FolderIcon = themeData.icon;
-                const sectionSlots = slots.slice(prof.range[0] - 1, prof.range[1]);
-                const sectionUnlocked = sectionSlots.filter(s => s.isUnlocked).length;
+const RoomOverview = ({ slots, unlockedCount, latestUnlocked, onSelectProfessor }) => {
+    const progress = Math.min(Math.round((unlockedCount / 120) * 100), 100);
 
-                return (
-                    <div key={pIdx} className="relative">
-                        <FolderTabHeader prof={prof} icon={FolderIcon} unlocked={sectionUnlocked} total={sectionSlots.length} />
-                        <div className={`relative border-2 ${prof.folderBorder} rounded-b-xl rounded-tr-xl p-4 bg-black/20 backdrop-blur-sm`}
-                            style={{ boxShadow: `inset 0 2px 15px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2)` }}>
-                            <div className="absolute inset-0 opacity-5 rounded-b-xl rounded-tr-xl pointer-events-none"
-                                style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/dark-leather.png")` }} />
-                            <p className="text-[11px] text-amber-200/30 italic font-serif mb-3 pl-1">「{prof.desc}」</p>
-                            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-3 auto-rows-[200px] relative z-10">
-                                {sectionSlots.map((slot) => (
-                                    <SpellCard key={slot.index} slot={slot} />
-                                ))}
+    return (
+        <div className="custom-scrollbar flex-1 overflow-y-auto px-4 py-5 sm:px-6 sm:py-7">
+            <div className="mx-auto max-w-4xl space-y-7">
+                <section className="relative overflow-hidden rounded-2xl border border-amber-400/20 bg-black/25 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] sm:p-7">
+                    <div className="pointer-events-none absolute -right-16 -top-20 h-52 w-52 rounded-full bg-amber-400/10 blur-3xl" />
+                    <div className="relative grid gap-5 sm:grid-cols-[1fr_230px] sm:items-center">
+                        <div>
+                            <div className="mb-3 flex items-center gap-2 text-amber-300/70">
+                                <Sparkles size={15} />
+                                <span className="text-[10px] font-bold uppercase tracking-[0.25em]">The room has appeared</span>
+                            </div>
+                            <h3 className="max-w-xl font-serif text-2xl font-bold leading-tight text-amber-50 sm:text-3xl">
+                                你帶回的每一道咒語，<br className="hidden sm:block" />都讓房間更加完整。
+                            </h3>
+                            <p className="mt-3 max-w-xl text-sm leading-relaxed text-stone-400">
+                                六位教授將失傳咒語封存在不同的收藏櫃中。選擇一位教授，查看你已尋回的知識。
+                            </p>
+                        </div>
+
+                        <div className="rounded-2xl border border-white/10 bg-[#111827]/70 p-4 shadow-lg shadow-black/20">
+                            <div className="flex items-end justify-between">
+                                <div>
+                                    <p className="text-[10px] uppercase tracking-widest text-stone-500">Collection</p>
+                                    <p className="mt-1 font-mono text-3xl font-bold text-amber-300">{unlockedCount}</p>
+                                </div>
+                                <div className="text-right">
+                                    <p className="font-mono text-sm font-bold text-stone-300">{progress}%</p>
+                                    <p className="text-[10px] text-stone-600">of 120 spells</p>
+                                </div>
+                            </div>
+                            <div className="mt-3 h-2 overflow-hidden rounded-full bg-black/50 ring-1 ring-white/5">
+                                <div
+                                    className="h-full rounded-full bg-gradient-to-r from-amber-700 via-amber-400 to-yellow-200 transition-all duration-700"
+                                    style={{ width: `${progress}%` }}
+                                />
+                            </div>
+                            <div className="mt-4 border-t border-white/5 pt-3">
+                                <p className="text-[10px] uppercase tracking-wider text-stone-600">最近尋回</p>
+                                <p className="mt-1 truncate font-serif text-sm font-bold text-amber-100/90">
+                                    {latestUnlocked?.data?.phrase || '房間正在等待第一道咒語'}
+                                </p>
+                                <p className="mt-0.5 truncate text-[11px] text-stone-500">
+                                    {latestUnlocked?.data?.meaning || '完成關卡並取得戰利品後，它就會在這裡現身。'}
+                                </p>
                             </div>
                         </div>
                     </div>
-                );
-            })}
+                </section>
+
+                <section>
+                    <div className="mb-4 flex items-end justify-between gap-4">
+                        <div>
+                            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-amber-500/50">Six hidden collections</p>
+                            <h3 className="mt-1 font-serif text-xl font-bold text-amber-100">教授的魔法收藏櫃</h3>
+                        </div>
+                        <p className="hidden text-right text-[11px] leading-relaxed text-stone-600 sm:block">
+                            每座收藏櫃封存 20 道咒語
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                        {PROFESSOR_SECTIONS.map((professor, professorIndex) => {
+                            const theme = PROFESSOR_THEMES[professor.themeKey];
+                            const ProfessorIcon = theme.icon;
+                            const sectionSlots = slots.slice(professor.range[0] - 1, professor.range[1]);
+                            const sectionUnlocked = sectionSlots.filter(slot => slot.isUnlocked).length;
+                            const sectionProgress = Math.round((sectionUnlocked / sectionSlots.length) * 100);
+
+                            return (
+                                <button
+                                    key={professor.themeKey}
+                                    onClick={() => onSelectProfessor(professorIndex)}
+                                    aria-label={`查看${professor.name}的收藏，已尋回 ${sectionUnlocked} 道咒語`}
+                                    className="group relative overflow-hidden rounded-2xl border border-white/10 bg-[#10131d]/80 p-4 text-left shadow-lg shadow-black/20 transition-all duration-300 hover:-translate-y-1 hover:border-amber-400/30 hover:bg-[#151923] hover:shadow-xl"
+                                >
+                                    <div className={`absolute inset-y-0 left-0 w-1 ${professor.accent} opacity-60 transition-all group-hover:w-1.5 group-hover:opacity-100`} />
+                                    <div className="flex items-start gap-3.5">
+                                        <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-white/10 bg-black/30 text-white/70 shadow-inner">
+                                            <ProfessorIcon size={20} />
+                                            <span className={`absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full border-2 border-[#10131d] ${professor.accent}`} />
+                                        </div>
+                                        <div className="min-w-0 flex-1">
+                                            <div className="flex items-start justify-between gap-3">
+                                                <div className="min-w-0">
+                                                    <h4 className="truncate font-serif text-base font-bold text-amber-50/90">{professor.name}</h4>
+                                                    <p className="truncate text-[10px] italic text-amber-500/45">{professor.spell}</p>
+                                                </div>
+                                                <ChevronRight size={17} className="mt-0.5 shrink-0 text-stone-600 transition-all group-hover:translate-x-1 group-hover:text-amber-300" />
+                                            </div>
+                                            <p className="mt-3 line-clamp-2 min-h-[34px] text-[11px] leading-relaxed text-stone-500">{professor.desc}</p>
+                                            <div className="mt-3 flex items-center gap-3">
+                                                <div className="h-1 flex-1 overflow-hidden rounded-full bg-black/50">
+                                                    <div className={`h-full rounded-full ${professor.accent}`} style={{ width: `${sectionProgress}%` }} />
+                                                </div>
+                                                <span className="font-mono text-[10px] font-bold text-stone-400">{sectionUnlocked}/20</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button>
+                            );
+                        })}
+                    </div>
+                </section>
+            </div>
         </div>
     );
 };
 
 // =============================================
-// ======= List View (列表模式) =================
+// ======= 單一教授收藏 =========================
 // =============================================
-const ListView = ({ slots }) => {
+const CollectionView = ({ slots, professor, filter, onFilterChange }) => {
+    const theme = PROFESSOR_THEMES[professor.themeKey];
+    const ProfessorIcon = theme.icon;
+    const sectionSlots = slots.slice(professor.range[0] - 1, professor.range[1]);
+    const unlockedSlots = sectionSlots.filter(slot => slot.isUnlocked);
+    const visibleSlots = filter === 'unlocked' ? unlockedSlots : sectionSlots;
+
     return (
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 custom-scrollbar relative z-10 space-y-8">
-            {PROFESSOR_SECTIONS.map((prof, pIdx) => {
-                const themeData = PROFESSOR_THEMES[prof.themeKey];
-                const FolderIcon = themeData.icon;
-                const sectionSlots = slots.slice(prof.range[0] - 1, prof.range[1]);
-                const sectionUnlocked = sectionSlots.filter(s => s.isUnlocked).length;
-
-                return (
-                    <div key={pIdx} className="relative">
-                        <FolderTabHeader prof={prof} icon={FolderIcon} unlocked={sectionUnlocked} total={sectionSlots.length} />
-                        <div className={`relative border-2 ${prof.folderBorder} rounded-b-xl rounded-tr-xl p-3 sm:p-4 bg-black/20 backdrop-blur-sm`}
-                            style={{ boxShadow: `inset 0 2px 15px rgba(0,0,0,0.3), 0 4px 20px rgba(0,0,0,0.2)` }}>
-                            <div className="absolute inset-0 opacity-5 rounded-b-xl rounded-tr-xl pointer-events-none"
-                                style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/dark-leather.png")` }} />
-                            <div className="relative z-10 divide-y divide-white/5">
-                                {sectionSlots.map((slot) => {
-                                    const { data, isUnlocked, index } = slot;
-                                    const phrase = data?.phrase || `Spell #${index}`;
-                                    const meaning = data?.meaning || '—';
-                                    const rarity = data?.rarity || 'Common';
-                                    const rs = getRarityStyle(rarity);
-
-                                    return (
-                                        <div key={index}
-                                            className={`flex items-center gap-2 sm:gap-3 py-2.5 px-2 sm:px-3 rounded-lg transition-colors
-                                                ${isUnlocked ? 'hover:bg-white/5' : 'opacity-40'}`}
-                                        >
-                                            {/* 編號 */}
-                                            <span className="text-[11px] font-mono text-amber-500/50 w-8 shrink-0 text-right">
-                                                #{String(index).padStart(3, '0')}
-                                            </span>
-
-                                            {/* 稀有度標記 */}
-                                            <span className={`text-[10px] px-1.5 py-0.5 rounded border shrink-0 ${rs.badgeClass}`}>
-                                                {getRarityLabel(rarity)}
-                                            </span>
-
-                                            {/* 英文片語 */}
-                                            <span className={`text-sm font-bold font-serif flex-1 min-w-0 truncate
-                                                ${isUnlocked ? rs.textColor : 'text-slate-500'}`}>
-                                                {isUnlocked ? phrase : '🔒 ???'}
-                                            </span>
-
-                                            {/* 中文意思 */}
-                                            <span className="text-xs text-white/50 hidden sm:block max-w-[180px] truncate">
-                                                {isUnlocked ? meaning : '—'}
-                                            </span>
-
-                                            {/* 發音按鈕 */}
-                                            {isUnlocked && (
-                                                <button
-                                                    onClick={(e) => speakPhrase(phrase, e)}
-                                                    className="p-1.5 rounded-md hover:bg-white/10 transition-colors shrink-0 group"
-                                                    title="發音"
-                                                >
-                                                    <Volume2 size={14} className="text-amber-400/50 group-hover:text-amber-300" />
-                                                </button>
-                                            )}
-                                        </div>
-                                    );
-                                })}
-                            </div>
+        <div className="custom-scrollbar flex-1 overflow-y-auto px-4 py-5 sm:px-6 sm:py-7">
+            <div className="mx-auto max-w-4xl">
+                <section className="mb-5 overflow-hidden rounded-2xl border border-white/10 bg-black/25 p-4 sm:p-5">
+                    <div className="flex items-start gap-4">
+                        <div className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-full border ${professor.folderBorder} bg-gradient-to-br ${professor.folderColor} text-white shadow-lg ${professor.glow}`}>
+                            <ProfessorIcon size={23} />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                            <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-amber-500/45">Sealed Collection</p>
+                            <h3 className="mt-1 font-serif text-xl font-bold text-amber-50">{professor.spell}</h3>
+                            <p className="mt-1 text-xs leading-relaxed text-stone-500">{professor.desc}</p>
+                        </div>
+                        <div className="hidden shrink-0 text-right sm:block">
+                            <p className="font-mono text-2xl font-bold text-amber-300">{unlockedSlots.length}</p>
+                            <p className="text-[10px] text-stone-600">/ 20 已尋回</p>
                         </div>
                     </div>
-                );
-            })}
+                </section>
+
+                <div className="mb-4 flex items-center justify-between gap-3">
+                    <div>
+                        <h3 className="font-serif text-lg font-bold text-amber-100">咒語收藏</h3>
+                        <p className="mt-0.5 text-[10px] text-stone-600 sm:hidden">已尋回 {unlockedSlots.length} / 20</p>
+                    </div>
+                    <div className="flex rounded-xl border border-white/10 bg-black/30 p-1">
+                        <button
+                            onClick={() => onFilterChange('unlocked')}
+                            className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-bold transition-colors ${filter === 'unlocked' ? 'bg-amber-600/20 text-amber-300' : 'text-stone-500 hover:text-stone-300'}`}
+                        >
+                            <Eye size={14} />
+                            已收藏
+                        </button>
+                        <button
+                            onClick={() => onFilterChange('all')}
+                            className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-bold transition-colors ${filter === 'all' ? 'bg-white/10 text-stone-200' : 'text-stone-500 hover:text-stone-300'}`}
+                        >
+                            <EyeOff size={14} />
+                            全部 20
+                        </button>
+                    </div>
+                </div>
+
+                {visibleSlots.length > 0 ? (
+                    <div className="grid auto-rows-[190px] grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+                        {visibleSlots.map(slot => <SpellCard key={slot.index} slot={slot} />)}
+                    </div>
+                ) : (
+                    <div className="flex min-h-[280px] flex-col items-center justify-center rounded-2xl border border-dashed border-amber-500/20 bg-black/15 px-6 text-center">
+                        <Lock size={30} className="mb-3 text-amber-500/35" />
+                        <h4 className="font-serif text-lg font-bold text-amber-100/80">這座收藏櫃仍在等待</h4>
+                        <p className="mt-2 max-w-sm text-xs leading-relaxed text-stone-500">
+                            完成關卡並取得戰利品後，失傳咒語就會在這裡現身。
+                        </p>
+                        <button
+                            onClick={() => onFilterChange('all')}
+                            className="mt-4 rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-xs font-bold text-stone-300 transition-colors hover:bg-white/10"
+                        >
+                            查看尚未解鎖的位置
+                        </button>
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
@@ -611,7 +730,7 @@ const QuizView = ({ slots, allSpells, setIsPlaying, onSaveRecord, forceRestart }
                             )}
                             <div className="text-2xl mb-2">⚡</div>
                             <h4 className={`font-serif font-bold text-base mb-1 ${quizMode === 'challenge' ? 'text-amber-300' : 'text-white/70'}`}>
-                                挑戰未知咒語…?
+                                挑戰未知咒語
                             </h4>
                             <p className={`text-xs leading-relaxed ${quizMode === 'challenge' ? 'text-amber-200/60' : 'text-white/30'}`}>
                                 包含未解鎖咒語，你將面對完全未知的考驗。
@@ -907,30 +1026,6 @@ const QuizView = ({ slots, allSpells, setIsPlaying, onSaveRecord, forceRestart }
 };
 
 // =============================================
-// ======= 資料夾標籤頭元件 (共用) ==============
-// =============================================
-const FolderTabHeader = ({ prof, icon: FolderIcon, unlocked, total }) => {
-    return (
-        <div className="flex items-end gap-0">
-            <div className={`relative flex items-center gap-2.5 py-2.5 px-5 rounded-t-xl bg-gradient-to-b ${prof.folderColor} border-t-2 border-l-2 border-r-2 ${prof.folderBorder} shadow-[0_-4px_12px_rgba(0,0,0,0.3)]`}
-                style={{ borderBottom: 'none', marginBottom: '-1px', zIndex: 2 }}>
-                <div className="w-8 h-8 rounded-full bg-black/25 border border-white/15 flex items-center justify-center shrink-0 shadow-inner">
-                    <FolderIcon size={16} className="text-white/90" />
-                </div>
-                <div className="min-w-0">
-                    <h3 className="text-sm font-serif font-bold text-white tracking-wide leading-tight">{prof.name}</h3>
-                    <p className="text-[10px] text-white/45 italic leading-tight">{prof.spell}</p>
-                </div>
-                <div className="text-white/50 font-mono text-xs bg-black/25 px-2 py-0.5 rounded ml-2">
-                    {unlocked}/{total}
-                </div>
-            </div>
-            <div className={`flex-1 h-px border-t-2 ${prof.folderBorder} opacity-40`} style={{ marginBottom: '0px' }} />
-        </div>
-    );
-};
-
-// =============================================
 // ======= Spell Card Component (卡片元件) ======
 // =============================================
 const SpellCard = ({ slot }) => {
@@ -952,19 +1047,22 @@ const SpellCard = ({ slot }) => {
     };
 
     return (
-        <div
-            className={`relative w-full h-full perspective-1000 cursor-pointer group ${isUnlocked
-                ? `hover:scale-105 hover:-translate-y-1 transition-all duration-300 ${rs.shadow}`
-                : 'cursor-not-allowed opacity-60 grayscale'
+        <button
+            type="button"
+            className={`relative h-full w-full perspective-1000 group text-left ${isUnlocked
+                ? `cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:scale-[1.025] focus:outline-none focus:ring-2 focus:ring-amber-400/60 ${rs.shadow}`
+                : 'cursor-not-allowed opacity-60'
                 }`}
             onClick={handleFlip}
+            disabled={!isUnlocked}
+            aria-label={isUnlocked ? `${spellName}，點擊翻面查看意思` : `第 ${index} 道咒語尚未尋回`}
         >
             <div className={`relative w-full h-full transition-all duration-700 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
 
                 {/* === 卡片正面 === */}
                 <div className="absolute inset-0 w-full h-full backface-hidden">
-                    <div className={`w-full h-full rounded-lg border-2 flex flex-col items-center justify-between p-3 shadow-md overflow-hidden
-                        ${isUnlocked ? `${rs.bg} ${rs.border} text-white` : 'bg-slate-800 border-slate-700 text-white'}`}
+                    <div className={`flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-xl border p-3 shadow-lg
+                        ${isUnlocked ? `${rs.bg} ${rs.border} text-white` : 'border-white/10 bg-gradient-to-br from-[#151923] to-[#0c0f17] text-white'}`}
                     >
                         {isUnlocked ? (
                             <>
@@ -990,9 +1088,12 @@ const SpellCard = ({ slot }) => {
                                 )}
                             </>
                         ) : (
-                            <div className="flex flex-col items-center justify-center h-full text-slate-500">
-                                <Lock size={24} className="mb-2 opacity-50" />
-                                <span className="text-xs font-mono opacity-60">#{String(index).padStart(3, '0')}</span>
+                            <div className="flex h-full flex-col items-center justify-center text-stone-600">
+                                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-full border border-white/5 bg-black/20">
+                                    <Lock size={17} className="opacity-60" />
+                                </div>
+                                <span className="font-mono text-xs opacity-60">#{String(index).padStart(3, '0')}</span>
+                                <span className="mt-1 text-[9px] uppercase tracking-widest opacity-45">Not found</span>
                             </div>
                         )}
                     </div>
@@ -1000,8 +1101,8 @@ const SpellCard = ({ slot }) => {
 
                 {/* === 卡片背面 === */}
                 <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
-                    <div className="w-full h-full rounded-lg bg-[#f0e6d2] border-4 border-[#8d6e63] p-3 shadow-xl flex flex-col items-center justify-between text-[#3e2723] relative overflow-hidden">
-                        <div className="absolute inset-0 opacity-30 pointer-events-none" style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/canvas-orange.png")` }} />
+                    <div className="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-xl border-2 border-[#9a7654] bg-[radial-gradient(circle_at_25%_15%,rgba(255,255,255,0.45),transparent_28%),linear-gradient(145deg,#f4e7cc_0%,#dfc89f_100%)] p-3 text-[#3e2723] shadow-xl">
+                        <div className="pointer-events-none absolute inset-2 rounded-lg border border-[#8d6e63]/25" />
                         <div className="z-10 w-full text-center mt-2">
                             <h3 className="text-md font-bold font-serif border-b border-[#a1887f] pb-1 mb-2">{spellName}</h3>
                             <p className="text-sm font-medium line-clamp-4 leading-relaxed">{spellMeaning}</p>
@@ -1013,7 +1114,7 @@ const SpellCard = ({ slot }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </button>
     );
 };
 

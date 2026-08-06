@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Sparkles, BookOpen, Scroll, Wand2, Star, Ghost, Award, RotateCcw, Lock, ChevronRight, CheckCircle, Map as MapIcon, Backpack as BackpackIcon, Loader2, Heart, AlertCircle, LogOut } from 'lucide-react';
+import { Sparkles, BookOpen, Wand2, Star, Ghost, Award, RotateCcw, Lock, ChevronRight, CheckCircle, Map as MapIcon, Backpack as BackpackIcon, Loader2, Heart, AlertCircle, LogOut } from 'lucide-react';
 import { db, auth } from './firebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { collection, query, where, orderBy, onSnapshot, getDocs, addDoc, serverTimestamp, limit, doc, setDoc, getDoc, updateDoc, writeBatch, arrayUnion } from 'firebase/firestore';
@@ -19,6 +19,7 @@ import TrialSelectionView from './components/TrialSelectionView';
 
 import TrialHistoryModal from './components/TrialHistoryModal';
 import SpellLibraryView from './components/SpellLibraryView';
+import RoomEntrance from './components/RoomEntrance';
 import LootModal from './components/LootModal';
 import ResultView from './components/ResultView';
 import LoginView from './components/LoginView';
@@ -1333,39 +1334,10 @@ const WizardVocabApp = () => {
                                 </div>
                                 <p className="text-[#8c7b60] font-serif italic text-sm">學籍軌跡：已抵達 Week {Math.ceil(maxUnlockedLevel / 6)} (Level {maxUnlockedLevel})</p>
 
-                                {/* 秘密圖書室入口 (Secret Library Entrance) */}
-                                <div className="max-w-xs mx-auto mt-3">
-                                    <button
-                                        onClick={() => setShowSpellLibrary(true)}
-                                        className="w-full relative group overflow-hidden rounded-lg border-2 border-[#5d4037] shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg"
-                                    >
-                                        {/* Wood texture background */}
-                                        <div className="absolute inset-0 bg-[#3e2723]"
-                                            style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/wood-pattern.png")` }}></div>
-                                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
-
-                                        <div className="relative p-3 flex items-center justify-between">
-                                            <div className="flex items-center gap-3">
-                                                <div className="p-2 bg-[#1a0f0a]/50 rounded-full border border-[#8d6e63]">
-                                                    <Scroll size={18} className="text-[#ffcb74]" />
-                                                </div>
-                                                <div className="text-left">
-                                                    <h3 className="text-[#eecfa1] font-bold text-sm font-serif tracking-wide group-hover:text-[#ffe0b2] transition-colors">
-                                                        萬應室：失傳咒語
-                                                    </h3>
-                                                    <p className="text-[10px] text-[#bcaaa4]">The Room of Requirement</p>
-                                                </div>
-                                            </div>
-
-                                            <div className="text-right">
-                                                <span className="block text-lg font-mono font-bold text-[#ffcb74] leading-none">
-                                                    {unlockedSpells.length}
-                                                    <span className="text-[10px] text-[#8d6e63] ml-1">/ 120</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
+                                <RoomEntrance
+                                    unlockedCount={unlockedSpells.length}
+                                    onOpen={() => setShowSpellLibrary(true)}
+                                />
                             </div>
 
                             {booksData.map((book, bIdx) => (
