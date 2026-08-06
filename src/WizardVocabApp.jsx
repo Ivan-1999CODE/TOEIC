@@ -1333,35 +1333,69 @@ const WizardVocabApp = () => {
                                 </div>
                                 <p className="text-[#8c7b60] font-serif italic text-sm">學籍軌跡：已抵達 Week {Math.ceil(maxUnlockedLevel / 6)} (Level {maxUnlockedLevel})</p>
 
-                                {/* 秘密圖書室入口 (Secret Library Entrance) */}
-                                <div className="max-w-xs mx-auto mt-3">
+                                {/* 萬應室入口 */}
+                                <div className="max-w-md mx-auto mt-4">
                                     <button
                                         onClick={() => setShowSpellLibrary(true)}
-                                        className="w-full relative group overflow-hidden rounded-lg border-2 border-[#5d4037] shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg"
+                                        aria-label={`進入萬應室，目前已尋回 ${unlockedSpells.length} 道失傳咒語`}
+                                        className="w-full relative group overflow-hidden rounded-2xl border border-amber-500/40 bg-[#111827] text-left shadow-[0_12px_30px_rgba(30,20,12,0.25)] transition-all duration-300 hover:-translate-y-1 hover:border-amber-400/70 hover:shadow-[0_16px_36px_rgba(30,20,12,0.35)] active:scale-[0.99]"
                                     >
-                                        {/* Wood texture background */}
-                                        <div className="absolute inset-0 bg-[#3e2723]"
-                                            style={{ backgroundImage: `url("https://www.transparenttextures.com/patterns/wood-pattern.png")` }}></div>
-                                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+                                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_40%,rgba(245,158,11,0.16),transparent_28%),linear-gradient(135deg,#172033_0%,#111827_52%,#25160f_100%)]" />
+                                        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-300/70 to-transparent" />
+                                        <div className="absolute -right-12 -top-16 h-40 w-40 rounded-full bg-amber-400/5 blur-2xl transition-colors group-hover:bg-amber-400/10" />
 
-                                        <div className="relative p-3 flex items-center justify-between">
-                                            <div className="flex items-center gap-3">
-                                                <div className="p-2 bg-[#1a0f0a]/50 rounded-full border border-[#8d6e63]">
-                                                    <Scroll size={18} className="text-[#ffcb74]" />
-                                                </div>
-                                                <div className="text-left">
-                                                    <h3 className="text-[#eecfa1] font-bold text-sm font-serif tracking-wide group-hover:text-[#ffe0b2] transition-colors">
-                                                        萬應室：失傳咒語
-                                                    </h3>
-                                                    <p className="text-[10px] text-[#bcaaa4]">The Room of Requirement</p>
-                                                </div>
+                                        <div className="relative flex min-h-[144px] items-stretch gap-4 p-4 sm:p-5">
+                                            {/* 會發光的門扉 */}
+                                            <div className="relative flex w-[82px] shrink-0 items-end justify-center overflow-hidden rounded-t-[42px] rounded-b-md border border-amber-600/50 bg-[#261812] shadow-[inset_0_0_18px_rgba(0,0,0,0.75),0_0_18px_rgba(245,158,11,0.08)]">
+                                                <div className="absolute inset-[7px] rounded-t-[34px] rounded-b-sm border border-amber-700/35" />
+                                                <div className="absolute inset-x-[17px] top-8 h-9 border border-amber-700/25" />
+                                                <div className="absolute inset-x-[17px] bottom-4 h-10 border border-amber-700/25" />
+                                                <div className="absolute right-[15px] top-[70px] h-1.5 w-1.5 rounded-full bg-amber-300 shadow-[0_0_9px_rgba(252,211,77,0.9)]" />
+                                                <div className="absolute inset-y-3 left-1/2 w-px bg-amber-200/20 shadow-[0_0_12px_2px_rgba(252,211,77,0.22)] transition-all duration-500 group-hover:bg-amber-200/70 group-hover:shadow-[0_0_18px_4px_rgba(252,211,77,0.35)]" />
+                                                <Sparkles size={15} className="mb-3 text-amber-300/70 transition-transform duration-500 group-hover:scale-110" />
                                             </div>
 
-                                            <div className="text-right">
-                                                <span className="block text-lg font-mono font-bold text-[#ffcb74] leading-none">
-                                                    {unlockedSpells.length}
-                                                    <span className="text-[10px] text-[#8d6e63] ml-1">/ 120</span>
-                                                </span>
+                                            <div className="flex min-w-0 flex-1 flex-col justify-center">
+                                                <p className="mb-1 text-[9px] font-bold uppercase tracking-[0.28em] text-amber-400/60">Hidden Chamber</p>
+                                                <div className="flex items-start justify-between gap-3">
+                                                    <div>
+                                                        <h3 className="font-serif text-xl font-bold tracking-wide text-amber-100 transition-colors group-hover:text-amber-50">
+                                                            萬應室
+                                                        </h3>
+                                                        <p className="mt-0.5 text-xs text-stone-400">失傳咒語收藏室</p>
+                                                    </div>
+                                                    <div className="shrink-0 text-right">
+                                                        <span className="font-mono text-xl font-bold leading-none text-amber-300">{unlockedSpells.length}</span>
+                                                        <span className="ml-1 text-[10px] text-stone-500">/ 120</span>
+                                                    </div>
+                                                </div>
+
+                                                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-black/40 ring-1 ring-white/5">
+                                                    <div
+                                                        className="h-full rounded-full bg-gradient-to-r from-amber-700 via-amber-400 to-yellow-200 transition-all duration-700"
+                                                        style={{ width: `${Math.min((unlockedSpells.length / 120) * 100, 100)}%` }}
+                                                    />
+                                                </div>
+
+                                                <div className="mt-3 flex items-center justify-between gap-3">
+                                                    <div className="flex -space-x-1.5" aria-hidden="true">
+                                                        {[0, 1, 2].map((index) => (
+                                                            <span
+                                                                key={index}
+                                                                className={`flex h-6 w-6 items-center justify-center rounded-full border text-[9px] ${index < Math.min(unlockedSpells.length, 3)
+                                                                    ? 'border-amber-400/50 bg-amber-900/70 text-amber-200'
+                                                                    : 'border-dashed border-stone-600 bg-black/20 text-stone-600'
+                                                                    }`}
+                                                            >
+                                                                {index < Math.min(unlockedSpells.length, 3) ? '✦' : '·'}
+                                                            </span>
+                                                        ))}
+                                                    </div>
+                                                    <span className="flex items-center gap-1 text-[11px] font-bold text-amber-300/90">
+                                                        讓房間現身
+                                                        <ChevronRight size={14} className="transition-transform group-hover:translate-x-1" />
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </button>
