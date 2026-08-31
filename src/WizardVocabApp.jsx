@@ -30,6 +30,7 @@ import OnboardingModal from './components/OnboardingModal';
 import GradingScaleModal from './components/GradingScaleModal';
 import LogoutModal from './components/LogoutModal';
 import { speakVocabulary } from './utils/pronunciation';
+import { getQuestionTimerSnapshot } from './utils/questionTimer';
 
 const WizardVocabApp = () => {
     // === 登入狀態 ===
@@ -316,6 +317,7 @@ const WizardVocabApp = () => {
     const [timeLeft, setTimeLeft] = useState(7);
     const [answerStartTime, setAnswerStartTime] = useState(null);
     const timerRef = useRef(null);
+    const questionDeadlineRef = useRef(null);
 
     // 題目列表（用於隨機抽題）
     const [questionList, setQuestionList] = useState([]);
@@ -524,9 +526,11 @@ const WizardVocabApp = () => {
             options: options
         });
 
-        // 重置計時器
+        // 重置計時器；截止時間使用 wall clock，分頁進入背景後仍會持續經過。
+        const questionStartedAt = Date.now();
         setTimeLeft(TIME_PER_QUESTION);
-        setAnswerStartTime(Date.now());
+        setAnswerStartTime(questionStartedAt);
+        questionDeadlineRef.current = questionStartedAt + TIME_PER_QUESTION * 1000;
     };
 
     const handleAnswer = (option) => {
@@ -535,9 +539,17 @@ const WizardVocabApp = () => {
         // 第一題男聲、第二題女聲，之後逐題交替。
         const answerVoice = currentQuestionIndex % 2 === 0 ? 'male' : 'female';
 
+        // 截止後不可再靠點擊答案取得分數，直接按逾時處理。
+        if (!questionDeadlineRef.current || Date.now() >= questionDeadlineRef.current) {
+            if (timerRef.current) clearTimeout(timerRef.current);
+            setTimeLeft(0);
+            handleTimeout();
+            return;
+        }
+
         // 清除計時器
         if (timerRef.current) {
-            clearInterval(timerRef.current);
+            clearTimeout(timerRef.current);
         }
 
         setSelectedOption(option);
@@ -545,8 +557,6 @@ const WizardVocabApp = () => {
 
         // 計算答題時間
         const answerTime = (Date.now() - answerStartTime) / 1000;
-        const actualTimeLeft = TIME_PER_QUESTION - answerTime;
-
         // 捕捉當下的 session，防止中途離開後舊 timeout 污染新遊戲
         const sessionId = gameSessionRef.current;
 
@@ -895,33 +905,76 @@ const WizardVocabApp = () => {
         }
     };
 
-    // 計時器倒數
+    // 計時器倒數：以絕對截止時間為準，避免背景分頁讓 setTimeout 停住。
     useEffect(() => {
         if (gameState !== 'playing' || !currentQuestion || selectedOption) {
             if (timerRef.current) {
-                clearInterval(timerRef.current);
+                clearTimeout(timerRef.current);
             }
             return;
         }
 
-        const timer = setInterval(() => {
-            setTimeLeft(prev => {
-                if (prev <= 1) {
-                    clearInterval(timer);
-                    handleTimeout();
-                    return 0;
-                }
-                const next = prev - 1;
-                // 最後 3 秒播放倒數音效
-                if (next <= 3 && next >= 1) {
-                    playTickSound();
-                }
-                return next;
-            });
-        }, 1000);
+        let stopped = false;
+        let finalTenthShown = false;
+        let lastTickSecond = TIME_PER_QUESTION;
 
-        timerRef.current = timer;
-        return () => clearInterval(timer);
+        const updateTimer = () => {
+            if (stopped || !questionDeadlineRef.current) return;
+
+            if (timerRef.current) {
+                clearTimeout(timerRef.current);
+            }
+
+            const now = Date.now();
+            const snapshot = getQuestionTimerSnapshot(
+                questionDeadlineRef.current,
+                now,
+                finalTenthShown
+            );
+            finalTenthShown = snapshot.finalTenthShown;
+            setTimeLeft(snapshot.seconds);
+
+            if (snapshot.shouldTimeout) {
+                stopped = true;
+                handleTimeout();
+                return;
+            }
+
+            // 背景分頁只把目前題目扣到 0.1 秒；等學生回到頁面再結束，
+            // 避免瀏覽器偶爾喚醒背景 timer 時連續判掉後面的題目。
+            const remainingMs = questionDeadlineRef.current - now;
+            if (remainingMs <= 0 && document.hidden) {
+                return;
+            }
+
+            const currentWholeSecond = Math.ceil(snapshot.seconds);
+            if (
+                currentWholeSecond < lastTickSecond &&
+                currentWholeSecond <= 3 &&
+                currentWholeSecond >= 1
+            ) {
+                playTickSound();
+            }
+            lastTickSecond = currentWholeSecond;
+
+            const nextDelay = remainingMs <= 0
+                ? 100
+                : Math.min(100, Math.max(1, remainingMs));
+            timerRef.current = setTimeout(updateTimer, nextDelay);
+        };
+
+        // 返回分頁或視窗重新取得焦點時，立刻依 wall clock 校正倒數。
+        const syncTimer = () => updateTimer();
+        document.addEventListener('visibilitychange', syncTimer);
+        window.addEventListener('focus', syncTimer);
+        updateTimer();
+
+        return () => {
+            stopped = true;
+            if (timerRef.current) clearTimeout(timerRef.current);
+            document.removeEventListener('visibilitychange', syncTimer);
+            window.removeEventListener('focus', syncTimer);
+        };
     }, [currentQuestion, selectedOption, gameState]); // eslint-disable-line react-hooks/exhaustive-deps
 
     // Persist wrong answers to Firebase
@@ -1117,8 +1170,10 @@ const WizardVocabApp = () => {
                     ...firstWord,
                     options: options
                 });
+                const questionStartedAt = Date.now();
                 setTimeLeft(TIME_PER_QUESTION);
-                setAnswerStartTime(Date.now());
+                setAnswerStartTime(questionStartedAt);
+                questionDeadlineRef.current = questionStartedAt + TIME_PER_QUESTION * 1000;
             }
 
         } catch (error) {
@@ -1544,13 +1599,13 @@ const WizardVocabApp = () => {
                                 {/* 計時進度條 */}
                                 <div className="w-full bg-slate-200 h-3 rounded-full mb-3 overflow-hidden border border-slate-300 relative">
                                     <div
-                                        className={`h-full transition-all duration-1000 ${timeLeft < 2 ? 'bg-red-600 animate-pulse' : 'bg-gradient-to-r from-green-500 to-yellow-500'
+                                        className={`h-full transition-all duration-100 ${timeLeft < 2 ? 'bg-red-600 animate-pulse' : 'bg-gradient-to-r from-green-500 to-yellow-500'
                                             }`}
                                         style={{ width: `${(timeLeft / TIME_PER_QUESTION) * 100}%` }}
                                     />
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <span className="text-xs font-bold text-slate-700 drop-shadow-sm">
-                                            {timeLeft}s
+                                            {timeLeft.toFixed(1)}s
                                         </span>
                                     </div>
                                 </div>
