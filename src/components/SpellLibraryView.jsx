@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { X, Lock, Sparkles, Feather, Leaf, Moon, Castle, Sword, Flame, Swords, CheckCircle2, XCircle, ChevronRight, ChevronLeft, Check, RotateCcw, DoorOpen, Eye, EyeOff } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { X, Lock, Sparkles, Feather, Leaf, Moon, Castle, Sword, Flame, Swords, CheckCircle2, XCircle, ChevronRight, ChevronLeft, Check, RotateCcw, Eye, EyeOff } from 'lucide-react';
 import { db } from '../firebase';
 import { collection, getDocs, query } from 'firebase/firestore';
 
@@ -170,19 +170,14 @@ const SpellLibraryView = ({ show, onClose, onSaveRecord, unlockedSpells = [] }) 
                 {/* ===== Header ===== */}
                 <div className="relative z-20 flex min-h-[72px] items-center justify-between border-b border-amber-500/15 bg-[#0b0e17]/90 px-3 py-3 backdrop-blur-xl sm:px-6">
                     <div className="flex min-w-0 items-center gap-2 sm:gap-3">
-                        {viewMode !== 'room' ? (
-                            <button
-                                onClick={handleBackClick}
-                                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-amber-200 transition-colors hover:border-amber-400/40 hover:bg-amber-400/10"
-                                aria-label="返回萬應室大廳"
-                            >
-                                <ChevronLeft size={20} />
-                            </button>
-                        ) : (
-                            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-amber-400/30 bg-amber-500/10 text-amber-300 shadow-[0_0_18px_rgba(245,158,11,0.08)]">
-                                <DoorOpen size={20} />
-                            </div>
-                        )}
+                        <button
+                            onClick={viewMode === 'room' ? handleCloseClick : handleBackClick}
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-amber-200 transition-colors hover:border-amber-400/40 hover:bg-amber-400/10"
+                            aria-label={viewMode === 'room' ? '返回主畫面' : '返回萬應室大廳'}
+                            title={viewMode === 'room' ? '返回主畫面' : '返回萬應室大廳'}
+                        >
+                            <ChevronLeft size={20} />
+                        </button>
                         <div className="min-w-0">
                             <p className="mb-0.5 text-[9px] font-bold uppercase tracking-[0.28em] text-amber-500/50">
                                 {viewMode === 'quiz' ? 'Spell Examination' : viewMode === 'collection' ? 'Professor Collection' : 'The Room of Requirement'}
@@ -1030,6 +1025,10 @@ const QuizView = ({ slots, allSpells, setIsPlaying, onSaveRecord, forceRestart }
 // =============================================
 const SpellCard = ({ slot }) => {
     const [isFlipped, setIsFlipped] = useState(false);
+    const [visibleFace, setVisibleFace] = useState('front');
+    const faceSwapTimerRef = useRef(null);
+    const flipEndTimerRef = useRef(null);
+    const isAnimatingRef = useRef(false);
     const { isUnlocked, data, index } = slot;
 
     const spellName = data?.phrase || `Spell #${index}`;
@@ -1041,9 +1040,26 @@ const SpellCard = ({ slot }) => {
     const IconComponent = profTheme.icon;
     const rs = getRarityStyle(rarity);
 
+    useEffect(() => () => {
+        clearTimeout(faceSwapTimerRef.current);
+        clearTimeout(flipEndTimerRef.current);
+    }, []);
+
     const handleFlip = () => {
-        if (!isUnlocked) return;
-        setIsFlipped(!isFlipped);
+        if (!isUnlocked || isAnimatingRef.current) return;
+
+        const nextIsFlipped = !isFlipped;
+        isAnimatingRef.current = true;
+        setIsFlipped(nextIsFlipped);
+
+        // iOS Safari 有時會忽略 3D 卡面的 backface-visibility，導致兩面文字重疊。
+        // 等卡片轉到側邊、兩面都看不見時才交換可見卡面，可完全避開鏡像殘影。
+        faceSwapTimerRef.current = setTimeout(() => {
+            setVisibleFace(nextIsFlipped ? 'back' : 'front');
+        }, 350);
+        flipEndTimerRef.current = setTimeout(() => {
+            isAnimatingRef.current = false;
+        }, 700);
     };
 
     return (
@@ -1060,7 +1076,17 @@ const SpellCard = ({ slot }) => {
             <div className={`relative w-full h-full transition-all duration-700 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
 
                 {/* === 卡片正面 === */}
-                <div className="absolute inset-0 w-full h-full backface-hidden">
+                <div
+                    className="absolute inset-0 w-full h-full backface-hidden"
+                    aria-hidden={visibleFace !== 'front'}
+                    style={{
+                        backfaceVisibility: 'hidden',
+                        WebkitBackfaceVisibility: 'hidden',
+                        opacity: visibleFace === 'front' ? 1 : 0,
+                        visibility: visibleFace === 'front' ? 'visible' : 'hidden',
+                        zIndex: visibleFace === 'front' ? 1 : 0,
+                    }}
+                >
                     <div className={`flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-xl border p-3 shadow-lg
                         ${isUnlocked ? `${rs.bg} ${rs.border} text-white` : 'border-white/10 bg-gradient-to-br from-[#151923] to-[#0c0f17] text-white'}`}
                     >
@@ -1100,7 +1126,19 @@ const SpellCard = ({ slot }) => {
                 </div>
 
                 {/* === 卡片背面 === */}
-                <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
+                <div
+                    className="absolute inset-0 w-full h-full backface-hidden rotate-y-180"
+                    aria-hidden={visibleFace !== 'back'}
+                    style={{
+                        backfaceVisibility: 'hidden',
+                        WebkitBackfaceVisibility: 'hidden',
+                        transform: 'rotateY(180deg)',
+                        WebkitTransform: 'rotateY(180deg)',
+                        opacity: visibleFace === 'back' ? 1 : 0,
+                        visibility: visibleFace === 'back' ? 'visible' : 'hidden',
+                        zIndex: visibleFace === 'back' ? 1 : 0,
+                    }}
+                >
                     <div className="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-xl border-2 border-[#9a7654] bg-[radial-gradient(circle_at_25%_15%,rgba(255,255,255,0.45),transparent_28%),linear-gradient(145deg,#f4e7cc_0%,#dfc89f_100%)] p-3 text-[#3e2723] shadow-xl">
                         <div className="pointer-events-none absolute inset-2 rounded-lg border border-[#8d6e63]/25" />
                         <div className="z-10 w-full text-center mt-2">
