@@ -8,11 +8,16 @@
     content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#0f172a" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- Keep the installed iOS web app below the system status bar. The
+       translucent mode triggers iOS's scroll-edge blur over the top UI. -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <title>多益單字魔法試煉 - TOEIC Wizard Vocab</title>
 </head>
 
 <body>
+  <!-- iOS samples a real top-edge element (not a pseudo-element) when choosing
+       the installed web app's status-bar background. -->
+  <div id="ios-status-bar-color" aria-hidden="true"></div>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>

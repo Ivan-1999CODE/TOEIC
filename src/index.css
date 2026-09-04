@@ -17,6 +17,27 @@ body {
   min-height: 100dvh;
 }
 
+/*
+ * Installed iOS web apps use the first rendered top-edge color when painting
+ * the status-bar area. Keep a real 1px element there so the result stays solid
+ * slate instead of sampling scrollable content and adding a translucent blur.
+ */
+#ios-status-bar-color {
+  display: none;
+}
+
+@media (display-mode: standalone) {
+  #ios-status-bar-color {
+    position: fixed;
+    inset: 0 0 auto;
+    display: block;
+    height: 1px;
+    background-color: #0f172a;
+    pointer-events: none;
+    z-index: 2147483647;
+  }
+}
+
 /* ====================================
    Wizard Student ID Card Styles
    ==================================== */
